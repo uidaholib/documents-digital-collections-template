@@ -32,7 +32,7 @@ Journal content includes newspaper stories (some from microfilm scans), photogra
 This collection marks the first time all issues of *Transitions* have been available in digital format. It is John and Rachael Osborn’s hope that expanded access to the journal will help publicly document the environmental history of the region during a critical time while also providing lessons that can be applied to ongoing environmental conflicts. 
 
 <div class="text-center pb-4">
-{% include feature/button.md text="View the original <emph>Transitions</emph> Index" link="http://waterplanet.ws/transitions/" color="info" size="lg" %}
+{% include feature/button.html text="View the original <emph>Transitions</emph> Index" link="http://waterplanet.ws/transitions/" color="info" size="lg" %}
 </div>
 
 {% capture moreinfo %}
@@ -42,7 +42,7 @@ This collection marks the first time all issues of *Transitions* have been avail
 {% endcapture %}
 
 <div class="row justify-content-center">
-{% include feature/card.md text=moreinfo header="Notable Issues and Articles" width="50" %}
+{% include feature/card.html text=moreinfo header="Notable Issues and Articles" width="50" %}
 </div>
 
 ## About the Collection
@@ -67,7 +67,7 @@ Rachael Paschal Osborn is a retired water law attorney and Gonzaga University pr
 {% include feature/image.html objectid="https://www.lib.uidaho.edu/digital/objects/transitions/transitions_osborns.jpeg" link="https://www.spokesman.com/stories/2017/may/04/a-legacy-in-land-and-water-longtime-activists-john/" caption="'A legacy in land and water: Longtime activists John and Rachael Osborn moving to Vashon Island.' From the <em>Spokesman Review</em>." width="50" %}
 
 <div class="text-center py-4">
-{% include feature/button.md text="Learn more about the Osborns" link="https://www.historylink.org/File/9782" color="info" size="lg" %}
+{% include feature/button.html text="Learn more about the Osborns" link="https://www.historylink.org/File/9782" color="info" size="lg" %}
 </div>
 
 [^1]: Kershner, Jim. "Osborn, John (b. 1956) and Rachael Paschal (b. 1956)." [HistoryLink](https://www.historylink.org/File/9782), 2011.

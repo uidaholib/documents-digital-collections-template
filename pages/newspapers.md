@@ -3,7 +3,7 @@ title: Newspapers
 layout: cloud
 permalink: /newspapers.html
 cloud-fields: newspapers
-cloud-min: 2
+cloud-min: 3
 ---
 
 ## Browse Newspapers

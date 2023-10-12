@@ -1,6 +1,8 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-creator,Creator,,,
 subject,,true
-location,,true
+newspapers,,,true
+authors,,,true
+location,,,true
 identifier,,,true,Identifier
+description,,,true

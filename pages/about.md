@@ -8,26 +8,27 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://www.lib.uidaho.edu/digital/moscowcoop/assets/moscowcoop-about-image.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Moscow Food Co-op;History of the Moscow Food Co-op" %}
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This collection features 338 newsletters published by the Moscow Food Co-op, which is a cooperatively-owned grocery store in Moscow, Idaho. The University of Idaho digitized these newsletters and created this collection to share the newsletters with the public. 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+### About the Moscow Food Co-op
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The Moscow Food Co-op started in 1973 with some fresh local produce, a few bulk bins, and a ton of big ideas. Everyone is welcome at the Moscow Food Co-op. These food-loving individuals put local and natural products first and advocate for Palouse producers and families affected by food insecurity. 
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+For more information about this collaboratively-owned grocery store, see the Moscow Food Co-op’s website linked below.
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+<div class="text-center">
+{% include feature/button.md text="Moscow Food Co-op Website" link="https://www.moscowfood.coop/" color="info" size="lg" %}
+</div>
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+### History of the Moscow Food Co-op
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Our co-op was established in 1973 by friends Rod Davis, Jim Eagan, and Dave and Katie Mosel and was originally called the "Good Food Store." It was a fertile time for growing a cooperative grocery store in Moscow. Counterculture ideas and increasing concern about soil, water, and air pollution were spurring the formation of natural food cooperatives all across the country in the late 1960s and early 1970s. The first small storefront on Second Street shared products like peas, lentils, cheese, and spices sold in bulk with minimal packaging. Community members from near and far step into the Co-op today, 50 years later, to see broad collections of local products, local and organic produce, and much more.
+
+<div class="clearfix"></div>
+

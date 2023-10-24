@@ -14,7 +14,7 @@ credits: true
 
 ## About the Collection
 
-This collection features 338 newsletters published by the Moscow Food Co-op, which is a cooperatively-owned grocery store in Moscow, Idaho. The University of Idaho digitized these newsletters and created this collection to share the newsletters with the public. 
+This collection features 338 newsletters published by the Moscow Food Co-op, which is a cooperatively-owned grocery store in Moscow, Idaho. The U of I Library digitized these newsletters and created this collection to share the newsletters with the public. 
 
 ### About the Moscow Food Co-op
 
@@ -23,7 +23,7 @@ The Moscow Food Co-op started in 1973 with some fresh local produce, a few bulk 
 For more information about this collaboratively-owned grocery store, see the Moscow Food Co-op’s website linked below.
 
 <div class="text-center">
-{% include feature/button.md text="Moscow Food Co-op Website" link="https://www.moscowfood.coop/" color="info" size="lg" %}
+{% include feature/button.html text="Moscow Food Co-op Website" link="https://www.moscowfood.coop/" color="info" size="lg" %}
 </div>
 
 ### History of the Moscow Food Co-op

@@ -16,7 +16,7 @@ credits: true
 
 The Dworshak Dam Collection is comprised of over 500 digital items, including both historical photographs and documents, that span the years 1952 to 1975 and portray the history of the Dworshak Dam, which is located on the North Fork Clearwater River, near Orofino, Idaho and is currently the third largest dam in the United States.
 
-{% include feature/image.html objectid="dworshak518" width="75" caption="Left to right: Bill Erickson (now deceased); Robert Werner, publisher of the Clearwater Tribune, Orofino; A.B. Curtis (the guy that gets all the blame, and the mayor of Orofino); Col. Tom Tandy, the District Engineer of Corps of Engineers (at the time), Walla Walla (now deceased); and U.S. Judge Roy McNichols (then an attorney at Orofino, now in Boise)." %}
+{% include feature/image.html objectid="dworshak518" width="75" caption="Left to right: Bill Erickson (now deceased), Robert Werner: publisher of the Clearwater Tribune, Orofino, A.B. Curtis (the guy that gets all the blame, and the mayor of Orofino), Col. Tom Tandy: the District Engineer of Corps of Engineers (at the time), Walla Walla (now deceased),and U.S. Judge Roy McNichols (then an attorney at Orofino, now in Boise)." %}
 
 The digital collection documents the legislation that led to the dam's construction, local reaction to the dam's proposal, approval, and construction, and the construction itself.
 

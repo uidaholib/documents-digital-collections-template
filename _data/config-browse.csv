@@ -1,6 +1,5 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
+author,Author
+reader,Reader
+grade-level,Grade Level,true
 subject,,true
-location,,true
-identifier,,,true,Identifier

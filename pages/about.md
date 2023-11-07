@@ -8,26 +8,28 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://upload.wikimedia.org/wikipedia/commons/b/bc/Art_Books_on_Library_Shelf.JPG" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %}
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+<div class="card m-3"  style="float:right">
+<div class="card text-center">
+<img src="https://vivo.nkn.uidaho.edu/vivo/file/n24358/thumbnail_Margaret+Vaughn+187x187.jpg">
+<a href="https://vivo.nkn.uidaho.edu/vivo/display/n9735?_ga=2.262954508.1618244349.1567705136-553655538.1567531766"><p class="card-header">Margaret Vaughn</p></a>
+</div>
+</div>
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The Guided Reading Library is a digital collection of short books created by students in the University of Idaho's College of Education. This library is directed by Margaret Vaughn, in collaboration with the Digital Initiatives unit of the University of Idaho Library.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+<p>The Guided Reading Library developed out of Dr. Vaughn's experiences as an elementary teacher, as well as from conversations and collaborative research with current teachers. One of the project's goals is to engage preservice teachers in authentic literacy work. As such, the library hosts e-books developed as part of a culminating multimodal project in Dr. Vaughn's Children's Literature course.</p>
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+<p>To develop these books, preservice teachers engage in a Writing Workshop and develop their e-books based on a topic of interest. One of Dr. Vaughn's primary goals as a teacher educator is to create spaces in teacher education where future teachers can learn of literacy tasks that support their student's sense of agency. The Guided Reading Library is an integrated literacy project that supports building and acting upon student's agency.</p>
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+<p>Such an approach to teaching literacy is needed today. According to Madda, Griffo, Pearson and Raphael (2011), all too often educators today are pressured to promote literacy instruction that emphasizes unrealistic tasks often related with "doing school rather than doing life" (p.44). By engaging in authentic literacy projects like the Guided Reading Library, preservice teachers are exposed to thinking about literacy connected to their students' interests, experiences, cultures, and lives.</p>
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+<p>A future goal of this project is to include elementary, middle school, and high school students in the creation of e-books to be hosted on the site. For more information, please contact Margaret Vaughn at <a href="margaret.vaughn@wsu.edu">margaret.vaughn@wsu.edu</a>.</p>
+<br>
+<hr>
+<br>

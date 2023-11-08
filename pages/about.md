@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/chatcolab/chatcolab.jpeg" %} 
 
 {% include feature/nav-menu.html sections="About Chatcolab;About the Collection;Sources" %} 
 
@@ -33,7 +33,7 @@ On the 25th anniversary lab in 1973, 91 people attended Chatcolab.[^5]
 
 This collection contains the camp packet from each lab between 1949-2000. The packets detail program planning, activities, stories, menus, and recipes for the lab. 
 
-{% include feature/image.html objectid="https://digital.lib.uidaho.edu/digital/api/singleitem/image/pdf/chatcolab/9/default.png" link="https://www.lib.uidaho.edu/digital/chatcolab/items/chatcolab9.html" width="50" %}
+{% include feature/pdf.html objectid="chatcolab9" width="50" %}
 
 The collection also contains a document from 2014 (the organization's 66th anniversary) reviewing the history and purpose of the organization.
 

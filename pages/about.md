@@ -8,26 +8,20 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/lewistonorch/lewiston_about.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About Lewiston Orchards Life Newsletter" %}
 
 ## About CollectionBuilder CSV
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+## About Lewiston Orchards Life Newsletter
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+*An exponent of progressive horticulture and the successful rural community*
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+Lewiston Orchards Life was a neighborhood newsletter published in Lewiston, Idaho during the early 1900s that covered the horticultural and residential events of those living in Lewiston Orchards. Special Collection & Archives at the University of Idaho Library holds twenty-six issues as part of their [Day-Northwest Collection](https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/11k6kk2/CP71138804070001451).
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+Lewiston Orchards, a planned agricultural community just south of Lewiston, Idaho, initially began to be developed in 1906. Small tracts of land were divided up to enable the planting of orchards and other small crops set amongst a residential setting. Given an abundance of water provided by a concurrent irrigation project and an idyllic climate, the initial orchard plantings grew well and many people moved to the new location. 
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+One such resident, H.H.S. Rowell, was highly involved with the community and infrastructure. He used his experience as a horticulturist in his home state of Minnesota and his publishing experience editing various newspapers and writing articles on horticultural techniques and annual expos to help develop the Lewiston Orchards Life Publishing Company, which published the Lewiston Orchards Life newsletter once a month from June 1912 to June 1914. Walter S. Thornber and Charles A. Cole, renowned horticultural experts, both co-edited Lewiston Orchards Life and wrote articles discussing local developments regarding the care of fruit trees and to provide tips and tricks for gardening. 
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+The newsletter also discussed the social goings on of the community, giving notes on club meetings and visitors to the region, updates on infrastructure projects, and jokes and other pieces of interest commonly found in newspapers of the day. 

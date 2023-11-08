@@ -8,26 +8,18 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/rangecoll/rangecoll_feature.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection" %}
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The University of Idaho Rangeland Center is made up of faculty, Extension research specialists, and Extension educators all across the state of Idaho, all dedicated to addressing the complex issues of rangeland ecology and management. The Rangeland Center Collection is a repository of information created by members of the collective that covers topics including grazing management, rural sociology, invasive plants, fire ecology, and more.  
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+*From the [UI Rangeland Center](https://www.uidaho.edu/-/media/UIdaho-Responsive/Files/cnr/research/rangeland/about/RCwhyHandoutREV.pdf):*
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The Rangeland Center is not a place or a building. Rather, this is an innovative unit that promotes collaboration among researchers, educators, students and land managers to address complex rangeland challenges — now and into the future. We promote interaction among scientists, land managers, tribal agencies, conservationists and ranchers and their respective associations, to create knowledge and foster stewardship of rangelands in Idaho and the West.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+Effectively addressing rangeland conservation requires blending knowledge from many disciplines. Rangeland Center members are academic professionals with expertise uniquely aligned to grazing, rangeland ecology, entomology, soil science, economics, rural sociology, fish and wildlife management, invasive plant management, forage production, animal science, restoration and the use of spatial technologies to understand rangelands.
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+<div class="text-center">{% include feature/button.html text="Learn more about the UI Rangeland Center" link="https://www.uidaho.edu/cnr/rangeland-center" color="info" size="lg" %}</div>

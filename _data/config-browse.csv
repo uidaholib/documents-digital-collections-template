@@ -1,6 +1,9 @@
 field,display_name,btn,hidden,sort_name
-date,Date,,,Date
-creator,Creator,,,
+date,Date,,true,Date
 subject,,true
-location,,true
+creator,Authors,
 identifier,,,true,Identifier
+keywords-theme,,,true
+keywords-place,,,true
+keywords-tree,,,true
+coverage (state--county),,,true

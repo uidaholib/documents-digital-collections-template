@@ -8,26 +8,21 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://upload.wikimedia.org/wikipedia/commons/e/ed/Ponderosas%2C_Sisters%2C_OR_8-13a_%2814668429091%29.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;" %} 
 
-## About CollectionBuilder CSV
+## About the Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The IFC is a research cooperative with members representing federal, state and private forestry organizations. IFC is committed to developing forest management practices that best meet members ecological, economic and regulatory objectives. The cooperative administers, develops and distributes forest management information derived from over 500 monitoring installations established between the east slope of the Cascades to the west slopes of the Rocky Mountains.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+IFC research addresses applied forest management questions designed to maintain and improve future forest productivity. Development of best management practices across highly variable site conditions within the intermountain region requires characterization of physiographic features (climate, landform, soil parent material) that affect forest productivity. Across the range of intermountain site conditions, IFC investigates the effectiveness of regeneration and intermediate stand treatments on maintaining and enhancing forest productivity, and studies the impacts of various management practices on long-term forest stand development and growth.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The IFC administration is located in the College of Natural Resources at the University of Idaho, under the direction of Dr. Mark Coleman. The cooperative is governed by a steering committee composed of one representative from each member organization.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+<div class="text-center" markdown="1">
+{% include feature/button.html text="Learn more about the Intermountain Forestry Cooperative" link="https://www.uidaho.edu/cnr/intermountain-forestry-cooperative" color="info" size="lg" %}
+</div>
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+<div class="clearfix"></div>
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 

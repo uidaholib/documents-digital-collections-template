@@ -1,5 +1,9 @@
 # documents-digital-collections-template
 
+iwdl
+- deleted image from browse cards
+- add truncatewords: 25 to browse cards and data table
+
 for document-centric collections
 
 <https://www.lib.uidaho.edu/digital/>

@@ -20,7 +20,7 @@ Chatcolab is a non-profit organization that teaches leadership skills in a recre
 
 The site, formerly a CCC camp from the 1950s, was in bad shape by the time they secured it for their first lab. Clayton "brought students from Moscow and many others in the area contributed much time, materials, and money to repair the camp so it could be used again. A wall was built between the kitchen and dining area and many colorful pictures were painted on the walls to enhance the building. The trays, carts, and many other things were brought from Farragut Naval Training Station on Lake Pend'Oreille."[^2]
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cccidaho/small/cccidaho21_sm.jpg" link="https://objects.lib.uidaho.edu/digital/cccidaho/items/cccidaho21.html" caption="A man stands in front of a sign for Lake Chatcolet, 1935. Photo from Idaho Civilian Conservation Corps Collection." %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cccidaho/small/cccidaho21_sm.jpg" link="https://www.lib.uidaho.edu/digital/cccidaho/items/cccidaho21.html" caption="A man stands in front of a sign for Lake Chatcolet, 1935. Photo from Idaho Civilian Conservation Corps Collection." %}
 
 During a board meeting in Moscow, Idaho, in October 1968, members discussed becoming an incorporated group and ultimately accepted the proposal. Chatcolab was officially incorporated on 15 May 1969 and received non-profit status in 1980.[^3]
 
@@ -33,7 +33,7 @@ On the 25th anniversary lab in 1973, 91 people attended Chatcolab.[^5]
 
 This collection contains the camp packet from each lab between 1949-2000. The packets detail program planning, activities, stories, menus, and recipes for the lab. 
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/chatcolab/small/chatcolab9_sm.jpg" link="https://objects.lib.uidaho.edu/chatcolab/chatcolab9.pdf" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/chatcolab/small/chatcolab9_sm.jpg" link="https://www.lib.uidaho.edu/digital/chatcolab/items/chatcolab9.html" width="75" %}
 
 The collection also contains a document from 2014 (the organization's 66th anniversary) reviewing the history and purpose of the organization.
 

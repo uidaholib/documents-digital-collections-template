@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://www.lib.uidaho.edu/digital/moscowcoop/assets/moscowcoop-about-image.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/moscowcoop/moscowcoop-about-image.jpg" %} 
 
 {% include feature/nav-menu.html sections="About the Collection;About the Moscow Food Co-op;History of the Moscow Food Co-op" %}
 

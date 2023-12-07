@@ -18,7 +18,7 @@ This collection consists of 17 pdf documents, which sample the 56 scrapbooks and
 
 From the University of Idaho Special Collection's [Historical Note](https://archiveswest.orbiscascade.org/ark:80444/xv30443?q=Senator%20William%20Edgar%20Borah%20Scrapbooks):
 
-<div class="about-narrowed-content ms-2" markdown="1">
+<div class="about-narrowed-content ps-4" markdown="1">
 
 > "William Edgar Borah was born in Fairfield, Illinois, June 29, 1865, the seventh of ten children born to William Nathan and Elizabeth (West) Borah. He was educated in the public schools near Fairfield and at Enfield College. He spent two years, 1885-1887, at the University of Kansas, but had to withdraw because of illness. He then studied law in the office of his brother-in-law and was admitted to the Kansas bar in 1890.
 > 

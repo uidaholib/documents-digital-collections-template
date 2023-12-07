@@ -8,26 +8,16 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="sb36_000" %}
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About The Senator William Edgar Borah Scrapbooks Collection" %}
 
-## About CollectionBuilder CSV
+## About The Senator William Edgar Borah Scrapbooks Collection
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+This collection consists of 17 pdf documents, which sample the 56 scrapbooks and 34 folders of mounted newspaper clippings of the William Edgar Borah Scrapbooks collection, housed in the [University of Idaho Special Collections](https://www.lib.uidaho.edu/special-collections/) department. The scrapbooks focus on the political career of Idaho Senator William Borah, spanning 1903 to 1947, with the bulk of the items from the years 1910-1939. 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+William Edgar Borah was born in Fairfield, Illinois, June 29, 1865, the seventh of ten children born to William Nathan and Elizabeth (West) Borah. He was educated in the public schools near Fairfield and at Enfield College. He spent two years, 1885-1887, at the University of Kansas, but had to withdraw because of illness. He then studied law in the office of his brother-in-law and was admitted to the Kansas bar in 1890.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+In 1891, Borah moved west and settled in Boise, Idaho, where he opened a law office. On April 21, 1895, he married Mary McConnell the daughter of Governor William J. McConnell.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+Borah first became a candidate for the U.S. Senate in 1903, but was defeated by Weldon Heyburn. He was elected in 1907 and served in that body until his death in 1940 following a stroke. In 1924 he became chairman of the Foreign Relations Committee; he also served on the Judiciary Committee. He was often mentioned as a presidential candidate, but not until 1936 did he actually enter any primaries, when he was defeated by Alf Landon.

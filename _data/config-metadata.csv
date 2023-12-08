@@ -4,12 +4,17 @@ creator,Creator,,,DCTERMS.creator,creator
 archival date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
+subjects,Subjects,true,,DCTERMS.subject,keywords
+1st stations,First Subdivision Stations,true,,,
+2nd stations,Second Subdivision Stations,true,,,
+3rd stations,Third Subdivision Stations,true,,,
+4th stations,Fourth Subdivision Stations,true,,,
+general manager,General Manager,true,,,
+company name,Company Namem,true,,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-findingaid,Finding Aid,,true
+finding aid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat

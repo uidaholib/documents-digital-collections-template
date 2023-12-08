@@ -8,26 +8,27 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/blot/blot_header_0010_cr.jpg" padding="4em" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About The Blot Archive" %}
 
-## About CollectionBuilder CSV
+## About The Blot Archive
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The Blot Magazine Archive collection provides access to past issues of the [Blot Magazine](https://www.blotmagazine.com/), a student run publication at the University of Idaho.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+The Blot began in 1946 as a part of the [University of Idaho Student Media Department](https://www.uidaho.edu/current-students/student-involvement/student-media), alongside the [Argonaut newspaper](https://www.lib.uidaho.edu/digital/argonaut/) and the [Gem of the Mountains yearbook](https://www.lib.uidaho.edu/digital/gem/). Originally the campus humor and literary magazine, Blot was discontinued during the 1950s due to a lack of funds. 
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+After a long hiatus, the Blot resumed production in 2004 as a quarterly print publication, completely produced from start to finish by University of Idaho students.
+The magazine publishes a variety of writing, hoping to provide a contemporary perspective on students and their experiences.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/blot/blot_transparent_black.png" link="https://www.blotmagazine.com" caption="Visit the Blot Magazine" alt="Blot Magazine logo with black spot as O" width="75" %}
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The Blot Magazine Archive currently contains 21 issues from 1946 to 1951 and 64 issues from 2005 to 2021. 
+Early editions were digitized by U of I Library from print copies held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/).
+Since 2010 PDFs were created by Blot staff and originally published on ISSUU to provide digital access in addition to their print magazine.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+## Acknowledgements
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+We would like to thank Tara Roberts, former Student Media Manager, for her help coordinating the transfer of files for access and preservation of this publication--and for her vital support of amazing student media at U of I!
+
+{% include feature/image.html objectid="https://www.lib.uidaho.edu/digital/blot/assets/img/blot_header_0002_cr.jpg" width="50" %} 

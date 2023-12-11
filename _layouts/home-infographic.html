@@ -4,11 +4,13 @@ layout: page
 ---
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 <div class="row">
-
   <div class="col-md-8">
 
     {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
+
+    {% include index/carousel.html title="Sample Reports" %}
+
+    {% include index/data-download.html %}
     
   </div>
   <div class="col-md-4">  
@@ -18,14 +20,10 @@ layout: page
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="payette-blue" %}
 
     {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-payette-blue" %}
-    
+
+    {% include index/featured-terms.html field="fire locations" title="Top Fire Locations" btn-color="outline-payette-blue" %}
+
     {% include index/objects.html %}
 
   </div>
-  <div class="col-md-12">
-
-    {% include index/data-download.html %}
-
-  </div>
-
 </div>

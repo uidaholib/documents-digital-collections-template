@@ -38,10 +38,7 @@ Space operas are characterized by interstellar wars waged among galactic empires
 
 He became a master of the form:
 
-<blockquote class="blockquote py-4">
-  <p class="mb-0">After Smith, all science fiction bore the stamp of his influence, most clearly, in the writing of Jack Williamson and John W. Campbell, Jr., but in many other writers' work as well... That influence endures to the present. At a panel during the 1982 World Science Fiction Convention a group of writers including Larry Niven, Jack Chalker, Phylis Eisentein and Michael Resnick agreed that they stand on the shoulders of earlier writers, in particular Doc Smith because of his positive belief in the future as a place where humans will be free to take significant action. Thus, Smith's identification with the scientist, or rather the spirit of optimistic rationality that he attributes to science, has become one of the foundations of science fiction.</p>
-  <footer class="blockquote-footer">Joe Sanders, <cite title="Source Title">E. E. "DOC" SMITH</cite>, Starmont House, 1986</footer>
-</blockquote>
+{% include feature/blockquote.html quote="After Smith, all science fiction bore the stamp of his influence, most clearly, in the writing of Jack Williamson and John W. Campbell, Jr., but in many other writers' work as well... That influence endures to the present. At a panel during the 1982 World Science Fiction Convention a group of writers including Larry Niven, Jack Chalker, Phylis Eisentein and Michael Resnick agreed that they stand on the shoulders of earlier writers, in particular Doc Smith because of his positive belief in the future as a place where humans will be free to take significant action. Thus, Smith's identification with the scientist, or rather the spirit of optimistic rationality that he attributes to science, has become one of the foundations of science fiction." speaker="Joe Sanders" source="E. E. 'DOC' SMITH, Starmont House (1986)" %}
 
 Smith's influence is also evident in film and TV, from *Star Trek* and *Star Wars* to *Guardians of the Galaxy*.
 

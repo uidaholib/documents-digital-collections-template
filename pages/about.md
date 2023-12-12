@@ -26,8 +26,8 @@ The Camas Prairie Railroad's main subdivision routes were:
 
 The documents in this collection were donated to the University of Idaho Special Collections and Archives by the Northern Pacific Railway Historical Association.
 
-{% include feature/image.html objectid="https://digital.lib.uidaho.edu/digital/iiif/riegger/393/full/max/0/default.jpg" width="75" caption="Color-coded Line Map Camas Prairie Railroad [1] from University of Idaho Hal Riegger Papers Collection" %} 
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/riegger/riegger393.jpg" width="75" caption="Color-coded Line Map Camas Prairie Railroad [1] from University of Idaho Hal Riegger Papers Collection" link="https://www.lib.uidaho.edu/digital/riegger/items/riegger393.html" %} 
 
-{% include feature/image.html objectid="https://digital.lib.uidaho.edu/digital/iiif/riegger/496/full/max/0/default.jpg" width="50" caption="Rebuilt Camas Prairie Bridge in Lewiston from University of Idaho Hal Riegger Papers Collection" %} 
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/riegger/riegger496.jpg" width="50" caption="Rebuilt Camas Prairie Bridge in Lewiston from University of Idaho Hal Riegger Papers Collection" link="https://www.lib.uidaho.edu/digital/riegger/items/riegger496.html" %} 
 
 For more information on the Camas Prairie Railroad, see the [Hal Riegger Papers, 1981-1986 collection](https://www.lib.uidaho.edu/digital/riegger/browse.html#camas), where the above images are from.

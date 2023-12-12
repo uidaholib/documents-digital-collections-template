@@ -8,26 +8,20 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://www.lib.uidaho.edu/digital/objects/mcclure-center/rangelands-2022-imax.jpg" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+## About the McClure Center Archive
 
-## About CollectionBuilder CSV
+This digital collection brings together the publications of the University of Idaho’s [James A. and Louise McClure Center for Public Policy Research](https://www.uidaho.edu/president/direct-reports/mcclure-center). 
+These items are published on the McClure Center's website and generally in hard copy. 
+The PDFs are transferred to the University of Idaho Library for preservation and long-term access.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The McClure Center was launched in 2007 and is Idaho's trusted center for public policy research and collaboration. 
+The McClure Center produces independent, neutral research with integrity. 
+Since its doors opened, the McClure Center has heightened public discourse around policy making, published evidence-based research that contributes to a strong democracy, engaged students in learning about public policy making and championed a collaborative approach to tough problems.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+A champion for state water rights and a nationally recognized leader in energy and natural resource policy, U.S. Senator Jim McClure earned the respect of his colleagues for his thoughtful pursuit and promotion of bipartisan collaboration leading to the enactment and execution of sound public policy. 
+Louise McClure was admired for her leadership, commitment to public service, intellect and grace. 
+The McClure Center's collaborative and interdisciplinary approach to addressing society’s complex challenges sustains their remarkable legacy.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/pdf.html objectid="mcclure-center-0069" width="50" %} 

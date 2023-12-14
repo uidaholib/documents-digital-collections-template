@@ -3,5 +3,7 @@ Home,/,
 Browse,/browse.html,
 Subjects,/subjects.html,
 Timeline,/timeline.html,
-Data,/data.html,
+Data,,
+Metadata and Data,/data/,Data
+Media Files,/data/files.html,Data
 About,/about.html,

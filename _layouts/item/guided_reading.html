@@ -1,0 +1,123 @@
+---
+# basic layout for PDF documents
+# Displays image_small if available, with fall back to image_thumb, or a pdf icon.
+layout: default
+# item-meta adds rich meta markup to the page on production build
+item-meta: true
+custom-foot: js/pdf-js.html
+---
+<div class="container py-3">
+
+    {% include item/breadcrumbs.html %}
+    <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" or page.display_template == "multiple" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %} ({{ children | size }} Items){% endif %}</div>
+    <h2 class="mb-3">{{ page.title }} 
+        {% unless page.display_template == 'record' %}<a href="#metadata" class="ms-5 btn btn-sm btn-outline-dark small">Item Info 
+            <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">
+                <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
+            </svg>
+        </a>{% endunless %}
+    </h2>
+    <p class="h4">Written by {{ page.author }}</p>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+
+            {% if page.audio_location %}
+            <div class="card p-4 bg-dark my-2">
+                {% if page.reader %}<h3 class="h4 text-white">Narration by {{ page.reader }}</h3>{% endif %}
+                <audio controls class="w-100">
+                    <source src="{{ page.audio_location | relative_url }}">
+                    Your browser does not support the audio element. Please <a href="{{ page.audio_location | relative_url }}">download the audio file</a>.
+                </audio>
+            </div>
+            {% endif %}
+
+            <div class="card mb-4 text-center">
+                <div class="card-body">
+
+                    <style>
+                        span.left,
+                        span.right {
+                            padding: 1em;
+                            font-size: 1.5em;
+                            font-weight: 600;
+                        }
+
+                        .left {
+                            float: left;
+                            clear: left;
+                        }
+
+                        .right {
+                            float: right;
+                            clear: right;
+                        }
+
+                        #next {
+                            position: absolute;
+                            top: 20%;
+                            right: 1%;
+                        }
+
+                        #prev {
+                            position: absolute;
+                            top: 20%;
+                            left: 1%;
+                        }
+                    </style>
+                    <p class="my-2">Use your keyboard arrow keys or the buttons to navigate the book, or download the files below.</p>
+                    <div class="text-center mb-2 mt-0">
+                        <button id="prev" class="btn btn-lg btn-outline-pride-gold" title="Previous page">&laquo;</button>
+                        <button id="next" class="btn btn-lg btn-outline-pride-gold" title="Next page">&raquo;</button>
+                        <p class="mt-2 h5 d-none">
+                            <span>Pages: <span id="page_num"></span> and <span id="pright"></span> of <span id="page_count"></span></span>
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <canvas id="the-canvas" class="justify-content-center col-10 col-md-6 mx-1 border"></canvas>
+
+                        <span id="prev" class="left d-none"></span>
+                        <span id="next" class="right d-none"></span>
+                    </div>
+                    
+                    
+                    <div class="mt-2">
+
+                        <a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="btn btn-outline-primary">Download PDF</a>
+                        {% if page.audio_location %}<a target="_blank" rel="noopener" href="{{ page.audio_location | relative_url }}" class="btn btn-outline-primary">Download Audio MP3</a>{% endif %}
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="col-12 col-md-10" id="metadata">
+
+            {% include item/metadata.html %}
+
+            {% include item/contact-btn.html %}
+
+        </div>
+
+        <div class="col-md-5 py-4">
+            {% include item/citation-box.html %}
+        </div>
+        {% if page.rights or page.rightsstatement %}
+        <div class="col-md-5 py-4">
+            {% include item/rights-box.html %}
+        </div>
+        {% endif %}
+    </div>
+
+
+    <div class="text-center">
+        <a class="btn btn-secondary" href="{{ page.previous_item | relative_url }}" id="prev-page-button">&laquo; Previous</a>
+        <a class="btn btn-secondary" href="{{ '/browse.html' | relative_url }}">Back to Browse</a>
+        <a class="btn btn-secondary" href="{{ page.next_item | relative_url }}" id="next-page-button">Next &raquo;</a>
+    </div>
+
+</div>

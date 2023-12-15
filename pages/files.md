@@ -1,7 +1,7 @@
 ---
 title: Media Files
 layout: page
-permalink: /data/files.html
+permalink: /files.html
 ---
 
 ## Media Files

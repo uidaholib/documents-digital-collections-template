@@ -1,6 +1,9 @@
 field,display_name,btn,hidden,sort_name
+author,Author,,,Author
 date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
+keywords,Keywords,,,
+subject_category,Subject,,,
+department,,true,,
+major_professor,Professor,
 identifier,,,true,Identifier
+display_template,,,true,

@@ -1,12 +1,12 @@
 dcterm,field
 title,title
 date,date
-creator,creator
-description,description
-subject,subject
+creator,author
+description,abstract
+subject,subject_category
 coverage,location
 identifier,identifier
-source,source
+source,department
 type,type
 format,format
 language,language

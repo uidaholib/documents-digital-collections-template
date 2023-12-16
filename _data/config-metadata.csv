@@ -1,16 +1,20 @@
-field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-findingaid,Finding Aid,,true
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+field,display_name,browse_link,dc_map,schema_map
+title,Title,,DCTERMS.title,headline
+author,Author,,DCTERMS.creator,creator
+author_orcid,ORCID,
+date,Date,,DCTERMS.date,dateCreated
+embargo_remove,Embargo Remove Date,
+keywords,Keywords,true,DCTERMS.subject,keywords
+department,Program,
+subject_category,Subject Category,
+abstract,Abstract,
+description,Description,,DCTERMS.description,description
+major_professor,Major Professor,
+committee,Committee,
+defense_date,Defense Date,
+identifier,Identifier,
+type,Type,,DCTERMS.type,
+format_original,Format Original
+format,Format,,,encodingFormat
+rightsstatement,,,DCTERMS.rights,license
+

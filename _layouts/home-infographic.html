@@ -8,18 +8,17 @@ layout: page
   <div class="col-md-8">
 
     {% include index/description.html %}
-    {% include index/carousel.html title="Sample Items" %}
+    {% include index/featured-terms.html field="subject_category" title="Top Subjects" btn-color="payette-blue" max=18 %}
+    {% include index/featured-terms.html field="department" title="Top Programs" btn-color="outline-payette-blue" max=18 %}
     
   </div>
   <div class="col-md-4">  
 
     {% include index/time.html %}
-
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="payette-blue" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-payette-blue" %}
     
     {% include index/objects.html %}
+
+    {% include index/carousel.html %}
 
   </div>
   <div class="col-md-12">

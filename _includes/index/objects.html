@@ -1,5 +1,5 @@
 {%- assign templates = site.data[site.metadata] | where_exp: 'item','item.parentid == nil ' | map: "display_template" -%}
-{%- assign types = "image;audio;video;pdf;panorama;record;compound_object;multiple" | split: ";" -%}
+{%- assign types = "etd_pdf;etd_record;etd_embargoed" | split: ";" -%}
 <div class="card mb-3" >
   <div class="card-body">
     <h2 class="card-title h5">Objects</h2>
@@ -7,8 +7,14 @@
       {% for t in types %}
       {%- assign count = templates | where_exp: 'item','item contains t' | size -%}
       {% if count > 0 %}
-      {{ count }}      
+      {{ count }} 
       {% case t %}
+      {% when 'etd_pdf' %}
+      <a class="text-dark" href="{{ 'etd_pdf' | prepend: '/browse.html#' | relative_url }}">PDF{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-pdf"/></svg></a><br>
+      {% when 'etd_record' %}
+      <a class="text-dark" href="{{ 'record' | prepend: '/browse.html#' | relative_url }}">Record{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-record"/></svg></a><br>
+      {% when 'etd_embargoed' %}
+      <a class="text-dark" href="{{ 'etd_embargoed' | prepend: '/browse.html#' | relative_url }}">Embargoed ETD{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-pdf"/></svg></a><br>
       {% when 'image' %} 
       <a class="text-dark" href="{{ 'image' | prepend: '/browse.html#' | relative_url }}">Image{% if count > 1 %}s{% endif %} <svg class="bi icon-sprite text-body" fill="currentColor" aria-hidden="true"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#icon-image"/></svg></a><br>
       {% when 'audio' %}

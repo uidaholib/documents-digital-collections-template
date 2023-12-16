@@ -8,26 +8,53 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Agricultural Experiment & University of Idaho Extension;About the Collection;Additional Resources" %} 
 
-## About CollectionBuilder CSV
+## About the Agricultural Experiment & University of Idaho Extension
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Since the beginning, one of the primary responsibilities of the Idaho Agricultural Experiment Station and the University of Idaho Extension has been the diffusion of useful and practical, research-based information on agriculture and related subjects.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+{% include feature/pdf.html objectid="uiext6304" width="50" %}
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The University of Idaho Board of Regents established the Idaho Agricultural Experiment Station at the University of Idaho in 1892 following the passage of the federal Hatch Act (1887), which allowed the creation of agricultural experiment stations at state land-grant colleges. In addition to stimulating agricultural research, the act required the publishing of bulletins or reports of progress on station research and allocated $15,000 per year for conducting investigations and experiments and printing and distributing the results.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+The University of Idaho College of Agriculture began establishing an Extension program in southern Idaho in 1910. In 1914, the federal Smith-Lever Act authorized cooperative extension work in agriculture and home economics between the state land-grant institutions and the U.S. Department of Agriculture. Extension's role was to diffuse practical research-based information to people not attending college through instruction and practical demonstrations. Over the years, the Extension's mandate grew to include gardening, natural resources, youth development, and community development.
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+## About the Collection
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+This collection encompasses the research-based publishing of the Idaho Agricultural Experiment Station and University of Idaho Extension since their inceptions. Experiment station publishing started almost immediately in 1892 with a series of bulletins that ran until 1954. Extension publishing began in 1912 with a series of bulletins that ran until 1953. A new series of University of Idaho College of Agriculture bulletins began in 1953, starting with number 200, with contributions coming either from the Idaho Agricultural Experiment Station or the Idaho Agricultural Extension Service. A series of shorter College of Agriculture publications, the current information series, began in 1964 with titles from both the experiment station and extension. A series of highly technical research bulletins published by the Idaho Agricultural Experiment Station, the research bulletins, began in 1922. 
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/pdf.html objectid="uiext13209" width="50" %}
+
+Starting the mid-1990s, experiment station and Extension publications were published on the Internet in PDF format as well as in print. By 2010, the vast majority of Extension and experiment station publications were available only online, for free access by all.
+
+-Written by Diane Noel, May 2011
+
+## Additional Resources
+
+*Idaho Resources*
+
+[University of Idaho Extension Home](https://www.uidaho.edu/extension)
+
+[University of Idaho Extension Catalog](https://www.uidaho.edu/extension/publications)
+
+[University of Idaho College of Agricultural and Life Sciences](https://www.uidaho.edu/cals)
+
+[Idaho State Department of Agriculture](https://www.agri.idaho.gov/)
+
+*Related Resources*
+
+[The National Agricultural Library Collections](https://specialcollections.nal.usda.gov/)
+
+[Washington State University Extension publications](https://pubs.extension.wsu.edu/)
+
+[Oregon State University Extension publications](https://extension.oregonstate.edu/catalog/)
+
+[Oregon State University Extension Service: 100 Years of Putting Knowledge to Work](https://archives.library.oregonstate.edu/omeka/exhibits/show/extension)
+
+[Oregon Small Farms, hosted by Oregon State University Extension Service](https://smallfarms.oregonstate.edu/)
+
+<div class="clearfix"></div>
+

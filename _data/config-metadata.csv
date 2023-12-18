@@ -1,11 +1,16 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
+editor,Editor,,,,
 archival date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+years_studied,Years Studied,,,,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
+research_topic,Research Topic,,,,
+publication_type,Publication Type,true,,
+location,Location,true,,contentLocation
+rivers,Rivers,true,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,

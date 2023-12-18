@@ -10,9 +10,9 @@ credits: true
 
 {% include feature/jumbotron.html %} 
 
-{% include feature/nav-menu.html sections="About the Agricultural Experiment & University of Idaho Extension;About the Collection;Additional Resources" %} 
+{% include feature/nav-menu.html sections="About the Agricultural Experiment and University of Idaho Extension;About the Collection;Additional Resources" %} 
 
-## About the Agricultural Experiment & University of Idaho Extension
+## About the Agricultural Experiment and University of Idaho Extension
 
 Since the beginning, one of the primary responsibilities of the Idaho Agricultural Experiment Station and the University of Idaho Extension has been the diffusion of useful and practical, research-based information on agriculture and related subjects.
 

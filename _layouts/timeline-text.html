@@ -52,7 +52,7 @@ custom-foot: js/timeline-js.html
                         <a href="{% if item.parentid == nil %}{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}{% elsif item.parentid %}{{ '/items/' | append: item.parentid | append: '.html' | relative_url }}#{{item.objectid }}{% endif %}" >
                             <div class="card"> 
                                 <div class="card-body">
-                                    <div class="h5 text-dark">{{ item.title }}</div>
+                                    <div class="h5"><strong>{{ item.title }}</strong></div>
                                     <div class="card-text">{{ item.author }} {% if item.department %}({{ item.department }}){% endif %}</div>
                                 </div>
                             </div>

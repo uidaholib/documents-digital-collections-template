@@ -11,6 +11,8 @@ credits: true
 ## About Fugue
 
 [Fugue Literary Journal](https://fuguejournal.com/) is a "publication of poetry, fiction, essays, hybrid work, and visual art from established and emerging writers and artists".
-Established in 1990, Fugue is managed and edited entirely by University of Idaho graduate students.
+Established in 1990, Fugue is managed and edited entirely by University of Idaho students, based in the [M.F.A. Creative Writing program](https://www.uidaho.edu/class/english/academics/mfa-creative-writing).
 
 This digital collection provides access to the complete archive of past issues. 
+
+{% include feature/image.html objectid="fugue-2010-n38" %}

@@ -21,7 +21,7 @@ The Blot began in 1946 as a part of the [University of Idaho Student Media Depar
 After a long hiatus, the Blot resumed production in 2004 as a quarterly print publication, completely produced from start to finish by University of Idaho students.
 The magazine publishes a variety of writing, hoping to provide a contemporary perspective on students and their experiences.
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/blot/blot_transparent_black.png" link="https://www.blotmagazine.com" caption="Visit the Blot Magazine" alt="Blot Magazine logo with black spot as O" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/blot/Blot_FullLogo_OnLight.png" link="https://www.blotmagazine.com" caption="Visit the Blot Magazine" alt="Blot Magazine logo with black spot as O" width="75" %}
 
 The Blot Magazine Archive currently contains 21 issues from 1946 to 1951 and 64 issues from 2005 to 2021. 
 Early editions were digitized by U of I Library from print copies held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/).

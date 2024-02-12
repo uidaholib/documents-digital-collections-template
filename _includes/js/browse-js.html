@@ -38,23 +38,14 @@ function makeCard(obj) {
     }
     var imgAlt = obj.alt ? obj.alt : obj.title;
     
-    // add blur feature for sensitive objects
-    if(obj.sensitive){
-        var blur = 'blur';
-        var warning = '<p class="text-danger small">Warning: This image is of a graphic nature.</p>';
-    } else {
-        var blur = '';
-        var warning = '';
-    }
-
     // start card
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
-    // top image for items with image
-    if(imgSrc) {
-        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
-    }
     // title
-    card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    card += '<div class="card-body"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    // thumb image
+    if(imgSrc) {
+        card += '<p class="text-center"><a href="' + itemHref + '"> <img class="img-fluid lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
+    }
     // icon thumb for item without image
     if(thumbIcon){
         card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';

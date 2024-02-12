@@ -1,6 +1,9 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-creator,Creator,,,
-subject,,true
-location,,true
-identifier,,,true,Identifier
+report_type,Report type,
+report_number,Report number,,,Report number
+authors,Authors,,,
+funder,,,true,
+species,,,true,
+places,,,true,
+concepts,,,true,

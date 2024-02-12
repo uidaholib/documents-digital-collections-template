@@ -51,10 +51,10 @@ custom-foot: js/timeline-js.html
                     <li class="mt-3 d-flex">
                         {% if item.image_thumb %}
                         <div class="flex-shrink-0">
-                            <img class="lazyload img-thumbnail timeline-thumb-docs" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.description | default: item.title | escape }}">
+                            <a href="{% if item.parentid == nil %}{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}{% elsif item.parentid %}{{ '/items/' | append: item.parentid | append: '.html' | relative_url }}#{{item.objectid }}{% endif %}" ><img class="lazyload img-thumbnail timeline-thumb-docs" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ item.image_thumb | relative_url }}" alt="{{ item.image_alt_text | default: item.description | default: item.title | escape }}"></a>
                         </div>{% endif %}
                         <div class="flex-grow-1 ms-3">
-                            <a href="{{ '/data/' | absolute_url | append: item.object-id | append: '.html' }}" >{{ item.title }}</a><br>
+                            <a href="{% if item.parentid == nil %}{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}{% elsif item.parentid %}{{ '/items/' | append: item.parentid | append: '.html' | relative_url }}#{{item.objectid }}{% endif %}" >{{ item.title }}</a><br>
                             <small>{{ item.report_type }} | {{ item.report_number }} | {{ item.authors }}</small>
                         </div>
                     </li>

@@ -1,16 +1,17 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
+report_type,Report Type,
+date,Date,,,DCTERMS.date,dateCreated
+authors,Authors,,,DCTERMS.creator,creator
+authors_affiliation,Affiliations,
+report_number,Report Number,
+publisher,Publisher,
+funder,Funder,
+abstract,Abstract,,,DCTERMS.description,description
+species,Species,true,,,
+places,Location,,,,contentLocation
+concepts,Subjects,true,,DCTERMS.subject,keywords
 source,Source,,,,
-findingaid,Finding Aid,,true
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
+original_filename,Original Filename,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license

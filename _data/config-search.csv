@@ -1,7 +1,9 @@
 field,index,display
 title,true,true
 date,true,true
-creator,true,false
-description,true,true
-subject,true,true
-location,true,false
+authors,true,false
+abstract,true,true
+concepts,true,true
+places,true,false
+species,true,false
+funder,true,false

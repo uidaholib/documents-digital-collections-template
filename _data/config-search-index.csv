@@ -1,10 +1,10 @@
 dcterm,field
 title,title
 date,date
-creator,creator
-description,description
-subject,subject
-coverage,location
+creator,authors
+description,abstract
+subject,concepts
+coverage,places
 identifier,identifier
 source,source
 type,type

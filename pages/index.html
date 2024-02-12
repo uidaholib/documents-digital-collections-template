@@ -1,0 +1,77 @@
+---
+layout: page
+title: Home
+permalink: /
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+
+  <div class="col-md-8">
+
+    {% include index/description.html %}
+    
+    <div class="card mb-3">
+        <div class="card-body">
+            <h2 class="card-title h4">Synthesis Report</h2>
+            <p class="card-text">Technical Report 2017-2, <em>"Migration Of Adult Salmonids In The Federal Columbia River Hydrosystem: A Summary Of Radiotelemetry Studies, 1996-2014"</em>, provides a single-source compilation of the data, methods, and results across the nearly two-decade time series. Explore the synthesis report contents below, or check the <a href="{{ '/items/ferl-index.html' | relative_url }}">Subject Matter Index</a> for a guide to all content.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="{{ '/items/ferl-tr-2017-2.html' | relative_url }}">
+                    <img class="img-fluid img-thumbnail" src="https://objects.lib.uidaho.edu/ferl/small/ferl-tr-2017-2_sm.jpg" alt="cover of final report" >
+                </a>
+              </div>
+              <div class="col-md-6">
+                <ul class="mt-3">
+                  <li><a href="{{ '/items/ferl-tr-2017-2.html' | relative_url }}">Technical Report 2017-2</a></li>
+                  <li><a href="{{ '/items/ferl-tr-2017-2-appendix-a.html' | relative_url }}" >Appendix A (Generalized FCRPS dam antenna maps)</a></li>
+                  <li><a href="{{ '/items/ferl-tr-2017-2-appendix-b.html' | relative_url }}" >Appendix B (Main stem and Tributary antenna maps)</a></li>
+                  <li><a href="{{ '/items/ferl-tr-2017-2-appendix-c.html' | relative_url }}" >Appendix C (Bonneville-John Day antenna photos)</a></li>
+                  <li><a href="{{ '/items/ferl-tr-2017-2-appendix-d.html' | relative_url }}" >Appendix D (McNary-L Granite antenna photos)</a></li>
+                  <li><a href="{{ '/items/ferl-tr-2017-2-appendix-e.html' | relative_url }}" >Appendix E (Main stem and Tributary antenna photos)</a></li>
+                  <li><a href="{{ '/items/ferl-bibliography.html' | relative_url }}">Bibliography</a></li>
+                  <li><a href="{{ '/items/ferl-index.html' | relative_url }}">Subject Matter Index</a></li>
+                </ul>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    
+  </div>
+  <div class="col-md-4">  
+
+    {% include index/time.html %}
+
+    <div class="card mb-3" >
+        <div class="card-body">
+          <h2 class="card-title h5">Objects</h2>
+          <p class="card-text">
+            
+              65 <a class="text-dark" href="{{ '/browse.html#Technical%20Report' | relative_url }}">Technical Reports</a><br>
+              51 <a class="text-dark" href="{{ '/browse.html#Letter%20Report' | relative_url }}">Letter Reports</a><br>
+              35 <a class="text-dark" href="{{ '/browse.html#Journal%20Article' | relative_url }}">Peer Reviewed Papers</a><br>
+              5 <a class="text-dark" href="https://data.nkn.uidaho.edu/dataset/tag-migration-and-fate-data-adult-radio-tagged-chinook-and-sockeye-salmon-and-steelhead" rel="noopener" target="_blank">Data Sets</a><br>
+              <a class="btn btn-sm btn-outline-secondary mt-2" href="{{ '/data.html' | relative_url }}">View table</a>
+          </p>
+        </div>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Fish Ecology Research Lab</h5>
+            <img class="img-fluid rounded" src="https://objects.lib.uidaho.edu/ferl/tagging_fish.jpg" alt="researcher tagging salmon">
+            <p class="card-text p-3">
+                Questions about the research can be directed to Tami Clabough (<a href="mailto:tamic@uidaho.edu">tamic@uidaho.edu</a>) or Matthew Keefer (<a href="mailto:mkeefer@uidaho.edu">mkeefer@uidaho.edu</a>) at the University of Idaho <a href="https://www.uidaho.edu/cnr/fish-ecology-research-lab" rel="noopener" target="_blank">Fish Ecology Research Lab</a>.
+            </p>
+            <a href="https://www.uidaho.edu/cnr" rel="noopener" target="_blank"><img class="img-fluid" src="https://objects.lib.uidaho.edu/ferl/UI_CNR_horizontal_4c.png" alt="University of Idaho College of Natural Resources"></a>
+        </div>
+    </div>
+
+  </div>
+  <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
+  </div>
+
+</div>

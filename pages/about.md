@@ -1,33 +1,29 @@
 ---
 title: About
-layout: about
+layout: page-narrow
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+#credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+## CONTENTdm Migration Reference
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+University of Idaho used the CONTENTdm repository system from 2012 to 2023 to host the majority of digital collection items behind the scenes.
+Although our main collection interface did not directly feature CONTENTdm, the platform is where full text and cross collection search happened.
 
-## About CollectionBuilder CSV
+If you have old reference urls pointing to our CONTENTdm instance which was hosted at `digital.lib.uidaho.edu` or `cdm17254.contentdm.oclc.org`, those links are now broken.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+CONTENTdm reference links followed a pattern that included a collection alias and an item id: 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+`digital.lib.uidaho.edu/cdm/ref/collection/< collectionid >/id/< item id >`
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The links had several variations, as seen in these examples:
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+- http://digital.lib.uidaho.edu/cdm/ref/collection/whitepine/id/262
+- https://digital.lib.uidaho.edu/digital/collection/bar-stock/id/2358
+- http://digital.lib.uidaho.edu:80/cdm/ref/collection/forester/id/68
+- http://cdm17254.contentdm.oclc.org/cdm/ref/collection/agecon/id/0
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+If you are searching for a specific CONTENTdm reference link you can use the collection alias and item id to find the new location using the table or search functions of this site. 

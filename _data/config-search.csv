@@ -1,7 +1,5 @@
 field,index,display
 title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
-location,true,false
+cdm_collectionid,true,true
+cdmid,true,false
+cdm_reference_url,true,true

@@ -2,9 +2,12 @@
 <!-- load DataTables with jquery bundled -->
 <script type="text/javascript" language="javascript" src="{{ '/bootstrap5/datatables/datatables.min.js' | prepend: site.digital-assets }}"></script>
 <script>
-/* use jquery to initialize DataTables and load collection data */
-$(document).ready( function () {
-    $('#item-table').DataTable( {
+function submitFilter() {
+        query = document.querySelector('#filterTextBox').value.replace('http://','').replace('https://','').replace(':80','').replace('digital.lib.uidaho.edu/cdm/ref/','').replace('digital.lib.uidaho.edu/digital/','').replace('cdm17254.contentdm.oclc.org/cdm/ref/','').split('/rec/')[0];
+        table.search(query).draw();
+    }
+
+    let table = new DataTable('#item-table', {
         // use DataTables ajax load 
         ajax: { url: '{{ "/assets/js/metadata.min.json" | relative_url }}', dataSrc: 'objects' },
         // defer render to speed up large sets
@@ -28,5 +31,15 @@ $(document).ready( function () {
         // sort based on the second column
         order: [[ 1, "asc" ]]
     });
-});
+
+    
+    var searchForm = document.querySelector('#searchForm');
+    searchForm.innerHTML = `<form role="search" id="lunrSearch" onsubmit="submitFilter(); return false;">
+            <div class="input-group">
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Old link ... " aria-label="Search Old Link"> 
+                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Search</button>
+            </div>
+        </form>`;
+    
+
 </script>

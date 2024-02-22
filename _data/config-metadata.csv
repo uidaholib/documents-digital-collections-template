@@ -1,15 +1,22 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+date,Date Created,,,DCTERMS.created,dateCreated
 description,Description,,,DCTERMS.description,description
+document_type,Document Type,true,
+call number,Library Call Number,
 subject,Subjects,true,,DCTERMS.subject,keywords
+uief_unit,UIEF Unit,true,
+section,Section,
+township,Township,
+range,Range,
+stand_number,Stand Number,
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
+publisher,Publisher,
+department,Department,
 source,Source,,,,
-findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat

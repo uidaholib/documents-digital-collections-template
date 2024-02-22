@@ -1,6 +1,8 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 creator,Creator,,,
+document_type,Type,
 subject,,true
 location,,true
+uief_unit,Unit,
 identifier,,,true,Identifier

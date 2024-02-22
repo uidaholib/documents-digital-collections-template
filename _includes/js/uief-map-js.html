@@ -1,0 +1,148 @@
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item','item.latitude != nil and item.longitude != nil' -%}
+{%- assign fields = site.data.config-map -%}
+<!-- load leaflet dependencies -->
+<script src="{{ '/assets/lib/leaflet/leaflet.js' | relative_url }}"></script>
+{% if site.data.theme.map-search == true %}<script src="{{ '/assets/lib/leaflet/fuse.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/leaflet/leaflet.fusesearch.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
+{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
+
+<script>
+(function(){
+    /* add collection map data */
+    var geodata = { "type": "FeatureCollection", "features": [ 
+    {% for item in items %}
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[{{ item.longitude | strip }},{{ item.latitude | strip }}] }, "properties":
+    { 
+        {% for f in fields %}{% if item[f.field] %}{{ f.field | escape | jsonify }}:{{ item[f.field] | strip | escape | jsonify }}, {%- endif -%}{%- endfor -%}
+        {% if item.image_thumb %}"img": {{ item.image_thumb | relative_url | jsonify }},{% endif %}
+        {% if item.display_template %}"template": {{ item.display_template | escape | jsonify }}, {%- endif -%}
+        {% if item.format %}"format": {{ item.format | escape | jsonify }}, {%- endif -%}
+        "title": {{ item.title | escape | jsonify }}, 
+        "id": {{ item.objectid | jsonify }} 
+    } }{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ]};
+
+    /* add UIEF boundary data */ 
+    var uiefBoundary = {"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[{"type":"Feature","id":1,"geometry":{"type":"Polygon","coordinates":[[[-116.827864471602,46.9247634593049],[-116.833401558996,46.9247055644569],[-116.833448292886,46.92830073487],[-116.826482940718,46.9284093456146],[-116.827804519623,46.9254110162457],[-116.827864471602,46.9247634593049]]]},"properties":{"OBJECTID":1,"UNIT_NAME":"Pinestia"}},{"type":"Feature","id":2,"geometry":{"type":"Polygon","coordinates":[[[-116.843589140765,46.7663222428278],[-116.854014412037,46.7664521570203],[-116.854068021022,46.7700184717756],[-116.843587396911,46.769965099308],[-116.843589140765,46.7663222428278]]]},"properties":{"OBJECTID":2,"UNIT_NAME":"Blodgett"}},{"type":"Feature","id":3,"geometry":{"type":"Polygon","coordinates":[[[-116.822510865255,46.7950249742154],[-116.822548549639,46.7879202459001],[-116.833155800019,46.7879946945098],[-116.833149187529,46.7950364776503],[-116.822510865255,46.7950249742154]]]},"properties":{"OBJECTID":3,"UNIT_NAME":"Big Meadow"}},{"type":"Feature","id":4,"geometry":{"type":"Polygon","coordinates":[[[-116.822510865255,46.7950249742154],[-116.822509078082,46.7950699668986],[-116.82250861008,46.7950879643546],[-116.822379116583,46.7986019073714],[-116.827806732806,46.7986102017375],[-116.833162277979,46.7986181336853],[-116.833193229203,46.8021188217854],[-116.833178485957,46.8021188002978],[-116.826341061958,46.8021851225453],[-116.811804077149,46.8023196268799],[-116.808813536554,46.8023461673356],[-116.807096897,46.8011599078613],[-116.80629444159,46.8015545121748],[-116.807065607032,46.8021227567892],[-116.807385011561,46.8023617703757],[-116.801442432373,46.8024101094858],[-116.801441511035,46.8021041391598],[-116.801434048241,46.7993459073828],[-116.801431686943,46.798540485138],[-116.801402777161,46.7879215035053],[-116.791769860366,46.7877828951624],[-116.791072645256,46.7877726254435],[-116.790975218261,46.7877679480011],[-116.790973964755,46.780582157086],[-116.790973817245,46.7805146634553],[-116.801458517369,46.7805558297779],[-116.801443758591,46.7842364408036],[-116.806651241268,46.7842633548038],[-116.806653027136,46.787880998269],[-116.806653928703,46.7895728308559],[-116.806654611843,46.7914401449685],[-116.809467523919,46.7914538613594],[-116.811812856295,46.7914622412133],[-116.811931285936,46.7879077914873],[-116.811931741722,46.7878942935825],[-116.817263975706,46.7878219394227],[-116.817094181341,46.7950389438405],[-116.822412998745,46.7950248224069],[-116.822462136412,46.7950248986387],[-116.822510865255,46.7950249742154]]]},"properties":{"OBJECTID":4,"UNIT_NAME":"Big Meadow"}},{"type":"Feature","id":5,"geometry":{"type":"Polygon","coordinates":[[[-116.812732883935,46.8057497986771],[-116.818175928796,46.8057675739203],[-116.818163359661,46.809376181545],[-116.812750227842,46.8093674537929],[-116.812732883935,46.8057497986771]]]},"properties":{"OBJECTID":5,"UNIT_NAME":"Big Meadow"}},{"type":"Feature","id":6,"geometry":{"type":"Polygon","coordinates":[[[-116.855158322347,46.8237779709059],[-116.855159200331,46.8239084581636],[-116.855201927915,46.8310357510057],[-116.844744993318,46.8310220451293],[-116.844743733269,46.8311750269881],[-116.84468706865,46.8381851927388],[-116.844686887139,46.8382481856478],[-116.855267370591,46.8384060372315],[-116.876408125534,46.8383228276534],[-116.876392506165,46.8449550855892],[-116.865406409283,46.8450191865853],[-116.865407543014,46.8452216656606],[-116.865436166082,46.8521419342639],[-116.865288595258,46.8521417606917],[-116.85516127858,46.8522643794674],[-116.83912846231,46.8523059631773],[-116.838813646767,46.8523055203113],[-116.838892133921,46.8488140176971],[-116.838894042551,46.8487240303266],[-116.833699904667,46.8487256010904],[-116.833600712907,46.8487254569408],[-116.83365294585,46.8452159194792],[-116.833654029473,46.8451304304447],[-116.826436110474,46.8452007047475],[-116.826416194883,46.8417208051679],[-116.82347398588,46.841743473634],[-116.823411518723,46.8399566995253],[-116.818137310756,46.8400457234989],[-116.818169599061,46.8381461407368],[-116.818172239399,46.8379706639787],[-116.818224261291,46.8347421057959],[-116.812830636705,46.8346694941409],[-116.812859342387,46.831002744365],[-116.818150268475,46.8310170867063],[-116.818169522993,46.8273812219068],[-116.823471952413,46.8274053264423],[-116.823470317767,46.824209234834],[-116.823470224053,46.8237596522882],[-116.832462587643,46.8238295349928],[-116.833931995891,46.8238408877616],[-116.835561260634,46.8238594832871],[-116.855158322347,46.8237779709059]]]},"properties":{"OBJECTID":6,"UNIT_NAME":"West Hatter"}},{"type":"Feature","id":7,"geometry":{"type":"Polygon","coordinates":[[[-116.770664675292,46.8454985097298],[-116.770664790186,46.8454715129205],[-116.770666356713,46.8452960352993],[-116.770667399133,46.8451475536638],[-116.770754017104,46.8342274136085],[-116.770808123205,46.8307538949703],[-116.78128283464,46.830913874453],[-116.786475713277,46.8309011816543],[-116.786467540375,46.8272745539244],[-116.799004657603,46.8273107542066],[-116.807480611648,46.8273343231624],[-116.807479961606,46.8274018148721],[-116.80728525535,46.8451925622612],[-116.802313032112,46.8452380772023],[-116.802202369512,46.8452378860323],[-116.801922006413,46.8452419007318],[-116.801932649662,46.8488993802827],[-116.796712983515,46.8489341258021],[-116.796727319955,46.8525317613454],[-116.791618386233,46.8525667969564],[-116.791510169467,46.8525665999056],[-116.791342265833,46.8453265929033],[-116.770664675292,46.8454985097298]]]},"properties":{"OBJECTID":7,"UNIT_NAME":"East Hatter"}},{"type":"Feature","id":8,"geometry":{"type":"Polygon","coordinates":[[[-116.770808123205,46.8307538949703],[-116.770754017104,46.8342274136085],[-116.770742812912,46.8356403441351],[-116.770724010729,46.8380109858017],[-116.770667399133,46.8451475536638],[-116.770666356713,46.8452960352993],[-116.770664790186,46.8454715129205],[-116.770664675292,46.8454985097298],[-116.770259115161,46.8490073105224],[-116.76998907801,46.8527323561755],[-116.770356242421,46.8560312265409],[-116.770366908733,46.8561257374014],[-116.770373218483,46.8561842435352],[-116.760557425329,46.8563711091509],[-116.75552613193,46.8564594633537],[-116.750401904981,46.8563404168939],[-116.745278068373,46.8562301409062],[-116.745250162457,46.8525089922168],[-116.73998836589,46.8524386676837],[-116.737471988348,46.8524149261726],[-116.734655556259,46.8523904341961],[-116.734695626887,46.8559901274641],[-116.734713022544,46.8596167628773],[-116.73472959818,46.8632433940833],[-116.734757643814,46.864791284574],[-116.734758308697,46.8648227825595],[-116.7348089856,46.8676035854144],[-116.734824438024,46.8704607965909],[-116.729492638699,46.8706732958532],[-116.729490395705,46.870385323338],[-116.72948434618,46.8694674134479],[-116.729474335927,46.8680320527578],[-116.729470074995,46.8674111130758],[-116.729469409402,46.8672986242469],[-116.71884858351,46.8674890072283],[-116.713516610903,46.8677007619932],[-116.713572273872,46.864096808377],[-116.713742943072,46.8488799290746],[-116.709588551135,46.8489054605903],[-116.709398701737,46.8411658244852],[-116.724894964112,46.8411546221881],[-116.724930210644,46.8411547068934],[-116.724836919036,46.8378338425934],[-116.724831759032,46.8376403511008],[-116.729878758929,46.8375938788947],[-116.729926295872,46.8375939910653],[-116.73006478616,46.8375988172552],[-116.734401426749,46.8376674555913],[-116.734977153608,46.8376777890562],[-116.734421266374,46.8305627653646],[-116.734733472178,46.8305679888415],[-116.739496900733,46.8306419221615],[-116.739498197198,46.8305429356946],[-116.73954529823,46.8270694131446],[-116.74461164383,46.8272248140004],[-116.74461286401,46.8270538349027],[-116.744613204976,46.8269818433165],[-116.744635480236,46.823575754065],[-116.749667865466,46.8236543636144],[-116.749689168345,46.8236544102028],[-116.749710430769,46.8236634557472],[-116.749663098903,46.827240472869],[-116.760222001015,46.8272810769804],[-116.760219873911,46.8271145902397],[-116.760220933454,46.8270605982037],[-116.760359233866,46.8199111439893],[-116.760487869569,46.8199114132362],[-116.77071074718,46.8199278489044],[-116.770794020446,46.8232756625938],[-116.770799600278,46.8235051494911],[-116.770808123205,46.8307538949703]],[[-116.761432722048,46.8417946285639],[-116.756063316211,46.8417833118645],[-116.756046995309,46.8453888375319],[-116.761416760381,46.8454001556491],[-116.761432722048,46.8417946285639]]]},"properties":{"OBJECTID":8,"UNIT_NAME":"Flat Creek"}}]};
+
+    /* init map and set zoom */
+    if (window.location.hash) {
+        /* if url has a hash, it is split by comma into coordinates that set the view */
+        var hashfilter = decodeURIComponent(location.hash.substr(1));
+        var latitudeHash = hashfilter.split(',')[0]
+        var longitudeHash = hashfilter.split(',')[1]
+        var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+    } else {
+        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
+    }
+
+    /* add map layer options */
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+    /*
+    var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+        maxZoom: 16
+    });
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });*/
+    /* add base map switcher */
+    /*
+    var baseMaps = {
+        "Esri World StreetMap": Esri_WorldStreetMap,
+        "Esri National Geo": Esri_NatGeoWorldMap,
+        "Esri Imagery": Esri_WorldImagery
+    };
+    L.control.layers(baseMaps).addTo(map);
+    */ 
+    /* load base map */
+    {{ site.data.theme.map-base | default: 'Esri_WorldStreetMap' }}.addTo(map);
+
+    /* add UIEF boundary polygons to map */
+    function boundaryPopup(feature,layer) {
+        var browseLink = "{{ '/browse.html' | relative_url }}#" + feature.properties.UNIT_NAME;
+        var boundaryTemplate = `<h3>${feature.properties.UNIT_NAME}</h3><div class="my-4 text-center"><a href="${browseLink}" class="btn btn-sm btn-outline-secondary">View Related Research</a></div>`;
+        layer.bindPopup(boundaryTemplate);
+    }
+    L.geoJson(uiefBoundary, { onEachFeature: boundaryPopup }).addTo(map);
+
+    {% if site.data.theme.map-search == true %}
+    /* add search, https://github.com/naomap/leaflet-fusesearch */
+    var options = {
+        title: 'Search Map Items',
+        placeholder: 'Search map items...',
+        threshold: {{ site.data.theme.map-search-fuzziness | default: 0.35 }},
+        showResultFct: function(feature, container) {
+            var result = `<strong>${feature.properties.title}</strong><br>`;
+            {% for f in fields %}
+            if(feature.properties[{{ f.field | jsonify }}]) { result += feature.properties[{{ f.field | jsonify }}] + `<br>`; }
+            {% endfor %}
+            container.innerHTML = result;
+        }
+    };
+    var searchCtrl = L.control.fuseSearch(options);
+    searchCtrl.addTo(map);
+    searchCtrl.indexFeatures(geodata.features, {{ fields | where: 'search','true' | map: 'field' | unshift: 'title' | jsonify }});{% endif %}
+
+    {% if site.data.theme.map-cluster == true %}
+    /* create cluster group */
+    var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
+
+    /* get icons function */ 
+    {% include js/get-icon.js %}
+
+    /* object popup function */
+    function objectPopups(feature, layer) {
+        {% if site.data.theme.map-search == true %}/* bind feature for search */
+        feature.layer = layer;{% endif %}
+        // find item link
+        var itemHref = '{{ "/items/" | relative_url }}' + feature.properties.id + '.html';
+        // find image
+        var thumbImg;
+        if (feature.properties.img) {
+            thumbImg = '<img class="map-thumb" src="' + feature.properties.img + '" alt="item thumbnail">';
+        } else {
+            thumbImg = getIcon(feature.properties.template,feature.properties.format)
+        }
+        // set up popup content
+        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
+            feature.properties.title + '</a></h4><div class="text-center"><a href="' + itemHref + 
+            '" >' + thumbImg + '</a></div><p>';
+        {% for f in fields %}{% if f.display_name %}
+        if (feature.properties[{{ f.field | escape | jsonify }}]) {
+            popupTemplate += '<strong>{{ f.display_name }}:</strong> ' + feature.properties[{{ f.field | escape | jsonify }}] + '<br>'; 
+        }
+        {% endif %}{% endfor %}
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        layer.bindPopup(popupTemplate);
+    }
+    function objectMarkers(feature,latlng) {
+        var marker = L.marker(latlng);
+        {% if site.data.theme.map-cluster == true %}markers.addLayer(marker);{% endif %}
+        return marker;
+    }
+
+    /* add objects from geoJson features */
+    L.geoJson(geodata, {
+        onEachFeature: objectPopups,
+        pointToLayer: objectMarkers
+    }){% if site.data.theme.map-cluster != true %}.addTo(map);{% else %};
+    map.addLayer(markers);{% endif %}
+    
+    {% if site.data.theme.map-cluster == true and site.data.theme.map-search == true %}
+    /* uncluster when search is clicked */
+    document.querySelector('a.button').addEventListener("click", function() {
+        markers.disableClustering();
+    });
+    /* recluster when search is closed */
+    document.querySelector('a.close').addEventListener("click", function() {
+        markers.enableClustering();
+        document.querySelector('input.search-input').value = "";
+    });{% endif %}
+
+})();
+
+</script>

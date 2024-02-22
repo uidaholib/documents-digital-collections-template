@@ -1,5 +1,5 @@
 ---
 title: Map
-layout: map
+layout: uief-map
 permalink: /map.html
 ---

@@ -1,5 +1,5 @@
 ---
-layout: home-infographic
+layout: uief-home
 title: Home
 permalink: /
 ---

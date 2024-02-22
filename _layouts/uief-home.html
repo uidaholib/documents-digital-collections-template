@@ -1,0 +1,49 @@
+---
+# Default home page with boxes providing collection stats
+layout: page
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+  <div class="col-md-8">
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3 p-2">
+            <a href="https://www.uidaho.edu/cnr/ui-experimental-forest" title="University of Idaho Experimental Forest">
+              <img class="img-fluid" src="https://objects.lib.uidaho.edu/uief/UIEF_largegraphic.jpg" alt="green UIEF logo featuring pine trees">
+            </a>
+          </div>
+          <div class="col-md-9">
+            <h5 class="card-title">Description</h5>
+            <p class="card-text">{{ site.description }}</p>
+            <a class="btn btn-primary" href="{{ '/about.html' | relative_url }}" role="button">Learn More &raquo;</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    {% include index/carousel.html title="Sample Items" %}
+    
+  </div>
+  <div class="col-md-4">  
+
+    {% include index/time.html %}
+
+    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" max=8 %}
+
+    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" max=8 %}
+
+    {% include index/featured-terms.html field="document_type" title="Document Types" btn-color="outline-secondary" max=10 %}
+    
+    {% include index/objects.html %}
+
+  </div>
+  <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
+  </div>
+
+</div>

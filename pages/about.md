@@ -3,31 +3,36 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+# credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/uief/FY22_771864077_MH11_0130.jpg"  padding="5rem" %} 
 
-{% include feature/nav-menu.html sections="About CollectionBuilder SA;About the About Page" %}
+## University of Idaho Experimental Forest Research Exchange 
 
-## About CollectionBuilder CSV
+The [University of Idaho Experimental Forest (UIEF)](https://www.uidaho.edu/cnr/ui-experimental-forest) is Idaho's working research, teaching, and demonstration forest.
+The UIEF Research Exchange is a living database that provides access to UIEF research and related content to help inspire scientific inquiry and inform forestry and natural resource management.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+The UIEF Research Exchange brings together items from a variety of sources including publications, theses and dissertations, presentations, and other research products.
+Additionally, the archive curates content of historical interest including popular press articles and outreach materials that may be useful for informing research and teaching.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+In some cases, preview items include partially digitized files and detailed geospatial information. 
+Research items are also georeferenced on the [collection map]({{ '/map.html' | relative_url }}).
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+The Research Exchange is a living repository. 
+All research products from current studies making use of the UIEF or UIEF data products must be submitted to the archive.
+Please use our submission form to add a record of your research:
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+[Submit Item to UIEF Research Exchange](https://docs.google.com/forms/d/e/1FAIpQLSdjYK9WgPGbKNdowPzilATDl7mUjWk0M2HIiGip8j3Cn_cwcA/viewform?usp=sf_link){:.btn .btn-large .btn-success .my-4}
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+## About the Collection
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+The core of the collection grew from a 2004 effort by UIEF staff to compile prior peer-reviewed publications, theses, and dissertations available at that time. 
+Additional data from 2004-present were collected in 2022 using UIEF's internal paper and digital archives, search engines, and related University of Idaho Library digital collections.
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+The initial collection information was organized and described by Kelsey Roach (UIEF) and Axel Wall (UIEF).
+The site was developed by Evan Williamson (Library), Robert Keefe (UIEF), and Jeremy Kenyon (Library).
+
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/uief/UIEF_largegraphic.jpg" alt="green UIEF logo featuring pine trees" width="25" link="https://www.uidaho.edu/cnr/ui-experimental-forest" %}

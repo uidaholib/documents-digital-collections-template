@@ -1,7 +1,8 @@
 field,index,display
-title,true,true
-date,true,true
-creator,true,false
-description,true,true
-subject,true,true
-location,true,false
+title_full,true,true
+description,true,false
+guests_of_honor,true,true
+committee,true,false
+feature_subjects,true,false
+program_artists,true,false
+

@@ -2,4 +2,5 @@ field,display_name,btn,hidden,sort_name
 conference_dates,
 date,,,,Date
 guests_of_honor,Guests of Honor,
-feature_subjects,Features,
+program_artists,Artists,
+feature_subjects,,,true

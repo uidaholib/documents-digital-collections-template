@@ -1,16 +1,25 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
+title_full,Title,,,DCTERMS.title,headline
+date,Year,,,DCTERMS.created,dateCreated
+conference_dates,Conference Dates,
+description,Description,,,DC.description,description
+guest_author,Author Guest of Honor
+guest_artist,Artist Guest of Honor
+guest_scientist,Scientist Guest of Honor
+guest_fan,Fan Guest of Honor
+committee,Conference Committee,
+cover_artist,Cover Artist,
+inside_cover_artist,Inside Cover Artist,
+back_artist,Back Cover Artist,
+badge_artist,Badge Artist,
+button_artist,Button Artist,
+feature_subjects,Program Features,
 creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-findingaid,Finding Aid,,true
-identifier,Source Identifier,,,,
+source,Source,
+identifier,Identifier,
+format_original,Original Format,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 rightsstatement,,,,DCTERMS.rights,license

@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/moscon/moscon_cover4.jpg" padding="5em" %}
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/moscon/moscon17_cover.jpg" padding="5em" %}
 
 {% include feature/nav-menu.html sections="About the MosCon Collection;Palouse Empire Science Fiction Association;The Victoria E. Mitchell Collection;Acknowledgements" %}
 

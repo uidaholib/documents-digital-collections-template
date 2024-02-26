@@ -15,7 +15,7 @@ badge_artist,Badge Artist,
 button_artist,Button Artist,
 feature_subjects,Program Features,
 creator,Creator,,,DCTERMS.creator,creator
-subject,Subjects,true,,DCTERMS.subject,keywords
+subject,Subjects,,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 source,Source,
 identifier,Identifier,

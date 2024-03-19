@@ -53,6 +53,7 @@ custom-foot: js/timeline-js.html
                             <div class="card-body">
                                 <div class="h5"><a href="{% if item.parentid == nil %}{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}{% elsif item.parentid %}{{ '/items/' | append: item.parentid | append: '.html' | relative_url }}#{{item.objectid }}{% endif %}" class="stretched-link text-dark">{{ item.title }}</a></div>
                                 <p>{{ item.creator }}</p>
+
                             </div>
                         </div>
                     </div>

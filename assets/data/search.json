@@ -2,7 +2,7 @@
 # json for ingest into search index
 #
 # set all PDFs to index full-text?
-pdf-full-text: true
+pdf-full-text: false
 # alternatively, use a "full-text" column in the metadata with "true" to select items individually
 ---
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}

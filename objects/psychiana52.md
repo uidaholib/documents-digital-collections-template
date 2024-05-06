@@ -1,8 +1,8 @@
 ---
 # Good News - Purpose of the Program 
 ---
-# Good News - Purpose of the Program [transcript
-]
+# Good News - Purpose of the Program [transcript]
+
 00:00:00:00 - 00:00:10:05
 Unknown Speaker:
 Good news.

@@ -6,7 +6,7 @@ date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 date is approximate,Approximated Date
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
-coverage (state--county),Location,true,,,contentLocation
+coverage_state--country,Location,true,,,contentLocation
 latitude,Latitude
 longitude,Longitude
 collection,Source Collection

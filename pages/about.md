@@ -32,11 +32,11 @@ Materials that are designated as private are not included in this digital collec
 
 {% include feature/pdf.html objectid="icws_0662" width="50" %}
 
-## About the Idaho Chapter of the Wildlife
+## About the Idaho Chapter of the Wildlife Society
 
 The Wildlife Society was founded in 1937 as a result of the early wildlife conservation movement. The movement was initially led by “sports hunters” who aimed to protect the lands from those who hunted for profit. The Wildlife Society was formed as a central organization to set ethical and professional standards as well as provide communication. 
 
-The Idaho Chapter of the Wildlife Society began with its first meeting on April 4, 1964 in Moscow, Idaho. Since then, the chapter remains dedicated to wildlife stewardship, management, and conservation of the habitats and wildlife of Idaho. Similarly to the larger organization of the Wildlife Society’s mission, the Idaho Chapter focuses on representing and empowering the community of wildlife professionals to provide citizens with scientific and educational information. 
+The Idaho Chapter of the Wildlife Society began with its first meeting on April 4, 1964 in Moscow, Idaho. Since its founding, the chapter has been dedicated to the stewardship, management, and conservation of Idaho's wildlife and the habitats that support them. In keeping with The Wildlife Society’s mission, the Idaho Chapter focuses on representing and empowering wildlife professionals in order to provide citizens with scientific and educational information.
 
 This collection's about page is adapted from the [finding aid](https://archiveswest.orbiscascade.org/ark:80444/xv515081) by Erin Geslani.
 

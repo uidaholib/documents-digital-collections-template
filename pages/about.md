@@ -27,9 +27,9 @@ The Latah Legacy began in 1972 as a quarterly bulletin put out by what was then 
 
 {% include feature/image.html objectid="latahlegacy_v01-n1" width="50" caption="The Latah County Pioneer Historical Museum Association's first quarterly bulletin." %}
 
-Although the first quarterly bulletin consisted mainly of news and updates relating to the organization, the bulletin soon began to regularly include historical narratives, photographs, and reviews of books related to Latah County history. 
+Although the first quarterly bulletin consisted mainly of news relating to the organization, the bulletin soon began to regularly include historical narratives, photographs, and reviews of books related to Latah County history. 
 
-By 1980, the quarterly newsletter had become a full-fledged journal of local history, the Latah Legacy. 
+By 1980, the quarterly newsletter had become a full-fledged journal of local history: the Latah Legacy. 
 
 {% include feature/image.html objectid="latahlegacy_v50-n1" width="50" caption="The 2023 issue of Latah Legacy." %}
 

@@ -10,6 +10,9 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_banner_about.png" position="top" %} 
 
+## Collection Overview
+This collection contains over 100 digitized issues of the Latah County Historical Society's print publication, the Latah Legacy.
+
 ## About Latah County Historical Society
 
 The [Latah County Historical Society's](https://www.latahcountyhistoricalsociety.org/) origins go back to 1891, just 20 years after the first settlers had arrived in the area, when fourteen of those settlers founded the Latah County Pioneer Association. This new organization aimed to "promote community sociability and progress, and to preserve treasured pioneer-day relics."[^1]
@@ -24,9 +27,9 @@ The Latah Legacy began in 1972 as a quarterly bulletin put out by what was then 
 
 {% include feature/image.html objectid="latahlegacy_v01-n1" width="50" caption="The Latah County Pioneer Historical Museum Association's first quarterly bulletin." %}
 
-Although the first quarterly bulletin consisted mainly of news relating to the organization, the bulletin soon began to regularly include historical narratives, photographs, and reviews of books related to Latah County history. 
+Although the first issue consisted mainly of news relating to the organization, the bulletin soon began to regularly include historical narratives, photographs, and reviews of books related to Latah County history. 
 
-By 1980, the quarterly newsletter had become a full-fledged journal of local history: the Latah Legacy. 
+By 1980, the quarterly newsletter had become the Latah Legacy-- the journal of local history that the LCHS continues to publish today. 
 
 {% include feature/image.html objectid="latahlegacy_v50-n1" width="50" caption="The 2023 issue of Latah Legacy." %}
 

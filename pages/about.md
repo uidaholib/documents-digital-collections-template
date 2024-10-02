@@ -11,7 +11,13 @@ credits: true
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_banner_about.png" position="top" %} 
 
 ## Collection Overview
-This collection contains over 100 digitized issues of the Latah County Historical Society's print publication, the Latah Legacy.
+This collection contains digitized issues of the Latah County Historical Society's print publication, the Latah Legacy.
+
+## About the Latah Legacy
+
+{% include feature/blockquote.html quote="The Latah Legacy explores past and contemporary events, people, or topics with a connection to Latah County. Additionally, the journal serves as a way for amateur and professional scholars to submit research that may not have previously been told. The publication documents these stories for current and future generations to learn about the local community.
+ 
+The Latah Legacy began publication in 1972 by the Latah County Historical Society. Originally published quarterly, the Latah Legacy is now published once a year. The publication serves as the local historical journal for Latah County and is authored by various community members." speaker="Kaitlynn Anderson, Museum Curator"%}
 
 ## About Latah County Historical Society
 
@@ -23,17 +29,23 @@ During its many years working to preserve county history, the Latah County Pione
 
 ## About the Collection
 
-The Latah Legacy began in 1972 as a quarterly bulletin put out by what was then named the Latah County Pioneer Historical Museum Association. 
+This collection contains digitized issues of the Latah Legacy, beginning with the first issue which was circulated in 1972. 
+
+This first issue was a quarterly bulletin which announced that it would be the first of many such bulletins put out by the organization.
 
 {% include feature/image.html objectid="latahlegacy_v01-n1" width="50" caption="The Latah County Pioneer Historical Museum Association's first quarterly bulletin." %}
 
-Although the first issue consisted mainly of news relating to the organization, the bulletin soon began to regularly include historical narratives, photographs, and reviews of books related to Latah County history. 
+Since 1972, issues have included materials such as: [book reviews](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v05-n2.html), [oral history transcripts](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v28-n2.html), [poetry](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v49-n1.html), [family histories](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v29.html), and [historical photographs](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v19-n1.html). In the 1980s, the Legacy even serially published the [memoirs of Alma Lauder-Keeling](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v12-n2.html), a second-generation Moscow pioneer. 
 
-By 1980, the quarterly newsletter had become the Latah Legacy-- the journal of local history that the LCHS continues to publish today. 
+Much of the Legacy has focused on the settler history of the Latah County area. Many of the [earlier issues](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v04-n3.html) in particular contain a good deal of information concerning the early settlement and development of the region, often presented through settler diaries, oral histories, and family stories. 
+
+Some later Legacy articles seek to address gaps in the published history of the region. For example, in [the Fall 1990 issue](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v19-n1.html), Mary Reed examines some of the reasons many pioneer-era businesses operated by Chinese immigrants have likely been left out of historical records.  
+
+Many Latah Legacy articles also reference contemporary events with relevance to local history. For example, the [2023 issue](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v50-n1.html) includes an showcasing the archaeological dig at Moscow High School which was conducted by the University of Idaho in Fall 2023.
+
+This collection will continue to be updated to include the most recent issues of the Latah Legacy as they are published.
 
 {% include feature/image.html objectid="latahlegacy_v50-n1" width="50" caption="The 2023 issue of Latah Legacy." %}
-
-The issues in this collection, which span from 1972 - 2023, contain historical materials which primarily explore the settler history of Latah County. A newsletter which lists notices of upcoming Historical Society events and organizational updates is also occasionally included with the journal.
 
 Print copies of this publication are also held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) at the University of Idaho Library.
 

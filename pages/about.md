@@ -11,7 +11,7 @@ credits: true
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/latahlegacy/latahlegacy_banner_about.png" position="top" %} 
 
 ## Collection Overview
-This collection contains digitized issues of the Latah County Historical Society's print publication, the Latah Legacy.
+This collection contains digitized copies of the Latah County Historical Society's print publication, the Latah Legacy.
 
 ## About the Latah Legacy
 
@@ -29,7 +29,7 @@ During its many years working to preserve county history, the Latah County Pione
 
 ## About the Collection
 
-This collection contains digitized issues of the Latah Legacy, beginning with the first issue which was circulated in 1972. 
+The copies in this collection begin with the first issue of what would become the Latah Legcay, which was circulated in 1972. 
 
 This first issue was a quarterly bulletin which announced that it would be the first of many such bulletins put out by the organization.
 
@@ -41,7 +41,7 @@ Much of the Legacy has focused on the settler history of the Latah County area. 
 
 Some later Legacy articles seek to address gaps in the published history of the region. For example, in [the Fall 1990 issue](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v19-n1.html), Mary Reed examines some of the reasons many pioneer-era businesses operated by Chinese immigrants have likely been left out of historical records.  
 
-Many Latah Legacy articles also reference contemporary events with relevance to local history. For example, the [2023 issue](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v50-n1.html) includes an showcasing the archaeological dig at Moscow High School which was conducted by the University of Idaho in Fall 2023.
+Many Latah Legacy articles also reference contemporary events related to local history, like the [2023 issue](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v50-n1.html) which showcases the archaeological dig that the University of Idaho conducted at Moscow High School in Fall 2023.
 
 This collection will continue to be updated to include the most recent issues of the Latah Legacy as they are published.
 

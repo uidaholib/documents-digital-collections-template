@@ -26,9 +26,9 @@ title: Agricultural Experiment & UI Extension Publications
 tagline: Primary sources for practical, research-based information on Idaho Agriculture, Forestry, Gardening, and Family and Consumer Sciences
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A collaboration between the Library and University of Idaho Extension, the University of Idaho Extension and Idaho Agricultural Experiment Station Publications collection features over 2000 publications that serve as the primary source for practical, research-based information on Idaho agriculture, forestry, gardening, family and consumer sciences, and other to links." 
+description: "A collaboration between the Library and University of Idaho Extension, the Agricultural Experiment & UI Extension Publications collection features over 2000 publications that serve as the primary source for practical, research-based information on Idaho agriculture, forestry, gardening, family and consumer sciences, and other topics." 
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest
+keywords: Idaho Agriculture; Forestry; Gardening; Extension
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 

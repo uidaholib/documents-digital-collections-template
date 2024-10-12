@@ -11,13 +11,18 @@ layout: page
     {% include index/carousel.html title="Sample Items" %}
     
   </div>
-  <div class="col-md-4">  
+  <div class="col-md-4">
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <h2 class="card-title h5">Partner Organization</h2>
+        <a href="https://www.latahcountyhistoricalsociety.org/"><img src="https://objects.lib.uidaho.edu/latahlegacy/LCHS_website_logo.webp" alt="Latah County Historical Society" class="w-100"></a>
+      </div>
+    </div>
 
     {% include index/time.html %}
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="payette-blue" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-payette-blue" %}
+    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="payette-blue" max=8 %}
     
     {% include index/objects.html %}
 

@@ -19,12 +19,13 @@ The *Latah Legacy* explores past and contemporary events, people, or topics with
 The *Latah Legacy* began publication in 1972 by the Latah County Historical Society. Originally published quarterly, the *Latah Legacy* is now published once a year. The publication serves as the local historical journal for Latah County and is authored by various community members.
 
 This collection is a collaboration between [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/) and the University of Idaho Library to make the back issues of the *Latah Legacy* openly accessible and discoverable online.
+It will continue to be updated on an annual basis as new issues are published.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/latahlegacy/LCHS_website_logo.webp" link="https://www.latahcountyhistoricalsociety.org/" alt="Latah County Historical Society" width="50" %}
 
 To receive a current subscription and support ongoing efforts, please [join the Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/support)!
 
-## About the Latah County Historical Society
+## The Latah County Historical Society
 
 The [Latah County Historical Society's](https://www.latahcountyhistoricalsociety.org/) origins go back to 1891, just 20 years after the first settlers had arrived in the area, when fourteen of those settlers founded the Latah County Pioneer Association. This new organization aimed to "promote community sociability and progress, and to preserve treasured pioneer-day relics."[^1]
 

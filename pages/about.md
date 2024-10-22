@@ -71,6 +71,3 @@ Rachael Paschal Osborn is a retired water law attorney and Gonzaga University pr
 </div>
 
 [^1]: Kershner, Jim. "Osborn, John (b. 1956) and Rachael Paschal (b. 1956)." [HistoryLink](https://www.historylink.org/File/9782), 2011.
-
-<div class="clearfix"></div>
-

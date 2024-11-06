@@ -27,7 +27,6 @@ Following this experience, Robinson moved to Yakima, Washington where he worked 
 
 It was not long before he began giving evening lectures in the dining room of the Moscow Hotel on the power of the spirit of God; about sixty people attended his first lecture.
 
-
 ### The Religion and the Ad Campaign Begins
 
 {% include feature/image.html objectid="psychiana542" width="50" caption="The Corner Drug Store, Robinson's first workplace in Moscow" %}
@@ -119,6 +118,3 @@ This is a very important collection not only for those researching Dr. Frank B. 
 *For a detailed inventory of the contents of this collection, along with a brief biographical history of Dr. Frank Robinson based on the contents of collection, please see our [finding aid](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=).*
 
 [^1]: *News-Review* (Moscow, Idaho), November 2, 1936.
-
-<div class="clearfix"></div>
-

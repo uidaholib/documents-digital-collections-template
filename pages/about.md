@@ -23,6 +23,3 @@ The IFC administration is located in the College of Natural Resources at the Uni
 <div class="text-center" markdown="1">
 {% include feature/button.html text="Learn more about the Intermountain Forestry Cooperative" link="https://www.uidaho.edu/cnr/intermountain-forestry-cooperative" color="info" size="lg" %}
 </div>
-
-<div class="clearfix"></div>
-

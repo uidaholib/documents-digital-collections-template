@@ -36,3 +36,4 @@ The initial collection information was organized and described by Kelsey Roach (
 The site was developed by Evan Williamson (Library), Robert Keefe (UIEF), and Jeremy Kenyon (Library).
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/uief/UIEF_largegraphic.jpg" alt="green UIEF logo featuring pine trees" width="25" link="https://www.uidaho.edu/cnr/ui-experimental-forest" %}
+

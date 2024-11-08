@@ -34,7 +34,6 @@ The following paragraph of the early history of the <em>Genesee News</em> was ab
 
 Pederson would own the News until 1954 when the paper was purchased and published by William D. Roth, his wife, Jane and their son Bill. In August 1968 the Roths bought the Kendrick Gazette from William L. McCreary and announced that the Gazette and <em>Genesee News</em> would be merged under the banner of the Kendrick Gazette-News. William McCreary was the son of  P. C. McCreary who owned the News in 1913 and then moved to Kendrick to manage the Gazette. After William Roth died, his son Bill took over the paper.  He got out of the business for a while in 1985 selling the paper’s name and subscriber list to the Whitman-Latah Republic until that paper failed.  Bill restarted the Kendrick paper as the Gazette in 1987 and it finally closed for good in 1998.   
 
-
 ## Using the PDFs
 
 The PDFs have built in bookmarks to provide an index to individual issues. After downloading a .pdf file for a particular year using Adobe Acrobat, open the index by clicking on the page icon with a bent corner and a blue bookmarker on the left-hand side of the page.  A drop-down index opens showing the date of each paper for that year.  Each file is indexed by date in the format- 6/15/1914 (June 15, 1914).  Missing issues are also noted.  Clicking on the index for a particular date takes you to that issue. To close the index, click the small arrow to the right in the box containing the word “Bookmarks.”   
@@ -45,9 +44,5 @@ To move from page to page, click on the arrows at the top and bottom of the colu
 
 ## Feedback 
 
- If you are a copyright owner or otherwise have exclusive control over materials presently available through this collection and do not wish your materials to be available through this website, please let us know. To make a takedown request, please reach out to Devin Becker at dbecker@uidaho.edu.
+If you are a copyright owner or otherwise have exclusive control over materials presently available through this collection and do not wish your materials to be available through this website, please let us know. To make a takedown request, please reach out to Devin Becker at <dbecker@uidaho.edu>.
 
-<div class="row">
-  <div class="col-md-12 bs-linebreak">
-  </div>
-</div>

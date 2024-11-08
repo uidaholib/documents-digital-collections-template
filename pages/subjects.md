@@ -2,8 +2,6 @@
 title: Subjects
 layout: page
 permalink: /subjects.html
-# Default subject page is configured in "_data/theme.yml"
-# leave cloud-fields as "site.data.theme.subjects-fields"
 ---
 
 ## Browse Subjects
@@ -13,8 +11,8 @@ Word size is determined by frequency and all words link to a corresponding colle
 
 ## Guests
 
-{% include feature/cloud.html fields="guest_author;guest_artist;guest_scientist;guest_fan" %}
+{% include feature/cloud.html fields="guest_author;guest_artist;guest_scientist;guest_fan" button="outline-pride-gold" %}
 
 ## Artists
 
-{% include feature/cloud.html fields="cover_artist;inside_cover_artist;back_artist;badge_artist;button_artist" button="outline-payette-blue" %}
+{% include feature/cloud.html fields="cover_artist;inside_cover_artist;back_artist;badge_artist;button_artist" button="outline-palouse" %}

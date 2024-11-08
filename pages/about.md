@@ -30,6 +30,3 @@ The camp closed in October 1945 and the land was later offered for homesteading 
 [^1]: [Life at Minidoka](https://perma.cc/EWJ2-K45T) National Park Service, https://www.nps.gov/miin/learn/historyculture/life-at-minidoka.htm. Accessed 19 January 2021.
 
 [^2]: [Japanese American Incarceration during World War II](https://perma.cc/7962-PWMB) Friends of Minidoka, http://www.minidoka.org/history-world-war-two-internment. Accessed 27 January 2021.
-
-
-

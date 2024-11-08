@@ -17,8 +17,11 @@
     color: #191919;
 }
 
-
 /* timeline */
 .timeline-thumb-docs {
     max-height: 150px;
+}
+// tweak active color
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #5E48FF;
 }

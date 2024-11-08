@@ -24,3 +24,4 @@ It is now co-directed by cello professor Miranda Wilson and voice professors Chr
 This digital collection provides access to programs, posters, and other materials documenting the Idaho Bach Festival through its history.
 
 {% include feature/image.html objectid="idaho-bach-festival-11-poster" width="75" %} 
+

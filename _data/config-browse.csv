@@ -2,8 +2,8 @@ field,display_name,btn,hidden,sort_name
 date,Date,,true,Date
 subject,,true
 creator,Authors,
+project,Project,
 identifier,,,true,Identifier
 keywords-theme,,,true
-keywords-place,,,true
+location,,,true
 keywords-tree,,,true
-coverage_state--country,,,true

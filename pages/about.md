@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="dworshak569" %} 
 
-{% include feature/nav-menu.html sections="About the Collection;About A.B. Curtis;More Information" %} 
+{% include feature/nav-menu.html sections="About the Collection;About A.B. Curtis;More Information" %}
 
 ## About the Collection
 
@@ -47,6 +47,4 @@ For more information on the Dworshak Dam, see the [Wikipedia entry on the Dworsh
 For more information on A.B. Curtis, see the [Albert Bruce Curtis Papers finding aid](https://archiveswest.orbiscascade.org/ark:/80444/xv44807).
 
 To explore the collection by date or location, or to find out more about the collection, use the tabs above. 
-
-<div class="clearfix"></div>
 

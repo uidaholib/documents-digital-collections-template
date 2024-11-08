@@ -18,6 +18,13 @@ source-code: https://github.com/uidaholib/documents-digital-collections-template
 digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
+
+##########
 # SITE SETTINGS
 #
 # title of site appears in banner
@@ -28,7 +35,7 @@ tagline: A Collection of Journals and Photographs of the Women in Natural Resour
 # this description might appear in search result lists, keep around 160 characters max
 description: "WiNR was a journal written and published by women in forestry, fisheries, wildlife, range, recreation, soils, and the environmental and social sciences."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: journals (periodicals);forestry;people in agriculture or natural resource occupations;women's studies
+keywords: journals (periodicals); forestry; agriculture and natural resource occupations; women's studies
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: amyjoui
 

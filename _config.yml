@@ -18,6 +18,13 @@ source-code: https://github.com/uidaholib/documents-digital-collections-template
 digital-assets: https://www.lib.uidaho.edu/assets
 
 ##########
+# Search Setting
+#
+# set to true to use elastic search box in nav. Collection search.json must be added to the search Sources! Check config-search-index for configuration.
+# if collection is not in the index, leave blank to use local lunr search instead.
+central-search: 
+
+##########
 # SITE SETTINGS
 #
 # title of site appears in banner
@@ -28,7 +35,7 @@ tagline: Open Access Repository of University of Idaho Graduate ETD
 # this description might appear in search result lists, keep around 160 characters max
 description: "An open access repository of theses and dissertations from University of Idaho graduate students. The collection includes the complete electronic theses and dissertations submitted 2014 - 2023, as well as, select digitized copies of earlier documents dating back to 1910."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: university of idaho; research; etd; theses; dissertation;
+keywords: university of idaho; research; etd; theses; dissertation
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 

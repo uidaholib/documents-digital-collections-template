@@ -43,6 +43,3 @@ Other topics of note in this collection include:
 - E. Viet Howard’s files, January-October 1979, contain photocopies of his correspondence, mostly inter office memoranda, concerning environmental issues.
 - Correspondence from an alphabetical subject file, 1971-1981, maintained in the office of the president. Letters are both incoming and outgoing.
 - Letters between Frank Woodruff, President of Bunker Hill, and the Hecla Mining Company, correspondence with Hecla on the joint operation of the Star-Morning group, and financial settlements and progress reports of Hecla's work at the Star-Morning Mine. 
-
-<div class="clearfix"></div>
-

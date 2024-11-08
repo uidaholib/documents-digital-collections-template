@@ -41,5 +41,3 @@ The Idaho Chapter of the Wildlife Society began with its first meeting on April 
 This collection's about page is adapted from the [finding aid](https://archiveswest.orbiscascade.org/ark:80444/xv515081) by Erin Geslani.
 
 To learn more about the Wildlife Society and the Idaho Chapter, please visit [The Wildlife Society's website](https://wildlife.org/). 
-
-

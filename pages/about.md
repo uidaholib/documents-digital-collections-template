@@ -31,6 +31,3 @@ Other contributors include research and extension departments from the Universit
 This collection is a representative sample of all the forestry-related resources found in Special Collections and Archives and the University of Idaho Library. Topics include insects and diseases faced by Pacific Northwest forests including examples of damage and how to mitigate it. There are also inventories and maps of available timber and photos of the flora and fauna of forested lands. Forest policy and procedures for over a century are also covered.
 
 {% include feature/image.html objectid="forestryresearch242" %}
-
-<div class="clearfix"></div>
-

@@ -29,6 +29,3 @@ For more information about this collaboratively-owned grocery store, see the Mos
 ### History of the Moscow Food Co-op
 
 Our co-op was established in 1973 by friends Rod Davis, Jim Eagan, and Dave and Katie Mosel and was originally called the "Good Food Store." It was a fertile time for growing a cooperative grocery store in Moscow. Counterculture ideas and increasing concern about soil, water, and air pollution were spurring the formation of natural food cooperatives all across the country in the late 1960s and early 1970s. The first small storefront on Second Street shared products like peas, lentils, cheese, and spices sold in bulk with minimal packaging. Community members from near and far step into the Co-op today, 50 years later, to see broad collections of local products, local and organic produce, and much more.
-
-<div class="clearfix"></div>
-

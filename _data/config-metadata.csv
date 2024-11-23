@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 volume,Volume,,,,
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+date,Date,,,DCTERMS.date,dateCreated
 editor,Editors,,,,
 creator,Authors,,,DCTERMS.creator,creator
 description,Description,,,DCTERMS.description,description

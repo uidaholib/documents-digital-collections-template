@@ -30,7 +30,7 @@ central-search:
 # title of site appears in banner
 title: The Cook Undergraduate Research Journal
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: The Undergraduate Research Journal of Political Affairs at the University of Idaho
+tagline: Journal of Political Affairs at the University of Idaho
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "The premier undergraduate journal of political and social sciences at the University of Idaho."
@@ -44,7 +44,7 @@ author: CollectionBuilder
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: curj 
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:

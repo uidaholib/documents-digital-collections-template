@@ -62,8 +62,8 @@ metadata: curj
 #
 organization-name: "University of Idaho Department of Politics and Philosophy"
 organization-link: https://www.uidaho.edu/class/politics-and-philosophy
-organization-logo-banner: /objects/UI_Dept_Poly and Philo_horizontal_4c_W.png
-organization-logo-nav: /objects/UI_Dept_Poly and Philo_horizontal_4c_W.png
+organization-logo-banner: https://objects.lib.uidaho.edu/curj/UI_Dept_Poly and Philo_horizontal_4c_W.png
+organization-logo-nav: https://objects.lib.uidaho.edu/curj/UI_Dept_Poly and Philo_horizontal_4c_W.png
 
 ##########
 # ROBOTS EXCLUDE

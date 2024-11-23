@@ -60,10 +60,10 @@ metadata: curj
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "University of Idaho Library Digital Collections"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/digital/liblogo_white.png
+organization-name: "University of Idaho Department of Politics and Philosophy"
+organization-link: https://www.uidaho.edu/class/politics-and-philosophy
+organization-logo-banner: /objects/UI_Dept_Poly and Philo_horizontal_4c_W.png
+organization-logo-nav: /objects/UI_Dept_Poly and Philo_horizontal_4c_W.png
 
 ##########
 # ROBOTS EXCLUDE

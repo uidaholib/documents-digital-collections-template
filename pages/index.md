@@ -1,5 +1,5 @@
 ---
-layout: home-infographic
+layout: home-curj
 title: Home
 permalink: /
 ---

@@ -8,9 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/guidedreading/Art_Books_on_Library_Shelf.jpg" %} 
-
-{% include feature/nav-menu.html sections="About the Collection" %}
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/guidedreading/Art_Books_on_Library_Shelf.jpg" %}
 
 ## About the Collection
 

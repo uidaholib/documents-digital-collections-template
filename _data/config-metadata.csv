@@ -4,7 +4,7 @@ creator,Creator,,,DCTERMS.creator,creator
 date,Date Created,,,DCTERMS.created,dateCreated
 description,Description,,,DCTERMS.description,description
 document_type,Document Type,true,
-call number,Library Call Number,
+call_number,Library Call Number,
 subject,Subjects,true,,DCTERMS.subject,keywords
 uief_unit,UIEF Unit,true,
 section,Section,

@@ -22,7 +22,7 @@ During World War II, approximately 120,000 people with Japanese ancestry were fo
 
 When the first incarcerees arrived at Minidoka in August 1942, the construction of the camp was not finished, there was no running water and a sewage system had not been installed. Those who arrived were discouraged and unhappy with their living conditions. Families faced cramped living quarters with it being common for a family of 8 or 9 people living in a one bedroom apartment. Beyond that, the camp was situated in a high-desert climate. The majority of the incarcerees were from the Pacific Northwest and were not prepared for the harsh winters and summers of southern Idaho. Even with these conditions, incarcerees worked to improve the camp conditions by planting trees, flowers, and shrubs to beautify the camp, as well as keeping gardens for fresh produce.
 
-The camp closed in October 1945 and the land was later offered for homesteading to veterans. Today, much of the former site is occupied by farmhouses and irrigated fields, but in 2001 72-acres of the site was established as the Minidoka National Historic Site. It’s purpose today is to educate the public about the experiences of incarcerees to ensure a similar experience doesn’t happen again.[^2]
+The camp closed in October 1945 and the land was later offered for homesteading to veterans. Today, much of the former site is occupied by farmhouses and irrigated fields, but in 2001 72-acres of the site was established as the Minidoka National Historic Site. Its purpose today is to educate the public about the experiences of incarcerees to ensure a similar experience doesn’t happen again.[^2]
 
 
 ## References

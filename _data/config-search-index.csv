@@ -11,6 +11,5 @@ type,type
 format,format
 language,language
 rights,rightsstatement
-relation,findingaid
 publisher,publisher
 genre,display_template

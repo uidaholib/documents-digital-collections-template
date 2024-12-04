@@ -20,7 +20,7 @@ The manager’s letters are letters from the manager of the mine in Kellogg to t
 
 Then comes a general correspondence file, 1894-1900 which is an alphabetically arranged group (M-Z, 1898-1900, is lacking). The majority of these letters are inter-company correspondence between the Kellogg and San Francisco offices, although there are a few letters from suppliers.
 
-{% include feature/pdf.html objectid="bunkerhill41" width="50" %}
+{% include feature/image.html objectid="bunkerhill41" width="50" %}
 
 Correspondence from stockholders contains both incoming and outgoing letters and is arranged alphabetically by the stockholder’s last name. Most letters concern dividend payments, proxies, and stock purchases.
 

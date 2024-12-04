@@ -3,11 +3,12 @@ title,Title,,,DCTERMS.title,headline
 date,Date,,,DCTERMS.date,dateCreated
 editor,Editor,,,DCTERMS.creator,creator
 authors,Authors,true,
-description,Description,,,DCTERMS.description,description
+publisher,Publisher,,
+pages,Number of Pages,
+newspapers,Newspaper Sources,
 subject,Subjects,true,,DCTERMS.subject,keywords
+description,Contents,,,DCTERMS.description,description
 location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
 source,Source,,,,
 findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,

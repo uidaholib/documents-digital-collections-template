@@ -20,7 +20,7 @@ The digital files (.pdf) were compiled by scanning the microfilm of the papers p
 
 There is a separate .pdf  (Adobe Acrobat) file for each year and the files were indexed by the weekly date of the papers by Earl H. Bennett, Genesee City Historian.  Missing issues are also noted in the indices.  These data are available online via the University of Idaho Library, Moscow, ID.  The data on disk is available at the Genesee City Library, the Genesee High school library and Earl H. Bennett, City Historian, Genesee, ID. 
 
-Of note is file 1898OCRSpecEd.pdf. This was an experimental issue that contains many pictures of Genesee people and places. Pictures in newspapers of this period were rare as it was difficult and expensive to print photographs.
+Of note is file [1898OCRSpecEd.pdf](https://objects.lib.uidaho.edu/genesee-news/geneseenews_1898speced.pdf). This was an experimental issue that contains many pictures of Genesee people and places. Pictures in newspapers of this period were rare as it was difficult and expensive to print photographs.
 
 _Please address all comments to Earl H. Bennett, City Historian, P.O. Box 157, Genesee, ID 83832. phone: 208-285-1354; email: [bennett@uidaho.edu](mailto:bennett@uidaho.edu)_
 

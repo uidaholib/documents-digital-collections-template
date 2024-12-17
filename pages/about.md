@@ -59,7 +59,7 @@ He graduated with a B.S. in Chemistry in. 1936, then went to Johns Hopkins Unive
 
 Dodson's research focus was in radioactive materials and in 1943 he joined the Los Alamos National Laboratory to work on the Manhattan Project. 
 
-{% include feature/pdf.html objectid="dodson0039" caption="Smith thanks Dodson for sending him a copy of the Smyth Report, the first official account of the development of the atomic bombs during the Manhattan Project" width="50" %}
+{% include feature/image.html objectid="dodson0039" caption="Smith thanks Dodson for sending him a copy of the Smyth Report, the first official account of the development of the atomic bombs during the Manhattan Project" width="50" %}
 
 After the war Dodson returned to Cal Tech, but soon left for Columbia University where he joined the Chemistry Department, first as an assistant professor, later as a full professor. 
 At this time he also worked for the newly established Brookhaven National Laboratory where he was appointed first chair of the Chemistry Department. 

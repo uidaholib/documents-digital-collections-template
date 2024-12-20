@@ -19,7 +19,7 @@
 {% if page.catalog_link %}
 <a href="{{ page.catalog_link }}" target="_blank" rel="noopener" class="m-2 btn btn-outline-primary">Library Catalog Link</a>{% endif %}
 {% if page.object_location %}
-{% if page["keep_pdf"] == "no" %}
+{% if page.display_template == "pdf_preview" %}
 <a target="_blank" rel="noopener" href="{{ page.object_location | relative_url }}" class="m-2 btn btn-outline-primary">Download Preview PDF</a>
 <p><small><em>Please note: PDF file may not be complete document.</em></small></p>
 {% else %}

@@ -23,7 +23,7 @@ layout: page
           </div>
           <div class="col-md-4 p-4">
             <a href="https://www.uidaho.edu/class/politics-and-philosophy">
-              <img class="w-100" src="{{ '/objects/UI_Dept_Poly and Philo_horizontal_4c.png' | relative_url }}" alt="University of Idaho Department of Politics and Philosophy">
+              <img class="w-100" src="https://objects.lib.uidaho.edu/curj/UI_Dept_Poly_and_Philo_horizontal_4c.png" alt="University of Idaho Department of Politics and Philosophy">
             </a>
           </div>
         </div>
@@ -38,7 +38,8 @@ layout: page
     <div class="card">
       <div class="card-body">
         <h2 class="card-title">Current Issue</h2>
-        {% include feature/image.html objectid="curj-v1-2024" caption=false %}
+        {% assign current = site.data.curj | first %}
+        {% include feature/image.html objectid=current.objectid caption=false %}
       </div>
     </div>
 

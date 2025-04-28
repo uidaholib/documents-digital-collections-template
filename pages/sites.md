@@ -6,9 +6,9 @@ permalink: /sites.html
 
 ## Site Locations
 
-Our study sites span a 500-km climatic gradient and deliberately encompass the north-south geographic range of the of the sugar maple-dominated (Acer saccharum Marsh.) hemlock-white pine-northern hardwood region in the Great Lakes region of North America . This enables us to generalize our results across this wide-spread and ecologically important ecosystem. These sites are floristically and edaphically matched (> 80% sugar maple on typic haplorthods; see Burton et al. 1991, Pregitzer et al 2008), but they differ in climate along the north-south latitudinal gradient. The study sites also span a gradient of atmospheric N deposition, of which NO3-N composes ca. 50% of wet-plus-dry deposition.
+Our study sites span a 500-km climatic gradient and deliberately encompass the north-south geographic range of the of the sugar maple-dominated (*Acer saccharum* Marsh.) hemlock-white pine-northern hardwood region in the Great Lakes region of North America . This enables us to generalize our results across this wide-spread and ecologically important ecosystem. These sites are floristically and edaphically matched (> 80% sugar maple on typic haplorthods; see Burton et al. 1991, Pregitzer et al 2008), but they differ in climate along the north-south latitudinal gradient. The study sites also span a gradient of atmospheric N deposition, of which NO3-N composes ca. 50% of wet-plus-dry deposition.
 
-{% include feature/image.html objectid="/objects/michigan_gradient_study_site_map.bmp" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/nitrogen-gradient/michigan_gradient_study_site_map.bmp" %}
 
 ## Experimental Plots
 
@@ -16,14 +16,8 @@ There are six 30-m x 30-m plots at each study site, and every plot is surrounded
 
 ## Site Characteristics Summary
 
-<table class="table">
-  <colgroup>
-       <col span="1" style="width: 50%;">
-       <col span="1" style="width: 12%;">
-       <col span="1" style="width: 12%;">
-       <col span="1" style="width: 12%;">
-       <col span="1" style="width: 12%;">
-    </colgroup>
+<div class="table-responsive">
+<table class="table my-5">
     <thead>
     <tr>
       <th>Characteristic</th>
@@ -31,7 +25,8 @@ There are six 30-m x 30-m plots at each study site, and every plot is surrounded
       <th>Site B</th>
       <th>Site C</th>
       <th>Site D</th>
-    </tr></thead>
+    </tr>
+    </thead>
     <tbody>
     <tr>
       <th>Location</th>
@@ -182,3 +177,4 @@ There are six 30-m x 30-m plots at each study site, and every plot is surrounded
     </tr>
   </tbody>
 </table>
+</div>

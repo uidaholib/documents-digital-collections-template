@@ -15,7 +15,7 @@ var items = [
         {% if item.format %}"format": {{ item.format | jsonify }}, {%- endif -%}
         {% if item.image_alt_text %}"alt": {{ item.image_alt_text | escape | jsonify }}, {%- endif -%}
         {% if item.sensitive %}"sensitive": {{ item.sensitive | jsonify }}, {% endif %}
-        "title":{{ item.title | strip | escape | jsonify }},
+        "title":{{ item.title | strip | jsonify }},
         {% if item.parentid %}"parent": {{ item.parentid | jsonify }}, {%- endif -%}
         "id":{{ item.objectid | jsonify }} }{% unless forloop.last %},{% endunless %}{%- endfor -%}
 ];
@@ -55,11 +55,9 @@ function makeCard(obj) {
         card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload ' + blur + '" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
     }
     // title
-    card += '<div class="card-body text-center">' + warning + '<h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    card += '<div class="card-body">' + warning + '<h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
     // icon thumb for item without image
-    if(thumbIcon){
-        card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
-    }
+    
     // other fields
     card += '<p class="card-text">';
     {% for f in fields %}{% unless f.hidden == 'true' %}

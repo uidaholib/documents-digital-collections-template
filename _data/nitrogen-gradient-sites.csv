@@ -1,5 +1,5 @@
-Characteristic,Location,Latitude (N),Longitude (W),Climate,Mean annual precipitation (mm),Mean annual temperature (°C),Growing season length (days),Wet + dry total N deposition (g N m-2 y-1),Wet + dry NO3--N deposition (g N m-2 y-1),Vegetation,Overstory age (2004),Overstory Biomass (Mg ha-1),Acer saccharum Biomass (Mg ha-1),Soil,"Soil texture, 0-10cm depth (%sand-%silt-%clay)","Soil texture, 10-70cm depth (%sand-%silt-%clay)","Coarse fragments, 0-10cm depth (%)","Coarse fragments, 10-70cm depth (%)",pH (1:1 soil:H20),CEC (mmol (+) hg-1),Base Saturation (%)
-Site A,,46°52',88°53',,873,4.7,134,0.68,0.38,,97,261,237,,75:22:3,84:11:5,4.6,7.3,4.8,3.4,71
-Site B,,45°33',84°51',,871,6.0,150,0.91,0.58,,91,261,224,,89:9:2,88:7:5,1.8,7.5,5.0,3.8,96
-Site C,,44°23',85°50',,888,6.9,154,1.17,0.78,,92,274,216,,89:9:2,91:6:3,0.6,1.9,4.5,2.6,73
-Site D,,43°40',86°09',,812,7.6,157,1.18,0.76,,96,234,201,,87:10:3,92:5:3,1.7,3.6,4.7,3.0,80
+objectid,title,latitude,longitude,mean_annual_precipitation_mm,mean_annual_temperature_c,growing_season_length_days,wet_+_dry_total_n_deposition_(g_n_m-2_y-1),wet_+_dry_no3--n_deposition_g_n_m-2_y-1,overstory_age_2004,overstory_biomass_mg_ha-1,acer_saccharum_biomass_(mg_ha-1),soil_texture_0-10cm_depth_(%sand-%silt-%clay),soil_texture_10-70cm_depth_(%sand-%silt-%clay),coarse_fragments_0-10cm_depth_percent,coarse_fragments_10-70cm_depth_percent,ph_(1:1_soil:h20),cec_(mmol_(+)_hg-1),base_saturation_percent
+site_a,Site A (Alberta),46.86666667,-88.88333333,873,4.7,134,0.68,0.38,97,261,237,75:22:3,84:11:5,4.6,7.3,4.8,3.4,71
+site_b,Site B (Pellston),45.55000000,-84.85000000,871,6.0,150,0.91,0.58,91,261,224,89:9:2,88:7:5,1.8,7.5,5.0,3.8,96
+site_c,Site C (Wexford),44.38333333,-85.83333333,888,6.9,154,1.17,0.78,92,274,216,89:9:2,91:6:3,0.6,1.9,4.5,2.6,73
+site_d,Site D (Oceana),43.66666667,-86.15000000,812,7.6,157,1.18,0.76,96,234,201,87:10:3,92:5:3,1.7,3.6,4.7,3.0,80

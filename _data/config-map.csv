@@ -1,5 +1,16 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+mean_annual_precipitation_mm,Mean annual precipitation (mm),
+mean_annual_temperature_c,Mean annual temperature (°C),
+growing_season_length_days,Growing season length (days),
+wet_+_dry_total_n_deposition_(g_n_m-2_y-1),Wet + dry total N deposition (g N m<sup>-2</sup> y<sup>-1</sup>),
+wet_+_dry_no3--n_deposition_g_n_m-2_y-1,Wet + dry NO<sub>3</sub>--N deposition (g N m<sup>-2</sup> y<sup>-1</sup>),
+overstory_age_2004,Overstory age (2004),
+overstory_biomass_mg_ha-1,Overstory Biomass (Mg ha<sup>-1</sup>),
+acer_saccharum_biomass_(mg_ha-1),<em>Acer saccharum</em> Biomass (Mg ha<sup>-1</sup>),
+soil_texture_0-10cm_depth_(%sand-%silt-%clay),"Soil texture, 0-10cm depth (%sand-%silt-%clay)",
+soil_texture_10-70cm_depth_(%sand-%silt-%clay),"Soil texture, 10-70cm depth (%sand-%silt-%clay)",
+coarse_fragments_0-10cm_depth_percent,"Coarse fragments, 0-10cm depth (%)",
+coarse_fragments_10-70cm_depth_percent,"Coarse fragments, 10-70cm depth (%)"
+ph_(1:1_soil:h20),pH (1:1 soil:H<sub>2</sub>0),
+cec_(mmol_(+)_hg-1),CEC (mmol (+) hg<sup>-1</sup>),
+base_saturation_percent,Base Saturation (%),

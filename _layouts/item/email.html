@@ -1,0 +1,37 @@
+---
+# email display 
+# Displays image_small if available, with fall back to object_location. 
+# Adds gallery view to open images full screen using object_location, with fall back to image_small.
+layout: item/item-page-base
+---
+
+<div class="card mb-4">
+
+    <div class="card-body">
+        <!-- Button trigger modal -->
+        <div class="mb-3">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#emailModal">View Email</button>
+        </div>
+
+        <p><em>Please note, archived email messages are in a variety of formats and may not display as originally intended. Some images, links, and functionality may be broken or out of date.</em></p>
+
+        <!-- Modal -->
+        <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="emailModalLabel">{{ page.title }}</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" >
+                        <div id="email">
+                            {{ page.email | normalize_whitespace }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

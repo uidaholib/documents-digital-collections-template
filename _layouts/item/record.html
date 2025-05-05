@@ -3,10 +3,19 @@
 layout: item/item-page-base
 ---
 
-<div class="mb-4 text-center">
+<div class="card mb-4">
+    <div class="card-body">
 
-    <div class="my-2">
-        {% include item/download-buttons.html %}
+        {% if page.object_location contains 'perma.cc' %}
+        <div class="mb-3"><a class="btn btn-primary" href="{{ page.object_location }}">Visit Web Archive</a></div>
+
+        <p><em>Please note, this is a link to an archived web page as originally presented on the President's communications page. See the metadata below for details.</em></p>
+        {% else %}
+        <div class="mb-3"><a class="btn btn-primary" href="{{ page.object_location }}">Visit Record Link</a></div>
+
+        <p><em>Please note, this is a link to an external web page as originally presented on the President's communications page. Links may be broken or out of date. See the metadata below for details.</em></p>
+        {% endif %}
+    
     </div>
-
 </div>
+        

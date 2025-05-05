@@ -28,38 +28,13 @@ function makeCard(obj) {
     var placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
     // find item link
     var itemHref = `{{ '/items/' | relative_url }}${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`; 
-    // find image
-    var imgSrc, thumbIcon;
-    // if there is a thumb in the csv display it
-    if(obj.img) {
-        imgSrc = obj.img;
-    // else add an icon based on display_template or format
-    } else {
-        thumbIcon = getIcon(obj.template,obj.format,"thumb");
-    }
-    var imgAlt = obj.alt ? obj.alt : obj.title;
     
-    // add blur feature for sensitive objects
-    if(obj.sensitive){
-        var blur = 'blur';
-        var warning = '<p class="text-danger small">Warning: This image is of a graphic nature.</p>';
-    } else {
-        var blur = '';
-        var warning = '';
-    }
-
     // start card
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
-    // top image for items with image
-    if(imgSrc) {
-        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload ' + blur + '" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
-    }
+    
     // title
-    card += '<div class="card-body text-center">' + warning + '<h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
-    // icon thumb for item without image
-    if(thumbIcon){
-        card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
-    }
+    card += '<div class="card-body "><h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    
     // other fields
     card += '<p class="card-text">';
     {% for f in fields %}{% unless f.hidden == 'true' %}

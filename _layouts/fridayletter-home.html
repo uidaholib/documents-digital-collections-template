@@ -1,0 +1,30 @@
+---
+# Default home page with boxes providing collection stats
+layout: page
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+
+  <div class="col-md-8">
+
+    {% include index/description.html %}
+    <div class="card mb-3" style="background-color:#191919;">
+        <div class="card-body">
+            <img src="https://objects.lib.uidaho.edu/fridayletter/letter-president-fl.jpg" class="w-100" alt="Letter from the President, with the seal of the University of Idaho">
+        </div>
+    </div>
+    
+  </div>
+  <div class="col-md-4">  
+
+    {% include index/time.html %}
+    {% include index/objects.html %}
+
+  </div>
+  <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
+  </div>
+
+</div>

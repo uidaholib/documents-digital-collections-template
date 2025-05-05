@@ -1,5 +1,5 @@
 ---
-layout: home-infographic
+layout: fridayletter-home
 title: Home
 permalink: /
 ---

@@ -3,4 +3,4 @@ date,Date,,,Date
 creator,Creator,,,
 subject,,true
 location,,true
-category,Category,,,Category
+category,,true,,Category

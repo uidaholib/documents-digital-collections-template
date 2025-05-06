@@ -14,13 +14,13 @@ credits: true
 # About The Friday Letter Archive
 
 For over two decades, [The Friday Letter](https://www.uidaho.edu/president/communications/friday-letter) has been the University of Idaho's weekly message from the President to internal and external members of the university community. 
-The [Office of the President's website](https://www.uidaho.edu/president/communications) publishes a variety of official communications including the Friday Letter, Vandal Connection, reports, videos, and presentations.
+The [Office of the President's website](https://www.uidaho.edu/president/communications) publishes a variety of official communications including the Friday Letter, memos, reports, and presentations.
 To ensure continued access to this unique content, University of Idaho Library captures items in their original web context on an annual basis.
 Select materials are made available in our digital collections.
 
 The Friday Letter Archive archive currently contains hundreds items dating back to 2013.
 These items are in a variety of formats, including emails, slides, videos, speech transcripts, reports, and links to external articles.
-To browse the collection, a [table]({{ '/' | relative_url }}) provides sorting and basic search. 
+Content can be discovered on the [Browse page]({{ '/browse.html' | relative_url }}) or [Data table]({{ '/data.html' | relative_url }}) which provide sorting and basic search. 
 Alternatively, the content can be discovered using the [Search page]({{ '/search/' | relative_url }}) or [Google Custom Search]({{ '/search/google-search.html' | relative_url }}).
 
 For current news, please visit [Office of the President Communications](http://www.uidaho.edu/president/communications).

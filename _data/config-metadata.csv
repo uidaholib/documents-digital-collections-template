@@ -1,11 +1,11 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+creator,Author,,,DCTERMS.creator,creator
+date,Date,,,DCTERMS.date,dateCreated
 period_of_record,Period of Record,
 frequency,Frequency,
 description,Description,,,DCTERMS.description,description
+category,Category,
 subject,Subjects,true,,DCTERMS.subject,keywords
 site,Site,
 location,Location,,,,contentLocation

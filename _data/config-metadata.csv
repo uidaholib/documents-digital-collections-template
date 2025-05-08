@@ -24,4 +24,5 @@ type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 metadata-cataloger,Cataloger,
 date-digital,Date Digitized,
+language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license

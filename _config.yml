@@ -33,12 +33,12 @@ title: Idaho Waters Digital Library
 tagline: A collection of scientific and technical reports relating to water issues in key Idaho river basins
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "The Idaho Waters Digital Library provides open digital access to unique information resources relating to water issues in key Idaho river basins. Making up the core of the collection are more than 700 documents produced by Idaho Water Resources Research Institute, digitized by University of Idaho Library. IWDL supports ongoing research and understanding of the region while preserving an era of previous work and research investment."
+description: "The Idaho Waters Digital Library provides access to unique information resources relating to water issues in key Idaho river basins. Documents produced by the Idaho Water Resources Research Institute make up the core of the collection, supporting ongoing understanding of the region while preserving essential research."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: university of idaho; idaho water resources research institute; water resources
 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: evanwill
 
 ##########
 # COLLECTION SETTINGS

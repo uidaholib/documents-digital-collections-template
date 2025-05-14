@@ -8,9 +8,9 @@
 #
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
-featured-image: https://objects.lib.uidaho.edu/iwdl/ian-keefe-354195-unsplash.jpg
+featured-image: https://objects.lib.uidaho.edu/iwdl/iwrri_banner2.jpg
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 2em # the margin from the top your title portion will appear.
+home-title-y-padding: 7em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: center # Default is top
 # optional: add content alert on the home page to indicate offensive material is present in the collection
@@ -62,7 +62,7 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,location,latitude,longitude,additional_lat-long,subject,description,collection,series,related-dataset,contributors,publisher,contributing-institution,language,iwrri-number,object-id,rights,rights-standardized,format,type,date-digital,digitization-specifications,metadata-cataloger,cdm-id"
+metadata-export-fields: "title,creator,date,location,latitude,longitude,additional_lat-long,subject,description,collection,series,related-dataset,contributors,publisher,contributing-institution,source,identifier,language,rights,rightsstatement,format,type,metadata-cataloger,cdmid"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,location,series,collection,creator"
 

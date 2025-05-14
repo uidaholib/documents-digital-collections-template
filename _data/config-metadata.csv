@@ -1,25 +1,21 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Authors,,,DCTERMS.creator,creator
-contributor,Contributors,,,
-archival date,Date Created (Archival Standard)
-date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+contributors,Contributors,,,
+date,Date,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 additional_lat-long,Additional Lat-Long,
-source,Source,,,,
 collection,Collection,true
 series,Series,true
-iwrri-number,IWRRI number,
-object-id,Object ID,
-rights,Rights,
+related-dataset,Related Dataset,
+source,Source,,,,
+identifier,Identifier,
 publisher,Publisher,
 contributing-institution,Contributing Institution,
-findingaid,Finding Aid,,true
-identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 metadata-cataloger,Cataloger,

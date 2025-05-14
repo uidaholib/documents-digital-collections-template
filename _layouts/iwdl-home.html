@@ -1,0 +1,42 @@
+---
+# Default home page with boxes providing collection stats
+layout: page
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+
+  <div class="col-md-8">
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h2 class="card-title h5">Description</h2>
+            <p class="card-text">{{ site.description }}<br>
+                <a href="https://iwrri.uidaho.edu/" title="Idaho Water Resources Research Institute"><img class="img-fluid w-50" src="https://objects.lib.uidaho.edu/iwdl/IWRRI_Web_Logo-2048x768.png" alt="Idaho Water Resources Research Institute"></a>
+            </p>
+            
+            <a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>
+            
+        </div>
+    </div>
+
+    {% include index/featured-terms.html featured="Computer models; Aquifers; Water quality; Heavy metals; Groundwater; Irrigation; Mine wastes; Hydroelectric power; Hydrogeology; Groundwater flow; Water management; Water pollution; Water resources development; Water supply; Benthos; Computer simulation" title="Top Subjects" btn-color="clearwater" %}
+
+    {% include index/featured-terms.html featured="Water for Idaho; ESPAM; Evaluation criteria for wild and scenic rivers; Low-head dams PNW; Scenic river study; SRPAM" title="Top Series" btn-color="palouse" %}
+
+    {% include index/featured-terms.html featured="Southern Idaho; Snake Plain Aquifer; Moscow; Coeur d'Alene; Snake River; Southeastern Idaho; Northern Idaho; Palouse; Boise; Salmon River; Clearwater River; Bear River; Pullman" title="Locations" btn-color="outline-palouse" %}
+    
+  </div>
+  <div class="col-md-4">
+
+    {% include index/time.html %}
+    {% include index/objects.html %}
+    {% include index/carousel.html title="Sample Items" %}
+
+  </div>
+  <div class="col-md-12">
+
+    {% include index/data-download.html %}
+
+  </div>
+
+</div>

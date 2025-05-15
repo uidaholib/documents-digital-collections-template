@@ -12,4 +12,5 @@ archive_link,Archived Link,,true,
 publisher,Publisher,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
+language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license

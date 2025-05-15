@@ -11,8 +11,8 @@
     - "link" = link to source, will be added to speaker/source (note: will not be added unless you have a speaker or source value!)
 
 {%- endcomment -%}
-<figure class="my-3 narrow-content">
-    <blockquote class="blockquote fs-3">
+<figure class="my-4 narrow-content card card-body">
+    <blockquote class="blockquote fs-4">
         {{ include.text | markdownify }}
     </blockquote>
     {% if include.speaker or include.source %}

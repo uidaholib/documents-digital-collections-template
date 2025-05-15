@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://www.lib.uidaho.edu/digital/objects/mcclure-center/rangelands-2022-imax.jpg" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/mcclure-center/rangelands-2022-imax.jpg" %} 
 
 ## About the McClure Center Archive
 

@@ -1,15 +1,14 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
+creator,Authors,,,DCTERMS.creator,creator
 category,Category,
 section,Section,
-language,Language,
 date,Date,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
-original_link,Original Link,,true,
-archive_link,Archived Link,,true,
 publisher,Publisher,
+original_link,Original Link,,,
+verso_permalink,VERSO Link,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,

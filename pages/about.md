@@ -30,7 +30,7 @@ The archival collection is arranged in ten series as follows:
 
 Materials that are designated as private are not included in this digital collection. Only public items in Series 1-8 are digitized. 
 
-{% include feature/pdf.html objectid="ictws_0662" width="50" %}
+{% include feature/image.html objectid="ictws_0662" width="50" %}
 
 ## About the Idaho Chapter of the Wildlife Society
 

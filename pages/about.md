@@ -10,11 +10,17 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu//dodson/dodson-correspondence.jpg" %} 
 
-{% include feature/nav-menu.html sections="Science Fiction Correspondence;About Doc Smith;About Richard Dodson" %}
+{% include feature/nav-menu.html sections="About the Collection;Science Fiction Correspondence;About Doc Smith;About Richard Dodson" %}
+
+## About the Collection
+
+This digital collection consists of a selection of digitized materials which were originally collected by Richard Dodson during his correspondence with science fiction authors, fans, and periodical editors between 1905 - 1949. Much of the collection documents his correspondence with E.E. "Doc" Smith.
+
+The full [Richard Dodson Collection on E. E. "Doc" Smith and Science Fiction, 1931-1949](https://archiveswest.orbiscascade.org/ark:/80444/xv895628/) is held by the University of Idaho's Special Collections and Archives [libspec@uidaho.edu](libspec@uidaho.edu).
 
 ## Science Fiction Correspondence
 
-What ties the Richard W. Dodson Collection of Science Fiction together is a classic example of the interaction of science fiction readers with the genre's writers and editors during the 1930s, an interaction facilitated by magazine editors who published author's stories, names, and addresses in science fiction magazines.
+The Richard W. Dodson Collection of Science Fiction provides a classic example of the interaction of science fiction readers with the genre's writers and editors during the 1930s, an interaction facilitated by magazine editors who published author's stories, names, and addresses in science fiction magazines.
 Historically, this interaction resulted in the publication of hundreds of amateur magazines (fanzines), the first locally organized fan clubs and, ultimately, the First World Science Fiction Convention, held in New York City in 1939.
 
 Like many young fans, Richard Dodson's (1915-2008) interest in both science and in fiction led to correspondence with writers, editors and other fans via these magazines. 
@@ -23,7 +29,7 @@ While this collection contains fascinating correspondence with Abraham Merritt, 
 As a high school student, Dodson read several of Smith's stories in the *Amazing Stories* and *Astounding* magazines, and was inspired to write to him. 
 The result was an exchange of letters with topics ranging from the nature of science fiction writing and critiques of Smith's work to the study of science that would continue for the next twenty years.
 
-{% include feature/pdf.html objectid="dodson0085" caption="One of Doc Smith's earliest letters to Dodson" width="50" %}
+{% include feature/image.html objectid="dodson0085" caption="One of Doc Smith's earliest letters to Dodson" width="50" %}
 
 ## About Doc Smith
 
@@ -45,7 +51,7 @@ Smith's influence is also evident in film and TV, from *Star Trek* and *Star War
 As a chemist, Smith was situated firmly within the tradition of Jules Verne and H. G. Wells in that he made an effort to provide at least some plausible science in his scientific romances. 
 In this, he differed from some other writers of the time who wrote "science fantasy" rather than science fiction.
 
-{% include feature/pdf.html objectid="dodson0093" caption="Doc Smith discusses his decision to be a chemist in a letter to Dodson" width="50" %}
+{% include feature/image.html objectid="dodson0093" caption="Doc Smith discusses his decision to be a chemist in a letter to Dodson" width="50" %}
 
 When John W. Campbell Jr. became editor of the science fiction magazine *Astounding* in 1937, his editorial policy called for realism and scientific verisimilitude. 
 With his engineering background and his appreciation of "hard" science fiction stories written by fellow writers with science backgrounds, Campbell ushered in what is now considered science fiction's "[golden age](https://en.wikipedia.org/wiki/Golden_Age_of_Science_Fiction)." 

@@ -12,9 +12,9 @@ credits: true
 
 {% include feature/nav-menu.html sections="About the Martin Journal Archive" %}
 
-## About the Martin Journal Archive
+## About the Martin Journal
 
-This repository collects past issues of the *Journal of the Martin Institute \| International Studies*, which is published by the [Martin Institute](https://www.uidaho.edu/class/martin-institute) at University of Idaho. The journal was previously titled *Journal of the Martin School \| International Studies* (2011-2012) and *Journal of the Martin School of International Studies* (2009-2010).
+*The Journal of the Martin Institute \| International Studies* is published by the [Martin Institute](https://www.uidaho.edu/class/martin-institute) at University of Idaho. The journal was previously titled *Journal of the Martin School \| International Studies* (2011-2012) and *Journal of the Martin School of International Studies* (2009-2010).
 
 From the Martin Institute's website:
 

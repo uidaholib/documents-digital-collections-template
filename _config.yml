@@ -28,12 +28,12 @@ central-search:
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Martin Journal Archive
+title: Martin Journal
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: The International Studies Journal of the Martin Institute 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This repository collects past issues of the The Journal of the Martin Institute | International Studies, which has been published by the Martin Institute at University of Idaho since 2009 as a showcase of noteworthy student research."
+description: "The Journal of the Martin Institute | International Studies has been published by the Martin Institute at University of Idaho since 2009 as a showcase of noteworthy student research."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: idaho; history; inland northwest
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name

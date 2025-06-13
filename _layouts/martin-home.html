@@ -1,0 +1,48 @@
+---
+# Default home page with boxes providing collection stats
+layout: page
+---
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
+<div class="row">
+
+  <div class="col-md-8">
+
+    <div class="card mb-3">
+      <div class="card-body">
+        <h2 class="card-title h5">Description</h2>
+        <p class="card-text"><em>The Journal of the Martin Institute | International Studies</em> has been published by the Martin Institute at University of Idaho since 2009 as a showcase of noteworthy student research.</p>
+        <p class="card-text">Volumes feature policy papers, white papers, and research articles written by students in the Martin Academy, Martin Scholars programs, the International Studies capstone course, and others from across campus. Submissions are selected and evaluated by a team of student editors. The Martin Institute Program in International Studies publishes both a print and online version of the journal.</p>
+        <p class="card-text mb-4"><a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a></p>
+      
+        <div class="row">
+          <div class="col-md-4">
+            {% include index/time.html %}
+          </div>
+          <div class="col-md-4">
+            {% include index/objects.html %}
+          </div>
+          <div class="col-md-4 p-4">
+            <a href="https://www.uidaho.edu/class/martin-institute">
+              <img class="w-100" src="https://objects.lib.uidaho.edu/martin-journal/UI_Martin_Institute_full_color_horizontal_RGB.png" alt="University of Idaho Martin Institute">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="col-md-4">
+
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title">Current Issue</h2>
+        {% assign current = site.data.martin-journal | first %}
+        {% include feature/image.html objectid=current.objectid caption=false %}
+      </div>
+    </div>
+
+  </div>
+
+</div>

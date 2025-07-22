@@ -50,5 +50,5 @@ The Ben J. Plastino Papers, 1947-1998 were donated to the [University of Idaho L
 
 Folders 1-11 contain articles on Idaho election politics; Folders 12-25 contain articles on Idaho legislative news; Folders 26-27 contain articles on national politics; Folders 28-29 contain articles on local politics; Folders 30-32 contain articles on additional miscellaneous topics and oversized articles; Folders 33-36 contain non-newspaper materials including books, letters, and photographs.
 
-The materials were scanned by the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/) by Terra Miller and textual items were converted into PDF files. The metadata for the digitized materials was created by Terra Miller, Emilia Searcy-Jorgensen, Maryelizabeth Koepele, and Kevin Dobbins.
+Terra Miller, a student worker for the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), scanned the materials. Textual items were converted into PDF files and photographs were converted into JPG files. The metadata for the digitized materials was created by Terra Miller, Emilia Searcy-Jorgensen, Maryelizabeth Koepele, and Kevin Dobbins.
 

@@ -31,7 +31,7 @@ For current publication series, please visit their collection pages on VERSO:
 
 ## University of Idaho Extension
 
-Since the beginning, one of the primary responsibilities of the [Idaho Agricultural Experiment Station](https://www.uidaho.edu/cals/idaho-agricultural-experiment-station) and the [University of Idaho Extension](https://www.uidaho.edu/extension) has been the diffusion of useful and practical, research-based information on agriculture and related subjects.
+Since the beginning, one of the primary responsibilities of the [Idaho Agricultural Experiment Station](https://www.uidaho.edu/idaho-ag-experiment-station) and the [University of Idaho Extension](https://www.uidaho.edu/extension) has been the diffusion of useful and practical, research-based information on agriculture and related subjects.
 
 {% include feature/image.html objectid="uiext6304" width="50" %}
 
@@ -54,7 +54,7 @@ Starting the mid-1990s, experiment station and Extension publications were publi
 *Idaho Resources*
 
 - [University of Idaho Extension Home](https://www.uidaho.edu/extension)
-- [University of Idaho Extension Catalog](https://www.uidaho.edu/extension/publications)
+- [University of Idaho Extension publications on VERSO](https://verso.uidaho.edu/esploro/search/outputs?unit=01ALLIANCE_UID___n251742&page=1&institution=01ALLIANCE_UID&sort=date_dv&lang=en)
 - [University of Idaho College of Agricultural and Life Sciences](https://www.uidaho.edu/cals)
 - [Idaho State Department of Agriculture](https://www.agri.idaho.gov/)
 

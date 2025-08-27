@@ -26,7 +26,7 @@ For current publication series, please visit their collection pages on VERSO:
 - [Educational Video Series (EVS)](https://verso.uidaho.edu/esploro/search/collections/Educational-Video-Series-EVS/evs?institution=01ALLIANCE_UID&lang=en)
 - [Extension Curricula Series (ECS)](https://verso.uidaho.edu/esploro/search/collections/Extension-Curricula-Series-ECS/ecs?institution=01ALLIANCE_UID&lang=en)
 - [Research Bulletin Series (RES)](https://verso.uidaho.edu/esploro/search/collections/Research-Bulletin-Series-RES/res?institution=01ALLIANCE_UID&lang=en)
-- [Current Information Series (CIS)](verso.uidaho.edu/esploro/search/collections/Current-Information-Series-CIS/cis?institution=01ALLIANCE_UID&lang=en)
+- [Current Information Series (CIS)](https://verso.uidaho.edu/esploro/search/collections/Current-Information-Series-CIS/cis?institution=01ALLIANCE_UID&lang=en)
 - [University of Idaho Extension (VERSO research unit)](https://verso.uidaho.edu/esploro/search/outputs?unit=01ALLIANCE_UID___n251742&page=1&institution=01ALLIANCE_UID&sort=date_dv&lang=en)
 
 ## University of Idaho Extension
@@ -56,7 +56,7 @@ Starting the mid-1990s, experiment station and Extension publications were publi
 - [University of Idaho Extension Home](https://www.uidaho.edu/extension)
 - [University of Idaho Extension publications on VERSO](https://verso.uidaho.edu/esploro/search/outputs?unit=01ALLIANCE_UID___n251742&page=1&institution=01ALLIANCE_UID&sort=date_dv&lang=en)
 - [University of Idaho College of Agricultural and Life Sciences](https://www.uidaho.edu/cals)
-- [Idaho State Department of Agriculture](https://www.agri.idaho.gov/)
+- [Idaho State Department of Agriculture](https://agri.idaho.gov/)
 
 *Related Resources*
 

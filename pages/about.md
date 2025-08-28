@@ -40,7 +40,7 @@ The camp packets were donated and digitized in 2017. Since we only digitized bou
 
 ## Sources
 
-[^1]: "Chatcolab's History," Chatcolab, Inc., [https://www.chatcolab.org/history/](https://www.chatcolab.org/history/). (Archived: [https://perma.cc/5PGG-XA99](https://perma.cc/5PGG-XA99))
+[^1]: "Chatcolab's History," Chatcolab, Inc., [https://www.chatcolab.org/history/](https://chatcolab.org/history/). (Archived: [https://perma.cc/5PGG-XA99](https://perma.cc/5PGG-XA99))
 [^2]: Ibid.
 [^3]: Ibid.
 [^4]: Ibid.

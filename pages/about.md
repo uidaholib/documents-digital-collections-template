@@ -12,7 +12,7 @@ credits: true
 
 ## About The Idaho Bach Festival
 
-The [Idaho Bach Festival](https://www.uidaho.edu/class/music/events/bach-festival) is a community event celebrating the work of Johann Sebastian Bach and other composers of the seventeenth and eighteenth centuries in performances by University of Idaho's [Lionel Hampton School of Music](https://www.uidaho.edu/class/music) faculty and students, and guest artists from other universities in the region.
+The Idaho Bach Festival is a community event celebrating the work of Johann Sebastian Bach and other composers of the seventeenth and eighteenth centuries in performances by University of Idaho's Lionel Hampton School of Music faculty and students, and guest artists from other universities in the region.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/bach-festival/Bach_Seal.svg" alt="Bach's seal with J S B" width="25" %}
 

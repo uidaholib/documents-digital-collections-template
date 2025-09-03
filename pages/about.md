@@ -12,7 +12,7 @@ credits: true
 
 ## A Brief History of Psychiana
 
-*This history is adapted from the extensive [finding aid](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=) to the "Frank Bruce Robinson Papers, 1929-1951," which was first prepared in 1980 by Judith Nielsen. Physical items in this collection are held by [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/)*
+*This history is adapted from the extensive [finding aid](http://archiveswest.orbiscascade.org/ark:80444/xv97133) to the "Frank Bruce Robinson Papers, 1929-1951," which was first prepared in 1980 by Judith Nielsen. Physical items in this collection are held by [Special Collections & Archives](https://www.lib.uidaho.edu/special-collections/)*
 
 ### A Vision of Psychiana
 
@@ -105,16 +105,16 @@ When Frank Robinson died on October 19, 1948, his son, Alfred, who had assisted 
 
 ## About the Collection
 
-By 1955, the University of Idaho Library was fortunate enough to have obtained copies of the lessons and books authored by Dr. Robinson. In August 1955, Robinson's widow and son delivered four sealed boxes to the library, which were to remain sealed for 25 years. After 25 years, these boxes were opened; the contents, along with a brief biographical history of Dr. Frank Robinson, are described in our [finding aid](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=).
+By 1955, the University of Idaho Library was fortunate enough to have obtained copies of the lessons and books authored by Dr. Robinson. In August 1955, Robinson's widow and son delivered four sealed boxes to the library, which were to remain sealed for 25 years. After 25 years, these boxes were opened; the contents, along with a brief biographical history of Dr. Frank Robinson, are described in our [finding aid](http://archiveswest.orbiscascade.org/ark:80444/xv97133).
 
 Included in the three [boxes of correspondence](browse.html#student%20correspondence) are letters between Psychiana headquarters and students in eighteen countries. Carbon copies of Psychiana's replies are attached to most of the original letters from students. The letters from students which Robinson used in his publications are marked with quotation marks; occasionally words were changed or sentences rearranged.
 
-{% include feature/pdf.html objectid="psychiana177" width="50" %}
+{% include feature/image.html objectid="psychiana177" width="50" %}
 
 The remaining boxes contain copies of all the Psychiana lessons, copies of Psychiana Weekly and other similar publications, typescripts of speeches and articles by Frank Robinson, broadsides used in advertising, newspaper clippings, magazine articles, a scrapbook of clippings kept by Robinson, and photographs.
 
 This is a very important collection not only for those researching Dr. Frank B. Robinson and the impact of Psychiana, but also for those interested in non-orthodox religion. Anyone interested in the history of effective advertising methods would also find this collection useful.
 
-*For a detailed inventory of the contents of this collection, along with a brief biographical history of Dr. Frank Robinson based on the contents of collection, please see our [finding aid](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=).*
+*For a detailed inventory of the contents of this collection, along with a brief biographical history of Dr. Frank Robinson based on the contents of collection, please see our [finding aid](http://archiveswest.orbiscascade.org/ark:80444/xv97133).*
 
 [^1]: *News-Review* (Moscow, Idaho), November 2, 1936.

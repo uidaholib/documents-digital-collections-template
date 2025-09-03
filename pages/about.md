@@ -16,7 +16,7 @@ credits: true
 
 This digital collection consists of a selection of digitized materials which were originally collected by Richard Dodson during his correspondence with science fiction authors, fans, and periodical editors between 1905 - 1949. Much of the collection documents his correspondence with E.E. "Doc" Smith.
 
-The full [Richard Dodson Collection on E. E. "Doc" Smith and Science Fiction, 1931-1949](https://archiveswest.orbiscascade.org/ark:/80444/xv895628/) is held by the University of Idaho's Special Collections and Archives, [libspec@uidaho.edu](libspec@uidaho.edu).
+The full [Richard Dodson Collection on E. E. "Doc" Smith and Science Fiction, 1931-1949](https://archiveswest.orbiscascade.org/ark:80444/xv895628) is held by the University of Idaho's Special Collections and Archives, [libspec@uidaho.edu](libspec@uidaho.edu).
 
 ## Science Fiction Correspondence
 

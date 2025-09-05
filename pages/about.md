@@ -12,7 +12,7 @@ permalink: /about.html
 
 ## University of Idaho Experimental Forest Research Exchange 
 
-The [University of Idaho Experimental Forest (UIEF)](https://www.uidaho.edu/cnr/ui-experimental-forest) is Idaho's working research, teaching, and demonstration forest.
+The University of Idaho Experimental Forest (UIEF) is Idaho's working research, teaching, and demonstration forest.
 The UIEF Research Exchange is a living database that provides access to UIEF research and related content to help inspire scientific inquiry and inform forestry and natural resource management.
 
 The UIEF Research Exchange brings together items from a variety of sources including publications, theses and dissertations, presentations, and other research products.

@@ -21,9 +21,9 @@ The Idaho Forest, Wildlife, and Range Experiment Station began in 1939 and has p
 There are multiple experiment stations in Idaho:
 
 - [McCall Field Campus](https://www.uidaho.edu/cnr/mccall-field-campus)
-- [Idaho Cooperative Fish and Wildlife Research Unit](https://www.uidaho.edu/cnr/idaho-cooperative-fish-and-wildlife-research-unit)
-- [10,000+ acres of Experimental Forests](https://www.uidaho.edu/cnr/research/fur-programs/ui-experimental-forest)
-- [Taylor Wilderness Research Station](https://www.uidaho.edu/cnr/taylor-wilderness-research-station)
+- Idaho Cooperative Fish and Wildlife Research Unit
+- 10,000+ acres of Experimental Forests
+- Taylor Wilderness Research Station
 
 In the early 20th century, the U.S. Forest Service "created a network of experimental forests and ranges" in order to "help us understand these lands and how best to manage them to be healthy, resilient ecosystems."[^3]
 

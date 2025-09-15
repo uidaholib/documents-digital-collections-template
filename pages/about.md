@@ -43,20 +43,3 @@ Richard B. Wells. Full Curriculum Vita. Neuralgraphs.com. [https://www.neuralgra
 Richard B. Wells. Neutralgraphs.com. [https://www.neuralgraphs.com/wellslabs/index.html](https://www.neuralgraphs.com/wellslabs/index.html). Archived: [https://perma.cc/95X9-DWBE](https://perma.cc/95X9-DWBE).
 
 Richard Wells Obituary. Cloverdale Funeral Home. [https://www.cloverdalefuneralhome.com/obituaries/Richard-Wells?obId=42864806](https://www.cloverdalefuneralhome.com/obituaries/Richard-Wells?obId=42864806). Archived: [https://perma.cc/PS66-QHWC](https://perma.cc/PS66-QHWC). 
-
-
-
-## About CollectionBuilder CSV
-
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
-
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
-
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.

@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/wells/wellscover04.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the Collection;About Dr. Richard B. Wells;About CollectionBuilder CSV" %}
+{% include feature/nav-menu.html sections="About the Collection;About Dr. Richard B. Wells" %}
 
 ## About the Collection
 

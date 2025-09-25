@@ -10,7 +10,15 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/wells/wellscover04.jpg" %} 
 
-{% include feature/nav-menu.html sections="About the Collection;About Dr. Richard B. Wells" %}
+{% include feature/nav-menu.html sections="About Dr. Richard B. Wells;About the Collection" %}
+
+## About Dr. Richard B. Wells
+
+{% include feature/image.html objectid="wells046" width="75" %} 
+
+Richard B. Wells was born in Maquoketa, Iowa on September 6th, 1953. He studied electrical engineering at Iowa State University, receiving his B.S. with distinction in May of 1975. He went on to work at Hewlett-Packard in California and earned an M.S. in electrical engineering from Stanford University in May of 1979. He moved to Boise, Idaho, and earned his doctorate in electrical engineering from the University of Idaho in May of 1985. Wells taught at the University of Idaho from 1981 until 2013. He retired in 2013 and passed away in February of 2024 in Boise, Idaho.
+
+Wells's teaching and research focused on electrical engineering, coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially the work of Immanuel Kant. By the time of his retirement, Wells was a professor of both electrical and computer engineering and neuroscience, and an adjunct professor of both philosophy and materials science and engineering.
 
 ## About the Collection
 
@@ -25,14 +33,6 @@ Dr. Wells worked in a wide array of academic disciplines, including electrical e
 {% include feature/image.html objectid="wells019" width="50" %}
 
 This collection contains Dr. Wells's writing work at all stages of development, from boxes of index cards with key theoretical terms to “writing notebooks” of theories and notes taking shape, to handwritten drafts and eventually typed and printed monograph manuscripts. Thus, this digital collection offers more than just a window into Dr. Wells's intellectual contributions; it shows the processes of an academic who did significant work without computer word processors. The handwritten pages, with their hand-drawn diagrams, different colors of ink, and carefully penned footnotes, reflect an academic work process that was deliberate and tactile. Even typewritten documents show this "analog" mindset, layered with handwritten edits and marginal thoughts that show Dr. Wells's thought process. This collection captures Dr. Wells's scholarship and the methodology of intellectual work before digital tools transformed academic writing and note-taking practices.
-
-## About Dr. Richard B. Wells
-
-{% include feature/image.html objectid="wells046" width="75" %} 
-
-Richard B. Wells was born in Maquoketa, Iowa on September 6th, 1953. He studied electrical engineering at Iowa State University, receiving his B.S. with distinction in May of 1975. He went on to work at Hewlett-Packard in California and earned an M.S. in electrical engineering from Stanford University in May of 1979. He moved to Boise, Idaho, and earned his doctorate in electrical engineering from the University of Idaho in May of 1985. Wells taught at the University of Idaho from 1981 until 2013. He retired in 2013 and passed away in February of 2024 in Boise, Idaho.
-
-Wells's teaching and research focused on electrical engineering, coding and information theory, computational neuroscience, cognitive computing, and philosophy, especially the work of Immanuel Kant. By the time of his retirement, Wells was a professor of both electrical and computer engineering and neuroscience, and an adjunct professor of both philosophy and materials science and engineering.
 
 ## Sources
 

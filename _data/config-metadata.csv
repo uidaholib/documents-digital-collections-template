@@ -8,6 +8,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 point of origin,Point of Origin,true,
 destination,Destination,true
+idaho_county,Idaho County,,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 collection,Source Collection

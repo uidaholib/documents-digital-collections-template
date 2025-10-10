@@ -6,6 +6,7 @@ date,Date,,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
+idaho_county,Idaho County,,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 additional_lat-long,Additional Lat-Long,

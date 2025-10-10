@@ -3,6 +3,7 @@ creator,Authors,,,
 date,Date,,,Date
 subject,Subject,true
 location,Location,true
+idaho_county,Idaho County,,true,
 description,Abstract,
 collection,collection
 series,Series,true

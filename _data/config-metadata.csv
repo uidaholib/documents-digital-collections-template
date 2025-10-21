@@ -10,6 +10,7 @@ guest_scholar,Guest,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,true,,,contentLocation
+idaho_county,Idaho County,,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,

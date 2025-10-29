@@ -15,7 +15,7 @@ latitude,Latitude,,,,
 longitude,Longitude,,,,
 idaho_county,Idaho County,,,,
 source,Source,,,,
-finding aid,Finding Aid,,true
+finding_aid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat

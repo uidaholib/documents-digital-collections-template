@@ -15,5 +15,6 @@ identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format-original,Format Original
 format,Format,,,,encodingFormat
+language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license
 contributing_departments,Contributing Departments,true

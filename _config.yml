@@ -30,12 +30,12 @@ central-search: true
 # title of site appears in banner
 title: Agricultural Economics Research Series
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: University of Idaho agricultural economics research
+tagline: Research from University of Idaho Agricultural and Life Sciences
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: A series of documents focused on agricultural economics produced by University of Idaho researchers.
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho; history; inland northwest
+keywords: Idaho; research publications; Extension; Agricultural Economics; Agribusiness
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 

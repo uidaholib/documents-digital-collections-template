@@ -8,12 +8,14 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 aes_subjects,AgEcon Search Subjects,true
 series,Series,
+publisher,Publisher,
+contributing_departments,Departments,
 collection,Source Collection
 source,Source,,,,
 findingaid,Finding Aid,,true
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
-format-original,Format Original
+format_original,Format Original
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license

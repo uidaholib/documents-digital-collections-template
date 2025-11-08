@@ -8,21 +8,14 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %} 
+{% include feature/jumbotron.html position="bottom" %}
 
-{% include feature/nav-menu.html sections="About CollectionBuilder CSV" %}
+## About the Agricultural Economics Research Series
 
-## About CollectionBuilder CSV
+The Agricultural Economics Research Series is a collection of reports and working papers produced by researchers in Agricultural Economics at University of Idaho dating back to the 1950's. It represents a significant effort to study and improve Idaho's economy through a focus on agriculture. 
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Around 2017, these materials were identified as valuable documents that were undigitized and difficult to access or discover. 
+Through the efforts of librarian Beth Hendrix, the U of I Library consulted with the [Department of Agricultural Economics and Rural Sociology](https://www.uidaho.edu/agricultural-life-sciences/academics/agricultural-economics-rural-sociology) to curate the collection and uncover additional documents kept only in the department. 
+The documents were digitized by Library staff in the Center for Digital Inquiry and Learning (CDIL). 
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
-
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
-
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
-
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The metadata has also been shared with [AgEcon Search](https://ageconsearch.umn.edu/search?ln=en&as=1&rm=&sf=&so=d&rg=10&c=249&of=hb&as_query=) at the University of Minnesota to promote its cross-institutional Agricultural Economics search engine.

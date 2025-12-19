@@ -1,5 +1,5 @@
 ---
-title: Locations
+title: Politicians
 layout: cloud
 permalink: /politicians.html
 # Default politicians page is configured in "_data/theme.yml"

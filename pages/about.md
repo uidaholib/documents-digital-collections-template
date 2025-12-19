@@ -8,8 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/plastino/prthepoliticalpulse.jpg" %} 
-
+{% include feature/jumbotron.html objectid="plastino0035" padding="5em" %} 
 {% include feature/nav-menu.html sections="About Ben J. Plastino;About the Collection" %}
 
 ## About Ben J. Plastino
@@ -50,5 +49,5 @@ The Ben J. Plastino Papers, 1947-1998 were donated to the [University of Idaho L
 
 Folders 1-11 contain articles on Idaho election politics; Folders 12-25 contain articles on Idaho legislative news; Folders 26-27 contain articles on national politics; Folders 28-29 contain articles on local politics; Folders 30-32 contain articles on additional miscellaneous topics and oversized articles; Folders 33-36 contain non-newspaper materials including books, letters, and photographs.
 
-Terra Miller, a student worker for the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), scanned the materials. Textual items were converted into PDF files and photographs were converted into JPG files. The metadata for the digitized materials was created by Terra Miller, Emilia Searcy-Jorgensen, Maryelizabeth Koepele, and Kevin Dobbins.
+Terra Miller, a student worker for the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), scanned the materials. Textual items were converted into PDF files and photographs were converted into JPG files. The metadata for the digitized materials was created by Logan Romans as part of a fellowship with the University of Idaho Library Special Collections and Archives. Terra Miller, Emilia Searcy-Jorgensen, Maryelizabeth Koepele, and Kevin Dobbins assisted with the metadata formatting and descriptions.
 

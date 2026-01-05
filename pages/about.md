@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/camasrailroad/about-header.png" %} 
 
-{% include feature/nav-menu.html sections="About the Collection" %}
+{% include feature/nav-menu.html sections="About the Collection;About the Camas Prairie Railroad" %}
 
 ## About the Collection
 

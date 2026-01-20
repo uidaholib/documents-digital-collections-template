@@ -4,4 +4,5 @@ creator,Creator,,,
 subject,,true
 politicians,,true,
 location,,true
+idaho_county,,,true,
 identifier,,,true,Identifier

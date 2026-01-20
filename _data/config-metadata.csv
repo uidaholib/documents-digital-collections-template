@@ -7,6 +7,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 politicians,Politicians,true,,,,
 location,Location,,,,contentLocation
+idaho_county,Idaho County,true,,,
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,

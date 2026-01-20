@@ -45,7 +45,7 @@ Ben met his future wife, Margaret St. Clair, at the Bonneville County Courthouse
 
 ## About the Collection
 
-The Ben J. Plastino Papers, 1947-1998 were donated to the [University of Idaho Library](https://www.lib.uidaho.edu/) [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) by Diane Plastino Graves in 2024. Special Collections arranged the materials into 36 folders by general, overarching topic.
+[The Ben J. Plastino Papers, 1947-1998](https://archiveswest.orbiscascade.org/ark:80444/xv470833) were donated to the [University of Idaho Library](https://www.lib.uidaho.edu/) [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) by Diane Plastino Graves in 2024. Special Collections arranged the materials into 36 folders by general, overarching topic.
 
 Folders 1-11 contain articles on Idaho election politics; Folders 12-25 contain articles on Idaho legislative news; Folders 26-27 contain articles on national politics; Folders 28-29 contain articles on local politics; Folders 30-32 contain articles on additional miscellaneous topics and oversized articles; Folders 33-36 contain non-newspaper materials including books, letters, and photographs.
 

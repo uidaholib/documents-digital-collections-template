@@ -37,4 +37,4 @@ The editorial board, composed entirely of undergraduate students, plays a crucia
 
 The board oversees all aspects of the journal, from the submission and review process to the policies that promote inclusivity and academic integrity, ensuring that the highest standards of research are upheld. Through this collaborative effort, the journal not only highlights the talent and creativity of undergraduate researchers but also nurtures a culture of scholarship that will benefit the political science community for years to come.
 
-<div class="narrow-content p-5"><img class="img-fluid" src="https://objects.lib.uidaho.edu/curj/UI_Dept_Poly_and_Philo_horizontal_4c.png" alt="University of Idaho Department of Politics and Philosophy"></div>
+<div class="narrow-content p-5"><a href="https://www.uidaho.edu/letters-arts-social-sciences/academics/politics-philosophy"><img class="img-fluid" src="https://objects.lib.uidaho.edu/curj/UI_Dept_Poly_and_Philo_horizontal_4c.png" alt="University of Idaho Department of Politics and Philosophy"></a></div>

@@ -13,13 +13,15 @@ credits: true
 
 ## About Ben J. Plastino
 
+*by Diane Plastino Graves*
+
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/plastino/plastino_about.jpg" width="50" caption="Idaho Falls Post Register Executive Editor Ben J. Plastino at his desk." %}
 
 Ben J. Plastino, the son of Italian immigrants who were early pioneers of Market Lake, Idaho, made his mark on Idaho as a newspaperman and community leader for over fifty years.
 
-A native of southeastern Idaho, Ben returned to Idaho Falls after graduating from the University of Idaho in 1932 in journalism, when it was very challenging to achieve a college degree during the height of the Great Depression, and then having spent nine years as a reporter at the Lewiston Morning Tribune.
+A native of southeastern Idaho, Ben graduated from the University of Idaho in 1932 in with a degree journalism, when it was very challenging to achieve a college degree during the height of the Great Depression. He then spent nine years as a reporter at the *Lewiston Morning Tribune*.
 
-He joined the Idaho Falls Post Register in 1942 where he remained for forty-one years, first as a reporter and city editor, and then rising to managing editor, political editor, and executive editor.
+He returned to Idaho Falls to join the *Idaho Falls Post Register* in 1942 where he remained for forty-one years, first as a reporter and city editor, and then rising to managing editor, political editor, and executive editor.
 
 Ben fully embraced his life as a journalist, and his devotion to that profession was evident in his five decades of coverage of the Idaho Legislature; his interviews with every United States President since Franklin Roosevelt, except for Eisenhower; and nearly all presidential, vice presidential, Idaho congressional, State and local officials and candidates. He provided ringside coverage of such regional events as the establishment and maturation of the Idaho National Laboratory, the Yellowstone earthquake, the Teton Dam failure, and of every major political and environmental issue affecting Idaho.
 
@@ -45,9 +47,7 @@ Ben met his future wife, Margaret St. Clair, at the Bonneville County Courthouse
 
 ## About the Collection
 
-[The Ben J. Plastino Papers, 1947-1998](https://archiveswest.orbiscascade.org/ark:80444/xv470833) were donated to the [University of Idaho Library](https://www.lib.uidaho.edu/) [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) by Diane Plastino Graves in 2024. Special Collections arranged the materials into 36 folders by general, overarching topic.
-
-Folders 1-11 contain articles on Idaho election politics; Folders 12-25 contain articles on Idaho legislative news; Folders 26-27 contain articles on national politics; Folders 28-29 contain articles on local politics; Folders 30-32 contain articles on additional miscellaneous topics and oversized articles; Folders 33-36 contain non-newspaper materials including books, letters, and photographs.
+[The Ben J. Plastino Papers, 1947-1998](https://archiveswest.orbiscascade.org/ark:80444/xv470833) were donated to the [University of Idaho Library](https://www.lib.uidaho.edu/) [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) by the Plastino family in  2024. Special Collections arranged the materials into 36 folders by general, overarching topic.
 
 Terra Miller, a student worker for the [Center for Digital Inquiry and Learning](https://cdil.lib.uidaho.edu/), scanned the materials. Textual items were converted into PDF files and photographs were converted into JPG files. The metadata for the digitized materials was created by Logan Romans as part of a fellowship with the University of Idaho Library Special Collections and Archives. Terra Miller, Emilia Searcy-Jorgensen, Maryelizabeth Koepele, and Kevin Dobbins assisted with the metadata formatting and descriptions.
 

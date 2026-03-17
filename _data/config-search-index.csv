@@ -2,7 +2,7 @@ dcterm,field
 title,title
 date,date
 creator,creator
-description,description
+description,description;abstract
 subject,subject
 coverage,location
 identifier,identifier

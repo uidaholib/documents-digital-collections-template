@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="plastino0035" padding="5em" %} 
+{% include feature/jumbotron.html objectid="https://objects.lib.uidaho.edu/plastino/plastino_feature.jpg" padding="5em" %} 
 {% include feature/nav-menu.html sections="About Ben J. Plastino;About the Collection" %}
 
 ## About Ben J. Plastino

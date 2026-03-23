@@ -22,7 +22,7 @@ padding: 5em
 
 *by Diane Plastino Graves*
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/plastino/plastino_about.jpg" width="50" caption="Idaho Falls Post Register Executive Editor Ben J. Plastino at his desk." %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/plastino/plastino_about.jpg" caption="Idaho Falls Post Register Executive Editor Ben J. Plastino at his desk." %}
 
 Ben J. Plastino, the son of Italian immigrants who were early pioneers of Market Lake, Idaho, made his mark on Idaho as a newspaperman and community leader for over fifty years.
 

@@ -8,6 +8,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 aes_subjects,AgEcon Search Subjects,true
 series,Series,
+full_series_and_number,Series Number,,,
 publisher,Publisher,
 contributing_departments,Departments,
 collection,Source Collection

@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 subject,,true
-aes_subjects,,,true
+aes_subjects,AES Subjects,,true
 identifier,,,true,Identifier
-contributing_departments,,,true
+contributing_departments,Contributing Depts,,true
 full_series_and_number,Series Number,,,Series Number

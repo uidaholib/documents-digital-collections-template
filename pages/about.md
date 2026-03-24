@@ -39,7 +39,7 @@ For current publication series, please visit their collection pages on VERSO:
 
 Since the beginning, one of the primary responsibilities of the [Idaho Agricultural Experiment Station](https://www.uidaho.edu/idaho-ag-experiment-station) and the [University of Idaho Extension](https://www.uidaho.edu/extension) has been the diffusion of useful and practical, research-based information on agriculture and related subjects.
 
-{% include feature/image.html objectid="uiext6304" width="50" %}
+{% include feature/image.html objectid="uiext6304" %}
 
 The University of Idaho Board of Regents established the Idaho Agricultural Experiment Station at the University of Idaho in 1892 following the passage of the federal Hatch Act (1887), which allowed the creation of agricultural experiment stations at state land-grant colleges. In addition to stimulating agricultural research, the act required the publishing of bulletins or reports of progress on station research and allocated $15,000 per year for conducting investigations and experiments and printing and distributing the results.
 
@@ -49,7 +49,7 @@ The University of Idaho College of Agriculture began establishing an Extension p
 
 the Idaho Agricultural Experiment Station publishing started almost immediately in 1892 with a series of bulletins that ran until 1954. Extension publishing began in 1912 with a series of bulletins that ran until 1953. A new series of University of Idaho College of Agriculture bulletins began in 1953, starting with number 200, with contributions coming either from the Idaho Agricultural Experiment Station or the Idaho Agricultural Extension Service. A series of shorter College of Agriculture publications, the current information series, began in 1964 with titles from both the experiment station and extension. A series of highly technical research bulletins published by the Idaho Agricultural Experiment Station, the research bulletins, began in 1922. 
 
-{% include feature/image.html objectid="uiext13209" width="50" %}
+{% include feature/image.html objectid="uiext13209" %}
 
 Starting the mid-1990s, experiment station and Extension publications were published on the Internet in PDF format as well as in print. By 2010, the vast majority of Extension and experiment station publications were available only online, for free access by all.
 

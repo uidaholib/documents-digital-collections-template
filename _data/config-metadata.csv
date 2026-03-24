@@ -8,6 +8,7 @@ report_number,Report Number,
 publisher,Publisher,
 funder,Funder,
 abstract,Abstract,,,DCTERMS.description,description
+concepts,Concepts,,,,
 species,Species,true,,,
 places,Location,,,,contentLocation
 concepts,Subjects,true,,DCTERMS.subject,keywords

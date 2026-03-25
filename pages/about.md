@@ -38,7 +38,7 @@ On the 25th anniversary lab in 1973, 91 people attended Chatcolab.[^5]
 
 This collection contains the camp packet from each lab between 1949-2000. The packets detail program planning, activities, stories, menus, and recipes for the lab. 
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/chatcolab/small/chatcolab9_sm.jpg" link="https://www.lib.uidaho.edu/digital/chatcolab/items/chatcolab9.html" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/chatcolab/small/chatcolab9_sm.jpg" link="https://www.lib.uidaho.edu/digital/chatcolab/items/chatcolab9.html" width="50" %}
 
 The collection also contains a document from 2014 (the organization's 66th anniversary) reviewing the history and purpose of the organization.
 

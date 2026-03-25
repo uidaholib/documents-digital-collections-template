@@ -26,7 +26,7 @@ This digital collection consists of the Genetics Section of the 4th edition, rev
 
 The Cattle Producer’s Handbook is prepared by the Western Beef Resource Committee (WBRC), which consists of beef specialists, economists, range scientists, animal nutritionists, county educators, and veterinarians from the Cooperative Extension System and from cattle industry representatives. The WBRC meets annually to review publication content and represents the following universities: University of Arizona, University of California, Colorado State University, University of Hawaii, University of Idaho, Montana State University, University of Nevada, New Mexico State University, Oregon State University, Utah State University, Washington State University, and University of Wyoming.  
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cattle/cattle65.jpg" caption="Cattle lying in a field at the University of Idaho Farms, circa 1935" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cattle/cattle65.jpg" caption="Cattle lying in a field at the University of Idaho Farms, circa 1935" %}
 
 ## About the Idaho Cattle Industry
 
@@ -34,4 +34,4 @@ There are over 2.1 million cattle in the state of Idaho raised by 7,700 farming 
 
 [The University of Idaho’s College of Agricultural and Life Sciences](https://www.uidaho.edu/agricultural-life-sciences) and its various research, extension and education centers throughout the state conduct research and provide educational programs in health, production, range cow, integrated resource and sustainable management, as well as cow-calf nutrition and feedlot nutrition. Dairy programs conduct research and provide extension programs in the areas of nutrition, lactation and reproductive physiology, herd health, milk quality, safety, breeding and genetics. Strong cooperative programs exist with allied industry and cooperator herds across the state. Excellent relationships exist with the United Dairymen of Idaho and association support is substantial. Overall, animal and plant agriculture constitutes over 21% of Idaho’s economy.  
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cattle/cattle66.jpg" caption="Cattle grazing at the University of Idaho Farms, circa 1935" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/cattle/cattle66.jpg" caption="Cattle grazing at the University of Idaho Farms, circa 1935" %}

@@ -22,7 +22,7 @@ padding: 6em
 
 The Dworshak Dam Collection is comprised of over 500 digital items, including both historical photographs and documents, that span the years 1952 to 1975 and portray the history of the Dworshak Dam, which is located on the North Fork Clearwater River, near Orofino, Idaho and is currently the third largest dam in the United States.
 
-{% include feature/image.html objectid="dworshak518" width="75" caption="Left to right: Bill Erickson (now deceased), Robert Werner: publisher of the Clearwater Tribune, Orofino, A.B. Curtis (the guy that gets all the blame, and the mayor of Orofino), Col. Tom Tandy: the District Engineer of Corps of Engineers (at the time), Walla Walla (now deceased),and U.S. Judge Roy McNichols (then an attorney at Orofino, now in Boise)." %}
+{% include feature/image.html objectid="dworshak518" width="50" caption="Left to right: Bill Erickson (now deceased), Robert Werner: publisher of the Clearwater Tribune, Orofino, A.B. Curtis (the guy that gets all the blame, and the mayor of Orofino), Col. Tom Tandy: the District Engineer of Corps of Engineers (at the time), Walla Walla (now deceased),and U.S. Judge Roy McNichols (then an attorney at Orofino, now in Boise)." %}
 
 The digital collection documents the legislation that led to the dam's construction, local reaction to the dam's proposal, approval, and construction, and the construction itself.
 
@@ -38,7 +38,7 @@ In 1918, he began his 50 year association with the Clearwater Timber Protective 
 
 In 1950, Curtis was elected mayor of Orofino, a position he held for 23 years, during which the city completed a large water and sewage treatment plant. In 1958, he tried unsuccessfully to unseat Gracie Pfost, the Democratic incumbent representing Idaho's First District in the U.S. House of Representatives. 
 
-{% include feature/image.html objectid="dworshak532" width="75" caption="Dworshak Dam Project 46. Many times Army Corps of Engineers visited for short talks on the project. Here are Gen. Yates, A.B. Curtis, & Col. McElwee at the airport." %}
+{% include feature/image.html objectid="dworshak532" width="50" caption="Dworshak Dam Project 46. Many times Army Corps of Engineers visited for short talks on the project. Here are Gen. Yates, A.B. Curtis, & Col. McElwee at the airport." %}
 
 He was a strong supporter of Senator Henry Dworshak on the Bruces Eddy (now Dworshak) Dam issue, and was one of the primary figures in obtaining approval and funds for the construction. In 1972, he was awarded the Department of the Army Certificate for Patriotic Civilian Service for his assistance to the Corps of Engineers in building the dam. Among his other awards are the Idaho Chamber of Commerce Distinguished Citizen award (1968), and a 38 years of distinguished service award presented by public and private Idaho forestry associations in 1976.
 

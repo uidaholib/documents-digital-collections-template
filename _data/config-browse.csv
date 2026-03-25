@@ -2,4 +2,4 @@ field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date
 subject,,true
 identifier,,,true,Identifier
-contributing_institution,,,true
+contributing_institution,Contributing Institution,,true

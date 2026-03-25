@@ -1,6 +1,6 @@
-field,display_name,btn,hidden,sort_name
+field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date
-point of origin,Origin,,true
+point_of_origin,Origin,,true
 destination,Destination,,true
 creator,Creator,,,
 subject,,true

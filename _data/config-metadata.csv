@@ -1,10 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
 archival_date,Date Created
 date,Year,,,DCTERMS.date,dateCreated
 description,Missing Issues,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,DCTERMS.coverage,contentLocation
 idaho_county,Idaho County,,,,,
 latitude,Latitude,,,,

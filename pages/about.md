@@ -4,13 +4,19 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+about-featured-image: /objects/mg511-b03-f152-022.jpg
+# set background-position for featured image, "center", "top", "bottom"
+position: center
+# major heading to display over featured image
+heading: About the Collection
+# paragraph text below heading in featured image
+sub-heading: 
+# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-{% include feature/jumbotron.html objectid="/objects/mg511-b03-f152-022.jpg" %} 
-
-{% include feature/nav-menu.html sections="About the Collection;About the Idaho Chapter of the Wildlife Society " %}
 
 ## About the Collection
 
@@ -30,7 +36,7 @@ The archival collection is arranged in ten series as follows:
 
 Materials that are designated as private are not included in this digital collection. Only public items in Series 1-8 are digitized. 
 
-{% include feature/image.html objectid="ictws_0662" width="50" %}
+{% include feature/image.html objectid="ictws_0662" %}
 
 ## About the Idaho Chapter of the Wildlife Society
 

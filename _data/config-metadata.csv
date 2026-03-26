@@ -2,11 +2,11 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 creator,Creator,true,,DCTERMS.creator,creator
 recipient,Recipient,,,,,
-archival date,Date Created (Archival Standard)
+archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
+location,Location,,,DCTERMS.coverage,contentLocation
 idaho_county,Idaho County,,,
 address,Address,,,,,
 latitude,Latitude,,,,
@@ -14,6 +14,7 @@ longitude,Longitude,,,,
 source,Source,,,,
 finding_aid,Finding Aid,,true
 identifier,Source Identifier,,,,
+format_original,Original Format,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,

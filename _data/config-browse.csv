@@ -1,8 +1,8 @@
-field,display_name,btn,hidden,sort_name
-date,,,true,Date
+field,display_name,btn,hidden,sort_name,facet_name
+date,Date,,,Date Created
 creator,Creator,,true,
 contributors,Contributors,
 editor,Editors,
 subject,,true
-location,,true
+location,,true,,,
 identifier,,,true,Identifier

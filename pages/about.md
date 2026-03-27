@@ -28,7 +28,7 @@ The Moscow Food Co-op started in 1973 with some fresh local produce, a few bulk 
 
 For more information about this collaboratively-owned grocery store, see the Moscow Food Co-op’s website linked below.
 
-<div class="text-center">
+<div>
 {% include feature/button.html text="Moscow Food Co-op Website" link="https://www.moscowfood.coop/" color="info" size="lg" %}
 </div>
 

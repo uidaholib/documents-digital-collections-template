@@ -35,14 +35,14 @@ While this collection contains fascinating correspondence with Abraham Merritt, 
 As a high school student, Dodson read several of Smith's stories in the *Amazing Stories* and *Astounding* magazines, and was inspired to write to him. 
 The result was an exchange of letters with topics ranging from the nature of science fiction writing and critiques of Smith's work to the study of science that would continue for the next twenty years.
 
-{% include feature/image.html objectid="dodson0085" caption="One of Doc Smith's earliest letters to Dodson" width="50" %}
+{% include feature/image.html objectid="dodson0085" caption="One of Doc Smith's earliest letters to Dodson" %}
 
 ## About Doc Smith
 
 Edward Elmer "Doc" Smith (1890-1965) was an American chemist and pioneer science fiction writer.
 While Doc Smith's name may be virtually unknown to fans of contemporary science fiction, Smith's influence on the development and scope of the field is undeniable. 
 
-{% include feature/image.html objectid="dodson0027" width="50" %}
+{% include feature/image.html objectid="dodson0027" %}
 
 With the publication of his book *The Skylark of Space* in 1928, Smith introduced the concept of interstellar travel and created the much-imitated science fiction genre known as the space opera. 
 Space operas are characterized by interstellar wars waged among galactic empires, conflicts that involve advanced technology and consume entire worlds, often lasting hundreds of years.
@@ -57,7 +57,7 @@ Smith's influence is also evident in film and TV, from *Star Trek* and *Star War
 As a chemist, Smith was situated firmly within the tradition of Jules Verne and H. G. Wells in that he made an effort to provide at least some plausible science in his scientific romances. 
 In this, he differed from some other writers of the time who wrote "science fantasy" rather than science fiction.
 
-{% include feature/image.html objectid="dodson0093" caption="Doc Smith discusses his decision to be a chemist in a letter to Dodson" width="50" %}
+{% include feature/image.html objectid="dodson0093" caption="Doc Smith discusses his decision to be a chemist in a letter to Dodson" %}
 
 When John W. Campbell Jr. became editor of the science fiction magazine *Astounding* in 1937, his editorial policy called for realism and scientific verisimilitude. 
 With his engineering background and his appreciation of "hard" science fiction stories written by fellow writers with science backgrounds, Campbell ushered in what is now considered science fiction's "[golden age](https://en.wikipedia.org/wiki/Golden_Age_of_Science_Fiction)." 
@@ -71,7 +71,7 @@ He graduated with a B.S. in Chemistry in. 1936, then went to Johns Hopkins Unive
 
 Dodson's research focus was in radioactive materials and in 1943 he joined the Los Alamos National Laboratory to work on the Manhattan Project. 
 
-{% include feature/image.html objectid="dodson0039" caption="Smith thanks Dodson for sending him a copy of the Smyth Report, the first official account of the development of the atomic bombs during the Manhattan Project" width="50" %}
+{% include feature/image.html objectid="dodson0039" caption="Smith thanks Dodson for sending him a copy of the Smyth Report, the first official account of the development of the atomic bombs during the Manhattan Project" width="25" %}
 
 After the war Dodson returned to Cal Tech, but soon left for Columbia University where he joined the Chemistry Department, first as an assistant professor, later as a full professor. 
 At this time he also worked for the newly established Brookhaven National Laboratory where he was appointed first chair of the Chemistry Department. 

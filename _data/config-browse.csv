@@ -5,7 +5,7 @@ creator,Creator,,,
 recipient,Recipient
 subject,,true
 location,,true
-location-received,,true
-format-original,,,true
+location-received,Location Received,true
+format_original,Original Format,,true
 description,,,true
 identifier,,,true,Identifier

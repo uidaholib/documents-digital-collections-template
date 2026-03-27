@@ -9,7 +9,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 location-received,Location Received,true
-format-original,Original Format,true
+format_original,Original Format,true
 source,Source,,,,
 finding_aid,Finding Aid,,true
 identifier,Source Identifier,,,,

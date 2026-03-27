@@ -2,4 +2,4 @@ field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 author,Authors,true,
 subject,,true
-identifier,,,true,Identifier
+resource_identifier,Source Identifier,,true,Identifier

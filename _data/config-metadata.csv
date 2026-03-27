@@ -4,11 +4,13 @@ creator,Creator,,,DCTERMS.creator,creator
 recipient,Recipient,
 archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
-date is approximate,Approximated Date
+date_is_approximate,Approximated Date
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 item-information,Item Information,
 related-publication,Related Publication,
+item-information,Materials,,,
+identifier,Identifier,,,
 location,Location,,,,contentLocation
 latitude,Latitude
 longitude,Longitude

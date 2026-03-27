@@ -4,5 +4,5 @@ date,Date,,,
 subject,,true
 recipient,,true,
 identifier,,,true,Identifier
-related-publication,,,true
+related-publication,Related Publication,,true
 item-information,Materials,,,

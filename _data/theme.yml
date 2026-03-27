@@ -9,7 +9,7 @@
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
 featured-image: https://objects.lib.uidaho.edu/tpa/tpa-featured-image.jpg
-featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
+featured-image-alt-text: A group of men in front of a bridge in a forest area # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -73,9 +73,9 @@ year-nav-increment: 5 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,filename,title,creator,date,archival_date,description,subject,fire locations,location,latitude,longitude,source,identifier,type,format original,format,finding aid,digital collection,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb"
+metadata-export-fields: "objectid,filename,title,creator,date,archival_date,description,subject,fire_locations,location,latitude,longitude,source,identifier,type,format original,format,finding aid,digital collection,language,rights,rightsstatement,display_template,object_location,image_small,image_thumb"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "subject,creator,format,fire locations"
+metadata-facets-fields: "subject,creator,format,fire_locations"
 
 ##########
 # Compound Objects 

@@ -42,5 +42,5 @@ A champion for state water rights and a nationally recognized leader in energy a
 Louise McClure was admired for her leadership, commitment to public service, intellect and grace. 
 The McClure Center's collaborative and interdisciplinary approach to addressing society’s complex challenges sustains their legacy.
 
-{% include feature/image.html objectid="mcclure-center-0069" width="50" %} 
+{% include feature/image.html objectid="mcclure-center-0069" %} 
 

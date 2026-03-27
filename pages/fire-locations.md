@@ -2,7 +2,7 @@
 title: Fire Locations
 layout: cloud
 permalink: /fire-locations.html
-cloud-fields: fire locations
+cloud-fields: fire_locations
 cloud-min: 1
 cloud-stopwords:
 ---

@@ -27,7 +27,7 @@ The *Latah Legacy* began publication in 1972 by the Latah County Historical Soci
 This collection is a collaboration between [Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/) and the University of Idaho Library to make the back issues of the *Latah Legacy* openly accessible and discoverable online.
 It will continue to be updated on an annual basis as new issues are published.
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/latahlegacy/LCHS_website_logo.webp" link="https://www.latahcountyhistoricalsociety.org/" alt="Latah County Historical Society" width="50" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/latahlegacy/LCHS_website_logo.webp" link="https://www.latahcountyhistoricalsociety.org/" alt="Latah County Historical Society" %}
 
 To receive a current subscription and support ongoing efforts, please [join the Latah County Historical Society](https://www.latahcountyhistoricalsociety.org/support)!
 
@@ -45,7 +45,7 @@ The copies in this collection begin with the first issue of what would become th
 
 This first issue was a quarterly bulletin which announced that it would be the first of many such bulletins put out by the organization.
 
-{% include feature/image.html objectid="latahlegacy_v01-n1" width="50" caption="The Latah County Pioneer Historical Museum Association's first quarterly bulletin." %}
+{% include feature/image.html objectid="latahlegacy_v01-n1" caption="The Latah County Pioneer Historical Museum Association's first quarterly bulletin." %}
 
 Since 1972, issues have included materials such as: [book reviews](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v05-n2.html), [oral history transcripts](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v28-n2.html), [poetry](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v49-n1.html), [family histories](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v29.html), and [historical photographs](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v19-n1.html). In the 1980s, the Legacy even serially published the [memoirs of Alma Lauder-Keeling](https://www.lib.uidaho.edu/digital/latahlegacy/items/latahlegacy_v12-n2.html), a second-generation Moscow pioneer. 
 
@@ -58,7 +58,7 @@ Many *Latah Legacy* articles also reference contemporary events related to local
 A complete set of print copies of *Latah Legacy* are held in [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/) at the University of Idaho Library.
 These print editions were digitized in 2014 to form the base of this collection, and newer born-digital PDFs will continue be added going forward.
 
-{% include feature/image.html objectid="latahlegacy_v50-n1" width="50" caption="The 2023 issue of Latah Legacy." %}
+{% include feature/image.html objectid="latahlegacy_v50-n1" caption="The 2023 issue of Latah Legacy." %}
 
 ## Related Collection: Latah County Oral History Collection
 

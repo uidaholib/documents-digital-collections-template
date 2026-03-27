@@ -37,7 +37,7 @@ It was not long before he began giving evening lectures in the dining room of th
 
 ### The Religion and the Ad Campaign Begins
 
-{% include feature/image.html objectid="psychiana542" width="50" caption="The Corner Drug Store, Robinson's first workplace in Moscow" %}
+{% include feature/image.html objectid="psychiana542" caption="The Corner Drug Store, Robinson's first workplace in Moscow" %}
 
 While working at the Corner Drug Store, Robinson continually jotted notes to himself, and on a Saturday night he locked his door, sat at his typewriter, and in the next thirty-six hours typed the first set of ten lessons for his unnamed religion. Borrowing about $2500.00 from several towns people, Robinson had the lessons printed and commenced advertising. 
 
@@ -48,7 +48,7 @@ While working at the Corner Drug Store, Robinson continually jotted notes to him
     - Excellent contextual information with more photographs
 {% endcapture %}
 
-{% include feature/card.html text=moreinfo header="More Information" width="50" centered=true %}
+{% include feature/card.html text=moreinfo header="More Information" centered=true %}
 
 According to the *Psychiana Bulletin* for April 1950, "Psychiana was chartered in the late fall of 1929 and the first Psychiana advertisement was placed shortly after the turn of the year." Before long, the advertisements for this new religion appeared in 700 newspaper, 86 magazines, and over 18 radio stations. Anyone answering one of these advertisements received approximately 67 pieces of literature over a 22 week span. 
 
@@ -56,7 +56,7 @@ According to the *Psychiana Bulletin* for April 1950, "Psychiana was chartered i
 
 In his *Strange Autobiography* (page 207), Dr. Robinson explained how he arrived at a name for his teaching. In a dream, he entered "a room about twelve feet square painted black and in the middle of it was a Helen Gould canvas army cot. On the cot was a male corpse with hands folded across his breasts. Standing over the head of the corpse and making downward motions with his hands was a man I had never seen before." After watching this procedure for a time, Dr. Robinson asked the man what he was doing and received the reply: "You ought to know. This is Psychiana, the Power which will bring new life to a spiritually dead world." 
 
-{% include feature/image.html objectid="psychiana565" width="75" %}
+{% include feature/image.html objectid="psychiana565" %}
 
 Several months after this dream, as Dr. Robinson was passing a clerk's desk, he happened to notice a photograph of a student on the desk - a photograph of the same man he had seen in the dream. He learned that this man was Geoffrey Peel Birley, of Alexandria, Egypt, and immediately wrote him asking for $40,000, a sum which Mr. Birley sent within three weeks.
 Robinson visited Birley in 1934 and, in November 1936, Geoffrey Birley spent several days in Moscow visiting the Robinsons.[^1]
@@ -117,7 +117,7 @@ By 1955, the University of Idaho Library was fortunate enough to have obtained c
 
 Included in the three [boxes of correspondence](browse.html#student%20correspondence) are letters between Psychiana headquarters and students in eighteen countries. Carbon copies of Psychiana's replies are attached to most of the original letters from students. The letters from students which Robinson used in his publications are marked with quotation marks; occasionally words were changed or sentences rearranged.
 
-{% include feature/image.html objectid="psychiana177" width="50" %}
+{% include feature/image.html objectid="psychiana177" %}
 
 The remaining boxes contain copies of all the Psychiana lessons, copies of Psychiana Weekly and other similar publications, typescripts of speeches and articles by Frank Robinson, broadsides used in advertising, newspaper clippings, magazine articles, a scrapbook of clippings kept by Robinson, and photographs.
 

@@ -7,7 +7,7 @@ description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,DCTERMS.coverage,contentLocation
 idaho_county,Idaho County,,,
-fire locations,Fire Locations,true
+fire_locations,Fire Locations,true
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,

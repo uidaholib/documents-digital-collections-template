@@ -1,5 +1,5 @@
-field,display_name,btn,hidden,sort_name
-date,Date,,,Date
+field,display_name,btn,hidden,sort_name,facet_name
+date,Date,,,Date Created
 author,Authors,true,
 subject,,true
 identifier,,,true,Identifier

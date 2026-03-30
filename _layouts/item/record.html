@@ -27,12 +27,4 @@ layout: item/item-page-base
 
         <div class="alert alert-warning mt-3"><em>Please note:</em> This collection is only a catalog of records with no downloads available. For full access, please visit the <a href="https://www.lib.uidaho.edu/special-collections/" class="alert-link">Special Collections Reading Room</a> or get in touch via <a href="https://uidaho.co1.qualtrics.com/jfe/form/SV_b8yflHg0wwXzmDk?source_link={{ page.url | absolute_url }}" class="alert-link">our contact form</a>.</div>
 
-    {% if page.image_small or page.image_thumb %}
-    <p>
-        {% include item/item-thumb.html %}
-    </p>
-    {% endif %}
-    <div class="my-2">
-        {% include item/download-buttons.html %}
-    </div>
 </div>

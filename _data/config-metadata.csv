@@ -8,11 +8,12 @@ pages,Number of Pages,
 newspapers,Newspaper Sources,
 subject,Subjects,true,,DCTERMS.subject,keywords
 description,Contents,,,DCTERMS.description,description
-location,Location,,,,contentLocation
+location,Location,,,DCTERMS.coverage,contentLocation
 source,Source,,,,
-findingaid,Finding Aid,,true
+finding_aid,Finding Aid,,true
 identifier,Source Identifier,,,,
-format_original,Original Format,
+format_original,Original Format,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
+language,Language,,,DCTERMS.language,
 rightsstatement,,,,DCTERMS.rights,license

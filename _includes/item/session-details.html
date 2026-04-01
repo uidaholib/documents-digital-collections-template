@@ -21,21 +21,11 @@
       {%- endif %}">{{ session_type | capitalize }}</span>
     {% endif %}
 
-    {% if page.start_time or page.location %}
-    <div class="d-flex flex-wrap gap-4 mb-3">
-      {% if page.start_time %}
-      <div>
-        <span class="text-muted small text-uppercase fw-semibold">Time</span><br>
-        {{ page.start_time }}{% if page.end_time %} &ndash; {{ page.end_time }}{% endif %}
-        {% if page.duration_minutes %}<span class="badge bg-white border text-dark ms-1">{{ page.duration_minutes }} min</span>{% endif %}
-      </div>
-      {% endif %}
-      {% if page.location %}
-      <div>
-        <span class="text-muted small text-uppercase fw-semibold">Location</span><br>
-        {{ page.location }}
-      </div>
-      {% endif %}
+    {% if page.date or page.start_time or page.location %}
+    <div class="mb-3 text-muted">
+      {%- if page.date %}<span>{{ page.date | date: "%B %-d, %Y" }}</span>{% endif -%}
+      {%- if page.start_time %}<span class="mx-2">&bull;</span><span>{{ page.start_time }}{% if page.end_time %} &ndash; {{ page.end_time }}{% endif %}{% if page.duration_minutes %} <span class="badge bg-white border text-dark">{{ page.duration_minutes }} min</span>{% endif %}</span>{% endif -%}
+      {%- if page.location %}<span class="mx-2">&bull;</span><span>{{ page.location }}</span>{% endif -%}
     </div>
     {% endif %}
 

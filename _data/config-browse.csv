@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date
-presenter,Presenter,,,Presenter
+presenter,Presenter,true,,Presenter
 session-type,Session Type,true
 subject,,true
 description,,,true,

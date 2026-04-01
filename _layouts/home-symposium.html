@@ -1,10 +1,7 @@
 ---
 # Home page layout for the Student Success Symposium digital collection.
-# Shows schedule at a glance, program PDF link, session type browsing, and top subjects.
 layout: page
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-{%- assign sessions = site.data[site.metadata] | where_exp: 'item', 'item.parentid == empty' | where_exp: 'item', 'item.session-type != "program"' -%}
 {%- assign program = site.data[site.metadata] | where: "objectid", "sss2026-program" | first -%}
 
 <div class="row">
@@ -18,12 +15,12 @@ layout: page
       <div class="card-body d-flex align-items-center gap-3">
         {% if program.image_thumb %}
         <a href="{{ site.baseurl }}/items/{{ program.objectid }}.html">
-          <img src="{{ program.image_thumb | relative_url }}" alt="2026 Symposium Program cover" style="height:90px; width:auto;" class="rounded shadow-sm">
+          <img src="{{ program.image_thumb | relative_url }}" alt="Symposium Program cover" style="height:90px; width:auto;" class="rounded shadow-sm">
         </a>
         {% endif %}
         <div>
-          <h2 class="h6 mb-1">2026 Symposium Program</h2>
-          <p class="small mb-2 text-muted"><em>Ignite and Elevate: Teaching for Student Persistence</em><br>Full schedule, session descriptions, and planning committee.</p>
+          <h2 class="h6 mb-1">{{ program.date | date: "%Y" }} Symposium Program</h2>
+          <p class="small mb-2 text-muted">{{ program.description | truncatewords: 20 }}</p>
           <a href="{{ site.baseurl }}/items/{{ program.objectid }}.html" class="btn btn-sm btn-warning">View Program</a>
           <a href="{{ program.object_location | relative_url }}" class="btn btn-sm btn-outline-secondary ms-2" download>Download PDF</a>
         </div>
@@ -31,56 +28,17 @@ layout: page
     </div>
     {% endif %}
 
-    <div class="card mb-3">
-      <div class="card-header bg-dark text-white py-2">
-        <h2 class="h6 mb-0 text-uppercase letter-spacing-1">Schedule at a Glance &mdash; February 27, 2026</h2>
-      </div>
-      <ul class="list-group list-group-flush small">
-        <li class="list-group-item list-group-item-light py-2 d-flex justify-content-between">
-          <span><strong>11:15 &ndash; 11:30 am</strong></span>
-          <span class="text-muted">Registration &amp; Lunch</span>
-        </li>
-        <li class="list-group-item py-2 d-flex justify-content-between">
-          <span><strong>11:30 &ndash; 11:45 am</strong></span>
-          <span>Welcome &mdash; <em>Gwen Gorzelsky &amp; Margie Pinnell</em></span>
-        </li>
-        <li class="list-group-item py-2 d-flex justify-content-between">
-          <span><strong>11:45 am &ndash; 12:30 pm</strong></span>
-          <span><a href="{{ site.baseurl }}/items/sss2026-keynote.html"><strong>Keynote Panel</strong></a> &mdash; Clearwater &amp; Whitewater Room</span>
-        </li>
-        <li class="list-group-item py-2 d-flex justify-content-between">
-          <span><strong>12:30 &ndash; 12:45 pm</strong></span>
-          <span>Provost Remarks &mdash; <em>Provost Torrey Lawrence</em></span>
-        </li>
-        <li class="list-group-item list-group-item-secondary py-2 d-flex justify-content-between">
-          <span><strong>1:00 &ndash; 4:15 pm</strong></span>
-          <span><a href="{{ '/browse.html' | relative_url }}">Parallel Sessions</a> &mdash; Aurora, Clearwater, Crest, Horizon, Panorama Rooms</span>
-        </li>
-        <li class="list-group-item py-2 d-flex justify-content-between">
-          <span><strong>4:15 &ndash; 4:30 pm</strong></span>
-          <span>Closing Remarks &amp; Dessert</span>
-        </li>
-      </ul>
-    </div>
-
     {% include index/carousel.html title="Featured Session Materials" %}
 
   </div>
 
   <div class="col-md-4">
 
-    <div class="card mb-3 text-center border-0 bg-light">
-      <div class="card-body py-3">
-        <div class="display-5 fw-bold" style="color:#f5a800;">{{ sessions | size }}</div>
-        <div class="small text-muted text-uppercase">Sessions &amp; Presentations</div>
-      </div>
-    </div>
-
     {% include index/featured-terms.html field="session-type" title="Browse by Session Type" btn-color="warning" %}
 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="outline-secondary" max=8 %}
 
-    {% include index/content.html %}
+    {% include index/content.html child-objects=true total=true %}
 
   </div>
 

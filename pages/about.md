@@ -6,30 +6,28 @@ credits: true
 about-featured-image: sss2026-program
 position: center
 heading: About the Collection
-sub-heading: Student Success Symposium 2026
+sub-heading: Student Success Symposium Archives
 padding: 6em
 ---
 
 ## About This Collection
 
-This digital collection archives materials from the 2026 University of Idaho **Student Success Symposium**, held on Friday, February 27, 2026 at the Idaho Student Union Building in Moscow, Idaho.
+This digital collection archives materials from the University of Idaho **Student Success Symposium**, an annual half-day gathering dedicated to advancing student success through innovative, inclusive, and impactful teaching and learning practices.
 
-The symposium brought together faculty and staff from across the University of Idaho to share ideas, learn from one another, and collectively strengthen support for students. The collection includes session abstracts, presentation slides, and the official symposium program.
+Each year, faculty and staff from across the University of Idaho come together to share ideas, learn from one another, and collectively strengthen support for students. The collection includes session abstracts, presentation slides, and the official symposium program for each year.
+
+Browse sessions by [subject](/subjects.html), [presenter](/presenters.html), or use the [Browse page](/browse.html) to filter by session type, location, or keyword.
 
 ---
 
-## Ignite and Elevate: Teaching for Student Persistence
+## 2026: Ignite and Elevate
 
-This year's theme invited participants to focus on how we foster **belonging, persistence, academic achievement, and retention** for all students, whatever their background or pathway. Sessions covered a broad range of topics including active learning, advising, peer mentoring, undergraduate research, accessibility, AI in education, and more.
+The inaugural 2026 symposium was held on **Friday, February 27, 2026** at the Idaho Student Union Building in Moscow, Idaho. The theme — *Ignite and Elevate: Teaching for Student Persistence* — invited participants to focus on how we foster belonging, persistence, academic achievement, and retention for all students, whatever their background or pathway.
 
 > *"We hope today sparks new connections, fresh ideas, and renewed energy as we work together to ignite and elevate teaching for student persistence."*
 > — The Student Success Symposium Planning Committee
 
----
-
-## Schedule at a Glance
-
-The symposium ran from 11:30 am to 4:30 pm in the Clearwater & Whitewater Room and parallel session rooms on the 4th floor of the ISUB.
+### Schedule at a Glance
 
 | Time | Event |
 |------|-------|
@@ -37,12 +35,10 @@ The symposium ran from 11:30 am to 4:30 pm in the Clearwater & Whitewater Room a
 | 11:30 – 11:45 am | Welcome — *Gwen Gorzelsky & Margie Pinnell* |
 | 11:45 am – 12:30 pm | Keynote Panel |
 | 12:30 – 12:45 pm | Provost Remarks — *Provost Torrey Lawrence* |
-| 1:00 – 4:15 pm | Parallel Sessions |
+| 1:00 – 4:15 pm | Parallel Sessions — Aurora, Clearwater, Crest, Horizon, Panorama Rooms |
 | 4:15 – 4:30 pm | Closing Remarks & Dessert |
 
----
-
-## Planning Committee
+### Planning Committee
 
 The 2026 symposium was organized by the following University of Idaho faculty and staff:
 
@@ -69,5 +65,3 @@ The 2026 symposium was organized by the following University of Idaho faculty an
 This archive was created by the **University of Idaho Library** using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv), an open-source tool for building digital collection websites driven by metadata.
 
 The collection is hosted as part of the [University of Idaho Library Digital Collections](https://www.lib.uidaho.edu/digital/).
-
-Browse all sessions using the navigation above, or explore by [subject](/subjects.html), [location](/locations.html), or [session type](/browse.html).

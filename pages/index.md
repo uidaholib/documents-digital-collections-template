@@ -1,6 +1,5 @@
 ---
-layout: home-infographic
+layout: home-symposium
 title: Home
 permalink: /
 ---
-

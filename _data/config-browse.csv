@@ -1,7 +1,7 @@
 field,display_name,btn,hidden,sort_name,facet_name
-date,Date,,,Date Created
-description,,,true,
-creator,Creator,,,
+date,Date,,,Date
+presenter,Presenter,,,Presenter
+session-type,Session Type,true
 subject,,true
-location,,true,,,
+description,,,true,
 identifier,,,true,Identifier

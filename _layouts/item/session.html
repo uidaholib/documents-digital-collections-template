@@ -1,0 +1,21 @@
+---
+# Layout for symposium session items.
+# Shows session type, time, location, and presenter prominently.
+# Handles both sessions with child PDF materials and sessions without.
+layout: item/item-page-base
+gallery: true
+custom-foot: js/modal-hash-js.html
+---
+{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
+
+{% include item/session-details.html %}
+
+{% if children.size > 0 %}
+<div class="mt-4">
+  <h3 class="h6 text-uppercase text-muted mb-3">Session Materials</h3>
+  {% include item/child/compound-item-modal-gallery.html %}
+  <div class="my-2">
+    {% include item/child/compound-item-download-buttons.html %}
+  </div>
+</div>
+{% endif %}

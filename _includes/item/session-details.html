@@ -1,0 +1,50 @@
+{% comment %}
+  Session details card for symposium session items.
+  Shows session type badge, time, location, presenter, and affiliation.
+  Called from _layouts/item/session.html
+{% endcomment %}
+
+{% assign session_type = page['session-type'] %}
+
+<div class="card mb-4 border-0 bg-light">
+  <div class="card-body">
+
+    {% if session_type %}
+    <span class="badge mb-3
+      {%- if session_type == 'workshop' %} bg-success
+      {%- elsif session_type == 'presentation' %} bg-primary
+      {%- elsif session_type == 'panel' %} bg-warning text-dark
+      {%- elsif session_type == 'keynote' %} bg-danger
+      {%- elsif session_type == 'demonstration' %} bg-info text-dark
+      {%- elsif session_type == 'program' %} bg-dark
+      {%- else %} bg-secondary
+      {%- endif %}">{{ session_type | capitalize }}</span>
+    {% endif %}
+
+    {% if page.start_time or page.location %}
+    <div class="d-flex flex-wrap gap-4 mb-3">
+      {% if page.start_time %}
+      <div>
+        <span class="text-muted small text-uppercase fw-semibold">Time</span><br>
+        {{ page.start_time }}{% if page.end_time %} &ndash; {{ page.end_time }}{% endif %}
+        {% if page.duration_minutes %}<span class="badge bg-white border text-dark ms-1">{{ page.duration_minutes }} min</span>{% endif %}
+      </div>
+      {% endif %}
+      {% if page.location %}
+      <div>
+        <span class="text-muted small text-uppercase fw-semibold">Location</span><br>
+        {{ page.location }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if page.presenter %}
+    <div class="mb-1 fw-semibold">{{ page.presenter }}</div>
+    {% endif %}
+    {% if page.presenter_affiliation %}
+    <div class="text-muted small">{{ page.presenter_affiliation }}</div>
+    {% endif %}
+
+  </div>
+</div>

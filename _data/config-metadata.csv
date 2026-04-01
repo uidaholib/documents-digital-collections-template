@@ -1,7 +1,8 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-presenter,Presenter(s),,,DCTERMS.creator,author
+presenter,Presenter(s),true,,DCTERMS.creator,author
 presenter_affiliation,Affiliation,,,,
+description,Description,,,DCTERMS.description,description
 date,Date,,,DCTERMS.date,startDate
 start_time,Start Time,,,,
 end_time,End Time,,,,
@@ -9,7 +10,6 @@ duration_minutes,Duration (minutes),,,,
 location,Campus Presentation Location,true,,
 session-type,Session Type,true,,DCTERMS.type,
 subject,Subjects,true,,DCTERMS.subject,keywords
-description,Description,,,DCTERMS.description,description
 type,Type,,,,
 format,Format,,,,encodingFormat
 identifier,Identifier,,,,

@@ -21,7 +21,7 @@ layout: page
         <div>
           <h2 class="h6 mb-1">{{ program.date | date: "%Y" }} Symposium Program</h2>
           <p class="small mb-2 text-muted">{{ program.description | truncatewords: 20 }}</p>
-          <a href="{{ site.baseurl }}/items/{{ program.objectid }}.html" class="btn btn-sm btn-warning">View Program</a>
+          <a href="{{ site.baseurl }}/items/{{ program.objectid }}.html" class="btn btn-sm btn-warning">View Program Page</a>
           <a href="{{ program.object_location | relative_url }}" class="btn btn-sm btn-outline-secondary ms-2" download>Download PDF</a>
         </div>
       </div>

@@ -18,7 +18,7 @@
 
 {%- endcomment -%}
 {%- assign object_field = include.object_field | default: 'display_template' -%}
-{% if include.child-objects == true %}
+{% if include.child-objects == true or site.data.theme.data-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}

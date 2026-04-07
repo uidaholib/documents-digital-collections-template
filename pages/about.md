@@ -23,7 +23,7 @@ padding: 6em
 This collection encompasses the research-based publishing of the Idaho Agricultural Experiment Station and University of Idaho Extension since their inceptions. 
 It serves as an archive of digitized historic documents and recent born-digital publications transferred by Extension to the Library for continued access and preservation.
 
-The most current and up-to-date publications are regularly added to [University of Idaho Extension on VERSO](https://verso.uidaho.edu/esploro/search/outputs?unit=01ALLIANCE_UID___n251742&page=1&institution=01ALLIANCE_UID&sort=date_d).
+The active and up-to-date documents are regularly added to [Extension Publications on VERSO](https://verso.uidaho.edu/esploro/search/collections/Extension-Publications/extension?institution=01ALLIANCE_UID).
 This archive is updated from VERSO annually, and may contain historic documents that have been superseded, edited, and discontinued.
 
 For current publication series, please visit their collection pages on VERSO:

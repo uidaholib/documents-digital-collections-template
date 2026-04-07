@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 creator,Creator,
-pubtype,,true
+series,,true
 subject,,true
 identifier,,,true,Identifier

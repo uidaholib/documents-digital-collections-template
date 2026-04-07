@@ -3,8 +3,9 @@ title,Title,,,DCTERMS.title,headline
 creator,Creator,,,DCTERMS.creator,creator
 archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
+publication_status,Publication Status,
 description,Description,,,DCTERMS.description,description
-pubtype,Publication Type,true
+series,Publication Series,true
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,DCTERMS.coverage,contentLocation
 idaho_county,Idaho County,,,,,

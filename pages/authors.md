@@ -6,6 +6,7 @@ permalink: /authors.html
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: creator
 button: outline-palouse
+cloud-min: 5
 ---
 
 ## Browse Authors

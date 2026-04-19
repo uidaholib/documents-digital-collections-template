@@ -2,11 +2,12 @@
 {%- assign fields = site.data.config-map -%}
 {%- assign locations = site.data.camasrailroad-locations -%}
 <!-- load leaflet dependencies -->
-<script src="{{ '/leaflet/leaflet.js' | prepend: site.digital-assets }}"></script>
-{% if site.data.theme.map-search == true %}<script src="{{ '/leaflet/fuse.min.js' | prepend: site.digital-assets }}"></script>
-<script src="{{ '/leaflet/leaflet.fusesearch.js' | prepend: site.digital-assets }}"></script>{% endif %}
-{% if site.data.theme.map-cluster == true %}<script src="{{ '/leaflet/leaflet.markercluster.js' | prepend: site.digital-assets }}"></script>{% endif %}
-{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/leaflet/leaflet.markercluster.freezable.js' | prepend: site.digital-assets }}"></script>{% endif %}
+<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/leaflet.js"></script>
+<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/Leaflet.fullscreen.min.js"></script>
+{% if site.data.theme.map-search == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/fuse.min.js"></script>
+<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/leaflet.fusesearch.js"></script>{% endif %}
+{% if site.data.theme.map-cluster == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/leaflet.markercluster.js"></script>{% endif %}
+{% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/leaflet/leaflet.markercluster.freezable.js"></script>{% endif %}
 
 <script>
 (function(){
@@ -25,9 +26,9 @@
         var hashfilter = decodeURIComponent(location.hash.substr(1));
         var latitudeHash = hashfilter.split(',')[0]
         var longitudeHash = hashfilter.split(',')[1]
-        var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+        var map = L.map('mapContainer').setView([latitudeHash,longitudeHash],16);
     } else {
-        var map = L.map('map').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
+        var map = L.map('mapContainer').setView([{{ site.data.theme.latitude | default: 46.727485 }},{{ site.data.theme.longitude | default: -117.014185 }}],{{ site.data.theme.zoom-level | default: 5 }});
     }
 
     /* add map layer options */
@@ -67,7 +68,7 @@
     var markers = L.markerClusterGroup({ maxClusterRadius: {{ site.data.theme.map-cluster-radius | default: 15 }}, singleMarkerMode: true {% if site.data.theme.map-search == true %}, removeOutsideVisibleBounds: false{% endif %} });{% endif %}
 
     /* get icons function */ 
-    {% include js/get-icon.js %}
+    {% include helpers/get-icon.js %}
 
     /* object popup function */
     function objectPopups(feature, layer) {

@@ -20,21 +20,21 @@ padding: 6em
 
 ## About the Collection
 
-*The Family Tree* was a newsletter published by Potlatch Forests, Inc. for their employees from 1936 - 1952. The newsletter covers local (Northern Idaho) and national events, with a special focus on issues pertaining to Potlatch Forests, Inc. and its loggers and other employees. The content varies greatly — from reports on the [head injuries]({{ '/items/spec_pot122.html' | relative_url }}) The Family Tree: 1936, December pg. 5) of sawmill workers to [editorials on the war crimes of Hirohito]({{ '/items/spec_pot977.html' | relative_url }}) (The Family Tree : 1945, March, pg.2), written near the end of WWII — and is consistently well-written and evocative of the daily life of Potlatch workers and their families during these years.
+*The Family Tree* was a newsletter published by Potlatch Forests, Inc. for their employees from 1936 - 1952. The newsletter covers local (Northern Idaho) and national events, with a special focus on issues pertaining to Potlatch Forests, Inc. and its loggers and other employees. The content varies greatly — from [reports on the head injuries of sawmill workers]({{ '/items/spec_pot122.html' | relative_url }}) to [editorials on the war crimes of Hirohito]({{ '/items/spec_pot977.html' | relative_url }}). The newsletter is consistently well-written and evocative of the daily life of Potlatch workers and their families during these years.
 
 Some other interesting *Family Tree* articles include:
 
-- [Short Wave Radio]({{ '/items/spec_pot1688.html' | relative_url }}), The Family Tree : 1952, January, pg.4 - an article on how radio communication transformed the every-day working conditions of logging operations.
-- [What Did We Do With Our Lumber in 1947]({{ '/items/spec_pot1193.html' | relative_url }}), The Family Tree : 1947, December, pg.4 - a summary of where the lumber produced by the company went in 1947.
-- [P.A.A.C. Takes on New Life, and Potlatch Mill to Resume Operation]({{ '/items/spec_pot273.html' | relative_url }}), The Family Tree : 1937, March, pg. 4 - a brief article on the revitalization of the Potlatch Amateur Athletic Club.
+- Short Wave Radio, [The Family Tree: 1952, January]({{ '/items/spec_pot1688.html' | relative_url }}),  pg.4: an article on how radio communication transformed the every-day working conditions of logging operations.
+- What Did We Do With Our Lumber in 1947, [The Family Tree: 1947, December]({{ '/items/spec_pot1193.html' | relative_url }}), pg.4: a summary of where the lumber produced by the company went in 1947.
+- P.A.A.C. Takes on New Life, and Potlatch Mill to Resume Operation, [The Family Tree: 1937, March]({{ '/items/spec_pot273.html' | relative_url }}), pg. 4: a brief article on the revitalization of the Potlatch Amateur Athletic Club.
 
-The collection was digitized in the summer of 2010, per user request. The original newsletters can be found in the published collection of Day Northwest, which can be accessed via the University of Idaho Library's Special Collections and Archives Department.
+The collection was digitized in the summer of 2010, per user request. The original newsletters can be found in the published [collection of Day Northwest](https://archiveswest.orbiscascade.org/ark:80444/xv393143), which can be accessed via the University of Idaho Library's Special Collections and Archives Department.
 
-### About Potlatch Forests, Inc.
+## About Potlatch Forests, Inc.
 
 Although the *Family Tree* newsletter first rolled off the press in 1936, the Potlatch story actually began nearly four decades earlier and involved three different lumber companies.
 
-In 1900, timber trader Charles O. Brown guided prominent lumberman Frederick Weyerhaeuser through the timberlands of northern Idaho. Facing depleted timber resources in the American East and Midwest, Weyerhaeuser was looking to expand westward, and he liked what he saw in Idaho. So much so that before the year was out, he and Brown had formed the Clearwater Timber Company, and a month later, the Potlatch Lumber Company. Another Weyerhaeuser associate, Edward Rutledge, formed the Edward Rutledge Timber Company in 1902. A year later, Weyerhaeuser and his partners decided to merge all their Idaho holdings into one company; they named it the Potlatch Lumber Company and selected Frederick's son Charles as president.
+In 1900, timber trader Charles O. Brown guided prominent lumberman Frederick Weyerhaeuser through the timberlands of northern Idaho. Facing depleted timber resources in the American East and Midwest, Weyerhaeuser was looking to expand westward, and he liked what he saw in Idaho. Before the year was out, he and Brown had formed the Clearwater Timber Company and a month later, the Potlatch Lumber Company. Another Weyerhaeuser associate, Edward Rutledge, formed the Edward Rutledge Timber Company in 1902. A year later, Weyerhaeuser and his partners decided to merge all their Idaho holdings into one company; they named it the Potlatch Lumber Company and selected Frederick's son Charles as president.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/plcphotos/plcphotos604.jpg" width="50" caption="A portrait of the first president of the Potlatch Lumber Company, Charles A. Weyerhaeuser (1866-1930). He was the second son of Frederick Weyerhaeuser. "%}
 
@@ -46,8 +46,13 @@ It takes people to run a saw mill, and because the mill was located in an almost
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/phs/phs1247.jpg" width="50" caption="A photograph of Potlatch, Idaho in 1908." %}
 
-Four years later, Potlatch Lumber Company built a new saw mill in what is now Elk River, Idaho, and around 1916, the Edward Rutledge Timber Company built one near Coeur d'Alene, Idaho. Clearwater Timber's mill in Lewiston began operation in 1927, and in 1931, the three separate but affiliated companies - Potlatch Lumber Company, Edward Rutledge Timber Company, and Clearwater Timber Company - merged to form Potlatch Forests, Inc., with headquarters in Lewiston.
+Four years later, Potlatch Lumber Company built a new saw mill in what is now Elk River, Idaho. Around 1916, the Edward Rutledge Timber Company built one near Coeur d'Alene, Idaho. Clearwater Timber's mill in Lewiston began operation in 1927. In 1931, the three separate but affiliated companies -- Potlatch Lumber Company, Edward Rutledge Timber Company, and Clearwater Timber Company -- merged to form Potlatch Forests, Inc., with headquarters in Lewiston.
 
 {% include feature/image.html objectid="https://objects.lib.uidaho.edu/phs/phs780.jpg" width="50" caption="A Pres-to-log machine" %}
 
-*Pres-to-logs*, introduced in 1930, helped Potlatch weather the Great Depression, and World War II brought increased demand for lumber. After the war, Potlatch diversified its product line, acquired mills throughout the United States, and continued to purchase timberland. In 1965, the corporate headquarters were moved to San Francisco, and in 1973, the company's name changed to Potlatch Corporation. In 1997, company officials relocated corporate headquarters to Spokane, Washington, and today Potlatch is a Real Estate Investment Trust with approximately 1.5 million acres of forest land in Arkansas, Idaho, Minnesota, and Wisconsin.
+*Pres-to-logs*, introduced in 1930, helped Potlatch weather the Great Depression, and World War II brought increased demand for lumber. After the war Potlatch diversified its product line, acquired mills throughout the United States, and continued to purchase timberland. In 1965 the corporate headquarters were moved to San Francisco and in 1973 the company's name changed to Potlatch Corporation. In 1997 company officials relocated corporate headquarters to Spokane, Washington. Today, Potlatch is a Real Estate Investment Trust with approximately 1.5 million acres of forest land in Arkansas, Idaho, Minnesota, and Wisconsin.
+
+## Related Digital Collections
+
+- [The Potlatch Lumber Company Photograph Collection](https://www.lib.uidaho.edu/digital/plcphotos/): A collection of over 1500 photographs from the Potlatch Lumber Company depicting working conditions, workers, logging and mill operations, and other related subject matter.
+- [The Potlatch Historical Society Collection](https://www.lib.uidaho.edu/digital/phs/): A digital collection comprised of about 3,500 photographs and documents from Potlatch and surrounding areas.

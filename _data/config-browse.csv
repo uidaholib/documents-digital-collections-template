@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,true,Date
 description,Description,
-subject,,,true
+subject,Subjects,true,,,
 identifier,,,true,Identifier

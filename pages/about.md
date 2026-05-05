@@ -9,7 +9,7 @@ about-featured-image: https://objects.lib.uidaho.edu/curj/element5-digital-ls8Kc
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About The Cook Undergraduate Research Journal
+heading: The Cook Undergraduate Research Journal
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
@@ -18,7 +18,7 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About The Cook Undergraduate Research Journal
+## About the Journal
 
 The Cook Undergraduate Research Journal in political science serves as a vibrant platform for students to publish their original research, which fosters a community of scholarly inquiry and intellectual exchange. 
 

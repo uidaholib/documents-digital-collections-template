@@ -2,7 +2,7 @@ field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date
 creator,Authors,,,
 editor,Editor-in-Chief,,,
-editors-reviewers,Editors,,,
+editors-reviewers,Editorial board,,,
 subject,,true
 location,,true,,,
 identifier,,,true,Identifier

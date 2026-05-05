@@ -4,7 +4,7 @@ volume,Volume,,,,
 date,Date,,,DCTERMS.date,dateCreated
 creator,Authors,,,DCTERMS.creator,creator
 editor,Editor-in-Chief,,,,
-editors-reviewers,Editors,,,,
+editors-reviewers,Editorial board,,,,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation

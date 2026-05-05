@@ -2,8 +2,9 @@ field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
 volume,Volume,,,,
 date,Date,,,DCTERMS.date,dateCreated
-editor,Editors,,,,
 creator,Authors,,,DCTERMS.creator,creator
+editor,Editor-in-Chief,,,,
+editors-reviewers,Editors,,,,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation

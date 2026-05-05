@@ -1,7 +1,8 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date
 creator,Authors,,,
-editor,Editor,,,
+editor,Editor-in-Chief,,,
+editors-reviewers,Editors,,,
 subject,,true
 location,,true,,,
 identifier,,,true,Identifier

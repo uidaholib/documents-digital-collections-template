@@ -26,7 +26,7 @@ padding: 6em
 
 Each issue of *The Clearwater Defender* includes detailed reports by FOC's policy director, for example on proposed logging projects or fire-related forest management activity in the Nez Perce-Clearwater National Forests. *The Defender* also features updates on FOC's current activities and initiatives, articles about particular species and specific wild areas, explanations of legislation or agency rules and regulations, profiles of influential activists and new staff or board members, information about upcoming events relevant to protection of Wild Clearwater Country, artwork, maps, photographs, book reviews, and more.
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/friendsclearwater/covemallardsquare.png" width="75" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/friendsclearwater/covemallardsquare.jpg" width="50" %}
 
 Originally -- from 1994 through 1998 -- the publication was called the *Salmon Selway Defender: News and Reports from Idaho's Big Wild* and was published by the Cove/Mallard Coalition. This coalition formed in 1992 in response to the Forest Service's plans to build 140 miles of roads in order to log 81 million board feet of timber in an intact, roadless area situated between Idaho's Selway-Bitterroot, Gospel Hump, and Frank Church-River of No Return Wilderness Areas. The name was changed to *Clearwater Defender* to reflect FOC's focus on the northern half of the "Big Wild," meaning the region north of the Salmon River.
 
@@ -35,7 +35,7 @@ Originally -- from 1994 through 1998 -- the publication was called the *Salmon S
 
 ## About Friends of the Clearwater
 
-{% include feature/image.html objectid="https://objects.lib.uidaho.edu/friendsclearwater/foclogo.png" width="50" %}
+{% include feature/image.html objectid="https://objects.lib.uidaho.edu/friendsclearwater/foclogo.jpg" width="50" %}
 
 Friends of the Clearwater is a membership-based grassroots organization that seeks lasting protection of Idaho's vast, intact Wild Clearwater Country (the Clearwater Basin and adjacent watersheds of north-central Idaho) in order to preserve the region's unique and wild ecology and its flora, fauna, and fungi, and to contribute to climate stability. This area makes up the northern half of Idaho's "Big Wild," the largest wildlands complex in the lower 48, which contains 4.4 million acres of designated Wilderness and 6.3 million acres of unprotected roadless wildlands. The region is rich in biological diversity and is home to many rare species: bull trout, Chinook salmon, steelhead, Westslope cutthroat trout, fisher, marten, lynx, wolverine, gray wolf, northern goshawk, bald and golden eagle, boreal and flammulated owl, and more.
 
@@ -50,3 +50,5 @@ Friends of the Clearwater was founded as an informal group to monitor Forest Ser
 For more information, see the Friends of the Clearwater website at [https://www.friendsoftheclearwater.org/](https://www.friendsoftheclearwater.org/).
 
 *Interpretive content contributed by Annette Bridges of Friends of the Clearwater in 2026.*
+
+*Digitization and metadata development by Special Collections and Archives student employee Kacie Kay, 2026.*

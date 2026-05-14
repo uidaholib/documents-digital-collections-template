@@ -7,7 +7,14 @@ layout: page
 
   <div class="col-md-8">
 
-    {% include index/description.html %}
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">A collection of newsletters, both the <em>Salmon-Selway Defender</em> and the <em>Clearwater Defender</em>, produced by the Friends of the Clearwater organization.</p>
+        <p class="card-text mb-4"><a class="btn btn-{{ include.btn-color | default: 'primary' }}" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a></p>
+    
+      </div>
+    </div>
     {% include index/carousel.html title="Sample Items" %}
     
   </div>

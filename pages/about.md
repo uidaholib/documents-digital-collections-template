@@ -18,9 +18,17 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+## About the Collection
+
+This digital collection was developed to provide online access to the semi-regular newsletters produced by Friends of the Clearwater (FOC), a non-profit organization headquartered in Moscow, Idaho. For several years, copies of the organization’s newsletter had been archived in the Library’s Day-Northwest publication collection, alongside newsletters and bulletins from many other Idaho nonprofits. FOC donated missing issues in 2026, making it possible to create a nearly complete digital archive of the organization’s publication. Together, the newsletters offer one perspective on the history and future of some of North Idaho’s most prominent watersheds.
+ 
+U of I Library’s Special Collections and Archives preserves numerous records pertaining to Idaho’s environment, and especially the use and conservation of North Idaho’s landscape. To explore other archival holdings, visit our [finding aids](https://archiveswest.orbiscascade.org/search.php?r=idu). 
+
 ## About the Clearwater Defender
 
-*The Clearwater Defender* is published approximately three times a year. It is the newsletter of Friends of the Clearwater (FOC), a 501(c)(3) non-profit organization based in Moscow, Idaho that is dedicated to preserving, protecting, and defending the forests, waterways, and wildlife in the wild heart of north-central Idaho. The newsprint version is sent by mail to Friends of the Clearwater's almost 500 members, and recent issues are available on FOC's website at friendsoftheclearwater.org.
+*Interpretive content contributed by Annette Bridges of Friends of the Clearwater in 2026.*
+
+*The Clearwater Defender* is published approximately three times a year. It is the newsletter of Friends of the Clearwater (FOC), a 501(c)(3) non-profit organization based in Moscow, Idaho that is dedicated to preserving, protecting, and defending the forests, waterways, and wildlife in the wild heart of north-central Idaho. The newsprint version is sent by mail to Friends of the Clearwater's almost 500 members, and recent issues are available on FOC's website at [friendsoftheclearwater.org](friendsoftheclearwater.org).
 
 {% include feature/image.html objectid="foc_2014-n01" %}
 
@@ -49,6 +57,5 @@ Friends of the Clearwater was founded as an informal group to monitor Forest Ser
 
 For more information, see the Friends of the Clearwater website at [https://www.friendsoftheclearwater.org/](https://www.friendsoftheclearwater.org/).
 
-*Interpretive content contributed by Annette Bridges of Friends of the Clearwater in 2026.*
 
-*Digitization and metadata development by Special Collections and Archives student employee Kacie Kay, 2026.*
+*Digitization and metadata development by Special Collections and Archives intern Kacie Kay, 2026.*

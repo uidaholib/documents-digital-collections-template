@@ -5,6 +5,7 @@ archival_date,Date Created (Archival Standard)
 date,Date Created (ISO Standard),,,DCTERMS.date,dateCreated
 publication_status,Publication Status,
 description,Description,,,DCTERMS.description,description
+extent,Extent,,,,
 series,Publication Series,true
 series_number,Series Number,
 subject,Subjects,true,,DCTERMS.subject,keywords

@@ -1,7 +1,6 @@
 field,index,display
 title,true,true
 date,true,true
-creator,true,false
-description,true,true
+summary,true,false
 subject,true,true
-location,true,false
+featured_subjects,true,true

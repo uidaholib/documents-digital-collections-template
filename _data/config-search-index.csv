@@ -2,8 +2,8 @@ dcterm,field
 title,title
 date,date
 creator,creator
-description,description
-subject,subject
+description,description;summary
+subject,subject;featured_subjects
 coverage,location
 identifier,identifier
 source,source

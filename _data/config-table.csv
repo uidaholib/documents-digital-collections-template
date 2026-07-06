@@ -1,5 +1,5 @@
 field,display_name
 title,Title
-date,Date
-description,Description
-subject,Subjects
+date_start,Start Date
+date_end,End Date
+featured_subjects,Subjects

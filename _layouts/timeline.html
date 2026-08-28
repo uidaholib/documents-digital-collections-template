@@ -21,7 +21,7 @@ custom-foot: js/timeline-js.html
 {%- if t == 0 -%}{{ i }}{% unless forloop.last %};{% endunless %}{% endif %}{% endfor %}{%- endcapture -%}
 {%- assign navYears = navYears | split: ";" -%}
 {%- endif -%}
-{%- if navYears -%}
+{%- if navYears.size > 1 -%}
 <div class="dropdown float-end" id="year-nav">
     <button class="btn btn-primary dropdown-toggle" type="button" id="yearButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Year
@@ -50,12 +50,11 @@ custom-foot: js/timeline-js.html
                     {% for item in inYear %}
                     <div class="col-lg-4 col-md-6">
                         <a href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}" >
-                            
+                             
                             <div class="card"> 
                                 <div class="card-body text-center">
                                     <h4 class="h5 text-dark">{{ item.title }}</h4>
                                     <p><em>{{ item.category }}</em></p>
-                                    
                                 </div>
                             </div>
                             

@@ -4,12 +4,19 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
+# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
+#about-featured-image: demo_006
+# set background-position for featured image, "center", "top", "bottom"
+position: center
+# major heading to display over featured image
+heading: About the Collection
+# paragraph text below heading in featured image
+sub-heading: 
+# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
+padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-<div class="row" markdown="1">
-<div class="col-md-8" markdown="1">
 
 # About The Friday Letter Archive
 
@@ -27,15 +34,11 @@ For current news, please visit [Office of the President Communications](http://w
 
 *Thank you to Brian Keenan for help assembling this content 2017 - 2019.*
 
-</div>
-<div class="col-md-4" markdown="1">
 <img src="https://objects.lib.uidaho.edu/fridayletter/images/fridayletter-header.jpg" class="img-fluid my-3">
+
 <div class="alert alert-warning" role="alert">
 <em>Please note</em>, the archived email messages are in a variety of formats and may not display as originally intended. Some images, links, and functionality may be broken or out of date. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive Wayback Machine</a>.
 </div>
-</div>
-
-<div class="col-md-8" markdown="1">
 
 ## About Communications 
 
@@ -50,13 +53,13 @@ This collection includes materials harvested from the [Office of the President C
 
 Since many of the emails were sent out using a campaign newsletter service, links included in the body of the message are obscured by tracking service links.
 These types of links are temporary, likely to become broken, and will not be traceable in the future.
-To avoid this issue, links were extracted from the emails using <a href="https://en.wikipedia.org/wiki/Regular_expression"  target="_blank" rel="noopener">regular expressions</a> or <a href="https://www.crummy.com/software/BeautifulSoup/"  target="_blank" rel="noopener">Beautiful Soup</a> (if html). 
+To avoid this issue, links were extracted from the emails using <a href="https://en.wikipedia.org/wiki/Regular_expression">regular expressions</a> or <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> (if html). 
 
 When ingesting new emails, links are checked using Python to find their status and the actual URL that they resolve to. 
 For example `http://uidaho.us6.list-manage.com/track/click?u=e8b26a2bfdf3335ca7d0c9eef&id=4647df556e&e=55d7947efc` was embedded in the email source, which resolves to `http://www.socialmobilityindex.org/`.
 The tracking links are then replaced by their actual URLs.
 
-To see the page as it was when originally linked, it is possible to try using the <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive Wayback Machine</a> to retrieve the resource.
+To see the page as it was when originally linked, it is possible to try using the <a href="https://archive.org/web/">Internet Archive Wayback Machine</a> to retrieve the resource.
 Add the date of the email to the Wayback API following this pattern: 
 
 `https://web.archive.org/web/` + `[date in 1-24 digits only]` + `/` + `[the original url including protocol]` 
@@ -80,6 +83,3 @@ The original request was:
 Which can then be used in the Wayback Machine to retrieve the original page as it was in 2015:
 
 `https://web.archive.org/web/2015*/https://www.uidaho.edu/ed/about/education-building-renovation-project`
-
-</div>
-</div>

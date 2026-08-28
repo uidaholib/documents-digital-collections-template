@@ -9,21 +9,23 @@ credits: true
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About the Collection
+#heading: About the Collection
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
+padding: 1em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-# About The Friday Letter Archive
+## About The Friday Letter Archive
 
 For over two decades, [The Friday Letter](https://www.uidaho.edu/president/communications/friday-letter) has been the University of Idaho's weekly message from the President to internal and external members of the university community. 
 The [Office of the President's website](https://www.uidaho.edu/president/communications) publishes a variety of official communications including the Friday Letter, memos, reports, and presentations.
 To ensure continued access to this unique content, University of Idaho Library captures items in their original web context on an annual basis.
 Select materials are made available in our digital collections.
+
+<img src="https://objects.lib.uidaho.edu/fridayletter/images/fridayletter-header.jpg" class="img-fluid my-3" alt="U of I logo with the words Letter from the President">
 
 The Friday Letter Archive archive currently contains hundreds items dating back to 2013.
 These items are in a variety of formats, including emails, slides, videos, speech transcripts, reports, and links to external articles.
@@ -34,9 +36,7 @@ For current news, please visit [Office of the President Communications](http://w
 
 *Thank you to Brian Keenan for help assembling this content 2017 - 2019.*
 
-<img src="https://objects.lib.uidaho.edu/fridayletter/images/fridayletter-header.jpg" class="img-fluid my-3">
-
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning narrow-content">
 <em>Please note</em>, the archived email messages are in a variety of formats and may not display as originally intended. Some images, links, and functionality may be broken or out of date. If you would like to recover a broken link, please try pasting the URL in the <a href="https://archive.org/web/" target="_blank" rel="noopener">Internet Archive Wayback Machine</a>.
 </div>
 

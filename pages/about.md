@@ -20,9 +20,11 @@ padding: 6em
 
 ## About Women in Natural Resources
 
+The publication of the *WiNR* journal began as an informal newsletter between some of the women faculty in the University of Idaho's Department of Forestry. It was born out of necessity for these women to find solidarity with other women professionals as they entered the male-dominated Forestry field. 
+
 {% include feature/image.html objectid="winr_001" %}
 
-The publication of the *WiNR* journal began as an informal newsletter between some of the women faculty in the University of Idaho's Department of Forestry. It was born out of necessity for these women to find solidarity with other women professionals as they entered the male-dominated Forestry field. Subsequently, the newsletter allowed these women to share their experiences of hardship, success and discovery. Originally called *Women in Forestry*, the journal was initiated by Linda Donohue of the North Central Forest Experiment Station in December of 1979. The first motto of the journal is as follows: 
+Subsequently, the newsletter allowed these women to share their experiences of hardship, success and discovery. Originally called *Women in Forestry*, the journal was initiated by Linda Donohue of the North Central Forest Experiment Station in December of 1979. The first motto of the journal is as follows: 
 
 {% include feature/blockquote.html text="The intent of the newsletter is to build a communication and support network among career oriented women in Forest Service - not just for professional Foresters, but for all interested women. We hope it succeeds." source="Women in Forestry" %}
 

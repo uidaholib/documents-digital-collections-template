@@ -41,8 +41,8 @@ IWDL serves as a repository to facilitate research on Idaho watersheds, enabling
 
 This project would not have been possible without the grant support of the [United States Geological Survey](https://www.usgs.gov/) and the [Idaho Water Resources Research Institute](https://iwrri.uidaho.edu/), the metadata and digitization work of Warren Bromley-Vogel and Karen Trebitz, and the ground work and efforts of Jodi Haire.
 
-### Supporters
+## Supporters
 
 <p class="text-center my-4"><a href="https://iwrri.uidaho.edu/" title="Idaho Water Resources Research Institute"><img class="img-fluid rounded w-50" src="https://objects.lib.uidaho.edu/iwdl/IWRRI_Web_Logo-2048x768.png" alt="Idaho Water Resources Research Institute"></a></p>
 
-<p class="text-center my-4"><a href="https://www.usgs.gov/" title="USGS"><img class="img-fluid rounded w-50" src="https://objects.lib.uidaho.edu/iwdl/USGS_logo.png" alt="USGS Logo"></a></p>
+<p class="text-center my-4"><a href="https://www.usgs.gov/" title="USGS"><img class="img-fluid rounded w-50" src="https://objects.lib.uidaho.edu/iwdl/USGS_logo.png" alt="USGS"></a></p>

@@ -3,5 +3,5 @@ date,Date,,,Date Created
 description,,,true,
 creator,Creator,,,
 subject,,true
-location,,true,,,
+series,,true,
 identifier,,,true,Identifier

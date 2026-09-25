@@ -2,9 +2,9 @@ display_name,stub,dropdown_parent
 Home,/,
 Browse,
 Browse All,/browse.html,Browse
-EXPO Posters,/browse.html#series:Expo Posters,Browse
-IAC Programs,/browse.html#series:Idaho Asphalt Conference,Browse
-Newsletters,/browse.html#series:Newsletters,Browse
+EXPO Posters,/expo-posters.html,Browse
+IAC Programs,/iac-programs.html,Browse
+Newsletters,/newsletters.html,Browse
 Subjects,/subjects.html,
 Timeline,/timeline.html,
 Data,/data.html,

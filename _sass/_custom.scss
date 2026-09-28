@@ -20,3 +20,7 @@
 .dropdown-menu {
     --bs-dropdown-link-active-bg: #5E48FF;
 }
+
+.card-img-top {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}

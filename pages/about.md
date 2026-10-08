@@ -20,11 +20,14 @@ padding: 6em
 
 ## College of Engineering Repository
 
-The College of Engineering Repository preserves and offers access to materials related to the college's regular activities. The collection includes student posters from the annual Engineering Design EXPO, Idaho Asphalt Conference programs, and departmental newsletters.
+The College of Engineering Repository brings together materials that document the college’s work and its connections with the wider community.
+The collection includes student posters from the annual Engineering Design EXPO, programs from the Idaho Asphalt Conference, and departmental newsletters.
+These materials offer a lasting record of the college’s scholarship, public engagement, and student work--highlighting stories that can be hard to find in other sources.
+
+Browse collection timelines:
 
 {% for i in site.data.sub-collections %}
-- [{{ i.title }}]({{ i.link | relative_url }})
-{% endfor %}
+- [{{ i.title }}]({{ i.link | relative_url }}){% endfor %}
 
 -----
 

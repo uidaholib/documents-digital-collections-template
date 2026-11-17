@@ -18,7 +18,7 @@ item-meta: true
                         {% if page.object_download or page.image_small %}
                         <img class="img-fluid" src="{{ page.object_download | default: page.image_small | relative_url }}" alt="{{ page.title | escape }} (book cover)">
                         {% else %}
-                        <img class="img-fluid" src="https://www.lib.uidaho.edu/digital/objects/idahobib/ibp000.jpg" alt="no cover image available">
+                        <img class="img-fluid" src="https://objects.lib.uidaho.edu/idahobib/ibp000.jpg" alt="no cover image available">
                         {% endif %}
                     </p>
                 </div>
